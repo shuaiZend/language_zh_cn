@@ -1214,8 +1214,8 @@ Groups,团体,module,Magento_Catalog
 "A name is required.",名称是必需的。,module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.",此组包含系统属性。请将系统属性移动到另一个组，然后重试。,module,Magento_Catalog
 "Please enter a new group name.",请输入一个新的组名称。,module,Magento_Catalog
-"An attribute group named \"/name/\" already exists\".","属性组""已经 exists\"命名为 \"/name/\。",module,Magento_Catalog
-"Sorry, we're unable to complete this request.",对不起，我们无法完成这个请求。,module,Magento_Catalog
+"An attribute group named \"/name/\" already exists\".","属性组""已经 exists\"命名为 \"/name/\。""
+Sorry",module,Magento_Catalog
 "You can't remove attributes from this attribute set.",你不能移除此属性集的属性。,module,Magento_Catalog
 "Custom Options",自定义选项,module,Magento_Catalog
 "This is a required option.",这是必需的选项。,module,Magento_Catalog
