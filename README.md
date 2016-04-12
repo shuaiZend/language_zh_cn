@@ -1,6 +1,6 @@
 # Chinese (中文) Magento2 Language Pack (zh_CN)
 This is a Language Pack generated from the [official Magento2 translations project](https://crowdin.com/project/magento-2) at [Crowdin](https://crowdin.com).
-The Chinese (中文) translations used can be found [here](https://crowdin.com/project/magento-2/zh).
+The Chinese (中文) translations used can be found [here](https://crowdin.com/project/magento-2/zh-CN).
 This translation is usefull for people living in the China (中国).
 
 For our other language packs look at the [Magento2Translations](http://magento2translations.github.io/) page.
@@ -25,3 +25,8 @@ To use this language pack login to your admin panel and goto `Stores -> Configur
 
 # Contribute
 To help push the '*Chinese (中文) Magento2 Language Pack (zh_CN)*' forward please goto [this](https://crowdin.com/project/magento-2/zh) crowdin page and translate the lines.
+
+# Authors
+The translations are done by the [official Magento2 translations project](https://crowdin.com/project/magento-2).
+
+Code generation is sponsored by [Wijzijn.Guru](http://www.wijzijn.guru/).
