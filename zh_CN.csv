@@ -6941,7 +6941,6 @@ Enable,启用,module,Magento_Sales
 "Multi-address Error to Show in Shopping Cart",多地址错误显示在购物车,module,Magento_Sales
 "We'll use the default error above if you leave this empty.",如果你离开这空，我们可以使用上面的默认错误。,module,Magento_Sales
 Dashboard,控制面板,module,Magento_Sales
-"Use Aggregated Data (beta)","使用聚合数据 (测试版)",module,Magento_Sales
 "Orders Cron Settings","订单 Cron 设置",module,Magento_Sales
 "Pending Payment Order Lifetime (minutes)","待付款订单寿命 (分钟)",module,Magento_Sales
 "Sales Emails",销售电子邮件,module,Magento_Sales
