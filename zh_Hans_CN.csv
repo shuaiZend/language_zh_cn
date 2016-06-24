@@ -1131,7 +1131,6 @@ State/Province,州/省,module,Magento_Checkout
 "My Cart (1 item)","我的购物车 (1 项)",module,Magento_Checkout
 "My Cart (%1 items)","我的购物车 (%1 项目)",module,Magento_Checkout
 "My Cart",我的购物车,module,Magento_Checkout
-"Minimum order amount is %1","最小起订量是 %1",module,Magento_Checkout
 "Customer is already registered",客户已注册,module,Magento_Checkout
 "Your session has expired",您的会话已过期,module,Magento_Checkout
 "You added %1 to your shopping cart.","您已添加 %1 到您的购物车",module,Magento_Checkout
@@ -2797,9 +2796,6 @@ Yes,是,module,Magento_Payment
 No,否,module,Magento_Payment
 "Expiration Date",过期日期,module,Magento_Payment
 "Card Verification Number",信用卡验证号码,module,Magento_Payment
-"Switch/Solo/Maestro Only",问题编号,module,Magento_Payment
-"Issue Number",发行号,module,Magento_Payment
-"Start Date",起始日期,module,Magento_Payment
 "Please Select",请选择,module,Magento_Payment
 "--Please Select--","-- 请选择 --",module,Magento_Payment
 "Card Verification Number Visual Reference","信用卡验证号码 视觉参考",module,Magento_Payment
