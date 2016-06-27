@@ -257,7 +257,7 @@ password,密码,module,Magento_Backend
 "All Websites",所有网站,module,Magento_Backend
 "Reload Data",重新加载数据,module,Magento_Backend
 "Browse Files...",浏览文件。。。,module,Magento_Backend
-"Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","版权所有 ©%1 Magento 商务公司保留所有权利。",module,Magento_Backend
+"Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","版权所有 %1 Magento 商务公司保留所有权利。",module,Magento_Backend
 "Magento Admin Panel","Magento 管理面板",module,Magento_Backend
 "Account Setting",帐户设置,module,Magento_Backend
 "Customer View",客户视图,module,Magento_Backend
@@ -354,11 +354,11 @@ Country,国家,module,Magento_Braintree
 "Credit card successfully deleted",信用卡已成功删除,module,Magento_Braintree
 "Edit Credit Card",编辑信用卡,module,Magento_Braintree
 "My Credit Cards",我的信用卡,module,Magento_Braintree
-"There was error during saving card data",在储存卡数据保存过程中，出现了错误,module,Magento_Braintree
-"Transaction declined by gateway: Check card details or try another card","交易被网关拒绝: 检查卡的详细资料，或尝试另一个卡",module,Magento_Braintree
-"Credit card type is not allowed for your country.",你的国家不允许信用卡类型。,module,Magento_Braintree
+"There was error during saving card data",在储存卡数据保存过程中，出现错误,module,Magento_Braintree
+"Transaction declined by gateway: Check card details or try another card","交易被网关拒绝: 检查卡的详细资料，或尝试另一张卡",module,Magento_Braintree
+"Credit card type is not allowed for your country.",你的国家不允许的信用卡类型。,module,Magento_Braintree
 "Credit card type is not allowed for this payment method.",此付款方式不允许此信用卡类型。,module,Magento_Braintree
-"Selected payment type is not allowed for billing country.",对于计费国家不允许所选的付款类型。,module,Magento_Braintree
+"Selected payment type is not allowed for billing country.",计费国家不允许所选的付款类型。,module,Magento_Braintree
 "Please try again later",请稍后再试,module,Magento_Braintree
 "Please wait 24 hours before trying to issue a partial refund.","请在发出部分退款前先等待 24 小时。",module,Magento_Braintree
 "Some transactions are already settled or voided and cannot be voided.",有些交易已经解决或取消，不能作废。,module,Magento_Braintree
@@ -729,7 +729,7 @@ Catalog,目录重写,module,Magento_Catalog
 "You saved the product attribute.",你保存的产品属性。,module,Magento_Catalog
 "An attribute with this code already exists.",这段代码的属性已经存在。,module,Magento_Catalog
 "You duplicated the product.",你复制的产品。,module,Magento_Catalog
-"This product no longer exists.",此产品不再存在。,module,Magento_Catalog
+"This product no longer exists.",此产品不存在。,module,Magento_Catalog
 Products,产品展示,module,Magento_Catalog
 "A group with the same name already exists.",具有相同名称的组已存在。,module,Magento_Catalog
 "Something went wrong while saving this group.",保存该组时出了错。,module,Magento_Catalog
