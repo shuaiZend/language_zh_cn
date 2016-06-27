@@ -304,7 +304,7 @@ password,密码,module,Magento_Backend
 "All Websites",所有网站,module,Magento_Backend
 "Reload Data",重新加载数据,module,Magento_Backend
 "Browse Files...",浏览文件。。。,module,Magento_Backend
-"Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","版权所有 ©%1 Magento 商务公司保留所有权利。",module,Magento_Backend
+"Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","版权所有 %1 Magento 商务公司保留所有权利。",module,Magento_Backend
 "ver. %1","%1 查看。",module,Magento_Backend
 "Magento Admin Panel","Magento 管理面板",module,Magento_Backend
 "Account Setting",帐户设置,module,Magento_Backend
@@ -433,7 +433,7 @@ Year,年,module,Magento_Braintree
 "Edit Credit Card",编辑信用卡,module,Magento_Braintree
 "My Credit Cards",我的信用卡,module,Magento_Braintree
 "New Credit Card",新的信用卡,module,Magento_Braintree
-"There was error during saving card data",在储存卡数据保存过程中，出现了错误,module,Magento_Braintree
+"There was error during saving card data",在储存卡数据保存过程中，出现错误,module,Magento_Braintree
 "We can't initialize checkout.",我们不能初始化校验。,module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.",请在下订单前同意所有的条款和条件。,module,Magento_Braintree
 "We can't place the order.",我们不能下订单。,module,Magento_Braintree
@@ -441,11 +441,11 @@ Year,年,module,Magento_Braintree
 "We can't initialize checkout review.",我们不能初始化校验审查。,module,Magento_Braintree
 "We can't update shipping method.",我们不能更新的运输方法。,module,Magento_Braintree
 "The processor declined your transaction, please re-enter your payment information",处理器拒绝您的交易，请重新输入您的付款信息,module,Magento_Braintree
-"Transaction declined by gateway: Check card details or try another card","交易被网关拒绝: 检查卡的详细资料，或尝试另一个卡",module,Magento_Braintree
+"Transaction declined by gateway: Check card details or try another card","交易被网关拒绝: 检查卡的详细资料，或尝试另一张卡",module,Magento_Braintree
 "The processor responded with an unknown error",处理器响应未知错误,module,Magento_Braintree
-"Credit card type is not allowed for your country.",你的国家不允许信用卡类型。,module,Magento_Braintree
+"Credit card type is not allowed for your country.",你的国家不允许的信用卡类型。,module,Magento_Braintree
 "Credit card type is not allowed for this payment method.",此付款方式不允许此信用卡类型。,module,Magento_Braintree
-"Selected payment type is not allowed for billing country.",对于计费国家不允许所选的付款类型。,module,Magento_Braintree
+"Selected payment type is not allowed for billing country.",计费国家不允许所选的付款类型。,module,Magento_Braintree
 "Incomplete payment information.",不完整的支付信息。,module,Magento_Braintree
 "Please try again later",请稍后再试,module,Magento_Braintree
 "Can not find original authorization transaction for partial capture",找不到部分捕获的原始授权交易。,module,Magento_Braintree
@@ -965,7 +965,7 @@ Catalog,目录重写,module,Magento_Catalog
 "An attribute with this code already exists.",这段代码的属性已经存在。,module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","已经存在具有相同的代码 (%1) 的属性。",module,Magento_Catalog
 "You duplicated the product.",你复制的产品。,module,Magento_Catalog
-"This product no longer exists.",此产品不再存在。,module,Magento_Catalog
+"This product no longer exists.",此产品不存在。,module,Magento_Catalog
 Products,产品展示,module,Magento_Catalog
 "A group with the same name already exists.",具有相同名称的组已存在。,module,Magento_Catalog
 "Something went wrong while saving this group.",保存该组时出了错。,module,Magento_Catalog
