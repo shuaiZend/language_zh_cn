@@ -2937,7 +2937,7 @@ Items,产品,module,Magento_Multishipping
 "Thank you for your purchase!",感谢您的购买！,module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.",谢谢您的订单。我们会通过电子邮件发送您订单的详细信息和跟踪信息。,module,Magento_Multishipping
 "Continue Shopping",继续购物,module,Magento_Multishipping
-"No New Relic Application ID configured, cannot continue with Cron Event reporting","没有新的遗留应用程序 ID 配置，无法继续通过计划事件报告",module,Magento_NewRelicReporting
+"No New Relic Application ID configured, cannot continue with Cron Event reporting","没有New Relic应用程序 ID 配置，无法继续通过计划事件报告",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","新的遗物一体化要求 newrelic php5 代理，不安装。有关安装代理的详细信息是可用 <a target=""_blank""href=""%1""> 在这里</a>。",module,Magento_NewRelicReporting
 "Delete Selected Problems",删除选定的问题,module,Magento_Newsletter
