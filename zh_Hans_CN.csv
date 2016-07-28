@@ -1325,6 +1325,7 @@ Change,更改,module,Magento_Customer
 "Contact Information",联系信息,module,Magento_Customer
 "Change Password",更改密码,module,Magento_Customer
 Newsletters,通讯,module,Magento_Customer
+or,或,module,Magento_Customer
 "Default Addresses",默认地址,module,Magento_Customer
 "Change Billing Address",更改账单地址,module,Magento_Customer
 "You have no default billing address in your address book.",你有没有默认的帐单地址簿中的地址。,module,Magento_Customer
