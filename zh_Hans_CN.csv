@@ -2818,7 +2818,7 @@ Promotions,促销活动,module,Magento_SalesRule
 "Invalid data provided",提供无效数据,module,Magento_SalesRule
 "%1 coupon(s) have been generated.","%1 coupon(s) 已生成。",module,Magento_SalesRule
 "Something went wrong while generating coupons. Please review the log and try again.",在生成优惠券时出了错。请查看日志并再试一次。,module,Magento_SalesRule
-Catalog,目录重写,module,Magento_SalesRule
+Catalog,目录,module,Magento_SalesRule
 "The wrong rule is specified.",指定了错误的规则。,module,Magento_SalesRule
 Alphanumeric,字母表,module,Magento_SalesRule
 Alphabetical,字母表,module,Magento_SalesRule
