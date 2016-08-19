@@ -810,6 +810,7 @@ Catalog,目录重写,module,Magento_Catalog
 "This attribute cannot be edited.",不能编辑此属性。,module,Magento_Catalog
 "Edit Product Attribute",编辑产品属性,module,Magento_Catalog
 "Something went wrong while saving the attribute.",保存该属性时，出了错。,module,Magento_Catalog
+"Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","属性代码""%1""不合法。该字段只能使用字母 (a-z)，数字 (0-9) 或下划线(_)，第一个字符应该是字母。",module,Magento_Catalog
 "You saved the product attribute.",你保存的产品属性。,module,Magento_Catalog
 "An attribute with this code already exists.",这段代码的属性已经存在。,module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","已经存在具有相同的代码 (%1) 的属性。",module,Magento_Catalog
@@ -1293,7 +1294,7 @@ px.,全部展开,module,Magento_Cms
 "Collapse All",全部折叠,module,Magento_Cms
 "Expand All",全部展开,module,Magento_Cms
 "Default Config",默认配置,module,Magento_Config
-"Save Config",现场3。1。1,module,Magento_Config
+"Save Config",保存配置,module,Magento_Config
 "Use Default",使用默认,module,Magento_Config
 "Use Website",使用网站,module,Magento_Config
 Add,添加,module,Magento_Config
@@ -1492,7 +1493,7 @@ System,系统,module,Magento_CurrencySymbol
 "Invalid value in Store column (store does not exists?)","在列中存储的值无效 (存储不存在吗?)",module,Magento_CustomerImportExport
 "Please enter a password with a valid length.",请输入一个有效的长度的密码。,module,Magento_CustomerImportExport
 "Sign Out",退出,module,Magento_Customer
-"Sign In",您已成功退出,module,Magento_Customer
+"Sign In",登录,module,Magento_Customer
 "You subscribe to our newsletter.",您订阅我们的时事通讯。,module,Magento_Customer
 "You have not set a default shipping address.",您没有设置默认的送货地址。,module,Magento_Customer
 "You have not set a default billing address.",您没有设置默认的帐单地址。,module,Magento_Customer
@@ -3638,7 +3639,7 @@ Promotions,促销活动,module,Magento_SalesRule
 "Invalid data provided",提供无效数据,module,Magento_SalesRule
 "%1 coupon(s) have been generated.","%1 coupon(s) 已生成。",module,Magento_SalesRule
 "Something went wrong while generating coupons. Please review the log and try again.",在生成优惠券时出了错。请查看日志并再试一次。,module,Magento_SalesRule
-Catalog,目录重写,module,Magento_SalesRule
+Catalog,目录,module,Magento_SalesRule
 "The wrong rule is specified.",指定了错误的规则。,module,Magento_SalesRule
 "You saved the rule.",你保存的规则。,module,Magento_SalesRule
 "Something went wrong while saving the rule data. Please review the error log.",保存规则数据时出了错。请查看错误日志。,module,Magento_SalesRule
@@ -5768,6 +5769,7 @@ Template,模板,module,Magento_CatalogWidget
 "Cache Lifetime (Seconds)","缓存有效期 (秒)",module,Magento_CatalogWidget
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","由 86400 默认情况下，如果不是设置。若要立即刷新，请清除块 HTML 输出缓存。",module,Magento_CatalogWidget
 Conditions,条件,module,Magento_CatalogWidget
+Small,小,module,Magento_Catalog
 Thumbnail,缩略图,module,Magento_Catalog
 "Product Fields Auto-Generation",字段自动生成产品,module,Magento_Catalog
 "Mask for SKU","SKU 的掩码",module,Magento_Catalog
