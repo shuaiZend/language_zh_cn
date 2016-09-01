@@ -6,8 +6,8 @@ This translation is usefull for people living in the China (中国).
 For our other language packs look at the [Magento2Translations](http://magento2translations.github.io/) page.
 
 # Version & progress
-This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/zh-CN#/Head) at Crowdin and based on the Magento 2.0.7 sourcefiles.
-There have been  6913 strings translated of the 7782 strings in the Magento source.
+This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/zh-CN#/Head) at Crowdin and based on the Magento 2.1.1 sourcefiles.
+There have been  7498 strings translated of the 8412 strings in the Magento source.
 
 Translation progress:![Progress](http://progressed.io/bar/89)
 
