@@ -4033,7 +4033,7 @@ Quantity,数量,module,Magento_Sales
 "Last Ordered Items",去年订购的商品,module,Magento_Sales
 "Recently Viewed",最近浏览过的,module,Magento_Sales
 "Wish List",收藏夹,module,Magento_Sales
-"Please select a store",请选择一个存储,module,Magento_Sales
+"Please select a store",请选择一个商店,module,Magento_Sales
 "Order Totals",订单合计,module,Magento_Sales
 "Shipping Incl. Tax (%1)","小计 (含税)",module,Magento_Sales
 "Shipping Excl. Tax (%1)","运费不包括税 (%1)",module,Magento_Sales
@@ -5518,6 +5518,7 @@ Yes,是,module,Magento_Variable
 "My Credit Cards",我的信用卡,module,Magento_Vault
 "Card Number",卡号,module,Magento_Vault
 Type,类型,module,Magento_Vault
+"Consumer is not authorized to access %resources",消费者未被授权访问%资源,module,Magento_Webapi
 "Operation allowed only in HTTPS",网络服务配置,module,Magento_Webapi
 "Cannot perform GET operation with store code 'all'","不能使用存储代码 'all '来执行 GET 操作",module,Magento_Webapi
 "Request does not match any route.",请求与任何路由不匹配。,module,Magento_Webapi
