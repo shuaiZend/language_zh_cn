@@ -475,6 +475,7 @@ Percent,百分之,module,Magento_Bundle
 "Option Title",新选项,module,Magento_Bundle
 "Store View Title",存储视图标题,module,Magento_Bundle
 "Input Type",输入类型,module,Magento_Bundle
+Drop-down,下拉,module,Magento_Bundle
 Required,必填,module,Magento_Bundle
 Name,名字,module,Magento_Bundle
 "Default Quantity",默认数量,module,Magento_Bundle
