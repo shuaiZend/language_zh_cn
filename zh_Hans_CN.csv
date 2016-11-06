@@ -1543,6 +1543,8 @@ Store,商店,module,Magento_Config
 Yes,是,module,Magento_Config
 Specified,指定,module,Magento_Config
 "Config form fieldset clone model required to be able to clone fields",能够克隆领域所需的配置窗体字段集克隆模型,module,Magento_Config
+"Invalid XML in file %1:\n%2","无效的XML在文件%1:
+%2",module,Magento_Config
 "some prefix",一些前缀,module,Magento_Config
 "element label",元素标签,module,Magento_Config
 "element hint",元素的提示,module,Magento_Config
@@ -2150,6 +2152,7 @@ Unlimited,无限,module,Magento_Downloadable
 "Sample URL must have valid format.","样品的 URL 必须有有效的格式。",module,Magento_Downloadable
 "Order id cannot be null","订单 id 不能为空",module,Magento_Downloadable
 "Order item id cannot be null","订单项目 id 不能为空",module,Magento_Downloadable
+"Provided product must be type 'downloadable'.","提供的产品类型必须是 '下载'。",module,Magento_Downloadable
 "Provided link information is invalid.",提供的链接信息是无效的。,module,Magento_Downloadable
 "Invalid link type.",无效的链接类型。,module,Magento_Downloadable
 "Link title cannot be empty.",链接标题不能为空。,module,Magento_Downloadable
@@ -2157,6 +2160,7 @@ Unlimited,无限,module,Magento_Downloadable
 "Provided downloadable link is not related to given product.",提供的下载链接不被有关特定产品。,module,Magento_Downloadable
 "Cannot delete link with id %1","不能删除链接与 id %1",module,Magento_Downloadable
 "Please specify product link(s).",请指定产品链接。,module,Magento_Downloadable
+"Sample file not provided",不提供示例文件,module,Magento_Downloadable
 "Provided sample information is invalid.",提供的示例信息是无效的。,module,Magento_Downloadable
 "Invalid sample type.",无效的样本类型。,module,Magento_Downloadable
 "Sample title cannot be empty.",示例标题不能为空。,module,Magento_Downloadable
@@ -2166,6 +2170,7 @@ Unlimited,无限,module,Magento_Downloadable
 Yes,是,module,Magento_Downloadable
 No,否,module,Magento_Downloadable
 "Use config",用户配置,module,Magento_Downloadable
+"Upload File",上传文件,module,Magento_Downloadable
 attachment,附件,module,Magento_Downloadable
 inline,行内,module,Magento_Downloadable
 Pending,待付款,module,Magento_Downloadable
@@ -2175,6 +2180,7 @@ Links,链接,module,Magento_Downloadable
 Title,标题,module,Magento_Downloadable
 "Links can be purchased separately",可以单独购买链接,module,Magento_Downloadable
 "Alphanumeric, dash and underscore characters are recommended for filenames. Improper characters are replaced with '_'.","字母数字、 破折号和下划线字符建议的文件名。不正确的字符替换为 _。",module,Magento_Downloadable
+"Add Link",添加链接,module,Magento_Downloadable
 Price,价格,module,Magento_Downloadable
 File,文件,module,Magento_Downloadable
 Sample,示例,module,Magento_Downloadable
@@ -5826,7 +5832,9 @@ Password:,密码:,module,Magento_Customer
 "Checkout out using your account",使用您的帐户结帐,module,Magento_Customer
 "Email Address",电子邮件地址,module,Magento_Customer
 "Currency Update Warnings",货币更新警告,module,Magento_Directory
+Footer,页脚,module,Magento_Email
 "Thank you, %store_name","谢谢你 %store_name",module,Magento_Email
+Header,页面台头,module,Magento_Email
 "Gift Message (optional)","(可选) 的礼物留言",module,Magento_GiftMessage
 To:,至：,module,Magento_GiftMessage
 From:,从：,module,Magento_GiftMessage
@@ -6574,9 +6582,12 @@ Dashboard,控制面板,module,Magento_Config
 "Advanced Section",高级部分,module,Magento_Config
 "Advanced Admin Section",高级管理部分,module,Magento_Config
 "Design Section",设计节,module,Magento_Config
+"General Section",基础部分,module,Magento_Config
+"System Section",系统部分,module,Magento_Config
 "Currency Setup Section",货币设置部分,module,Magento_Config
 "Developer Section",开发人员部分,module,Magento_Config
 "Web Section",WEB部分,module,Magento_Config
+"Store Email Addresses Section",商店Email地址部分,module,Magento_Config
 "Email to a Friend",推荐给朋友,module,Magento_Config
 "Configurable Product Image",可配置的产品图像,module,Magento_ConfigurableProduct
 Select...,选择。。。,module,Magento_ConfigurableProduct
@@ -6612,6 +6623,7 @@ Contacts,联系人,module,Magento_Contact
 "Success History Lifetime",成功的历史一生,module,Magento_Cron
 "Failure History Lifetime",失败历史一生,module,Magento_Cron
 "Use Separate Process",使用单独的进程,module,Magento_Cron
+Currency,货币,module,Magento_CurrencySymbol
 CSV,"Excel XML",module,Magento_CustomerImportExport
 "Excel XML","XML Excel",module,Magento_CustomerImportExport
 "Customer Configuration",客户配置,module,Magento_Customer
@@ -6750,6 +6762,8 @@ Service,服务,module,Magento_Directory
 "State is Required for",状态是必需的,module,Magento_Directory
 "Allow to Choose State if It is Optional for Country",允许选择状态，如果它是可选的国家,module,Magento_Directory
 "Weight Unit",重量单位,module,Magento_Directory
+"Downloadable Product Section",可下载的产品部分,module,Magento_Downloadable
+Downloads,下载附件,module,Magento_Downloadable
 "Downloadable Product Options",可下载的产品选项,module,Magento_Downloadable
 "Order Item Status to Enable Downloads",订单项的状态，使下载,module,Magento_Downloadable
 "Default Maximum Number of Downloads",默认最大数量的下载,module,Magento_Downloadable
@@ -6761,6 +6775,7 @@ Service,服务,module,Magento_Directory
 "Guest checkout will only work with shareable.",仅来宾结帐将可共享使用。,module,Magento_Downloadable
 "EAV types and attributes","EAV 类型和属性",module,Magento_Eav
 "Entity types declaration cache",实体类型声明缓存,module,Magento_Eav
+Communications,通讯,module,Magento_Email
 "No Templates Found",没有找到模板,module,Magento_Email
 Added,已经添加,module,Magento_Email
 Updated,已更新,module,Magento_Email
@@ -6768,10 +6783,14 @@ Subject,主题,module,Magento_Email
 "Template Type",模板类型,module,Magento_Email
 Action,操作,module,Magento_Email
 "Logo Image","Logo 替代文字",module,Magento_Email
+"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in the width/height fields below.","允许的文件类型: jpg，jpeg，gif，png。若要优化的高分辨率显示的标志上, 传 3 x 正常大小的图像，然后在下面的宽度/高度字段中指定 1 x 尺寸。",module,Magento_Email
 "Logo Image Alt","Logo 图像 Alt",module,Magento_Email
 "Logo Width","Logo 宽度",module,Magento_Email
+"Necessary only if an image has been uploaded above. Enter number of pixels, without appending ""px"".","图像有必要，只有当已上载以上。不会将附加""px""输入像素的数。",module,Magento_Email
 "Logo Height",Logo高度,module,Magento_Email
+"Necessary only if an image has been uploaded above. Enter image height size in pixels without appending ""px"".","图像有必要，只有当已上载以上。不会将附加""px""以像素为单位输入图像高度大小。",module,Magento_Email
 "Header Template",页眉模板,module,Magento_Email
+"Email template chosen based on theme fallback, when the ""Default"" option is selected.","选择电子邮件模板基于主题回退，当选择""默认值""选项。",module,Magento_Email
 "Footer Template",页脚模板,module,Magento_Email
 FedEx,联邦快递,module,Magento_Fedex
 "Enabled for Checkout",免费送货金额门槛,module,Magento_Fedex
