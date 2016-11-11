@@ -23,13 +23,19 @@ major,重大的,module,Magento_AdminNotification
 minor,次要,module,Magento_AdminNotification
 notice,通知,module,Magento_AdminNotification
 "Wrong message type",错误消息类型,module,Magento_AdminNotification
+"Wrong notification ID specified.","指定的错误通知 ID。",module,Magento_AdminNotification
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} 不建议在生产环境中使用申报基地不安全 '' URL / 基地安全网址。我们强烈建议您更改此值在你的 Magento '' <a href=""%1""> 配置</a>。",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","请跳转至 <a href=""%1""> 缓存管理</a> 并刷新缓存类型。",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.",我们未能同步一个或多个媒体文件。请参阅日志文件中的详细信息。,module,Magento_AdminNotification
 "Synchronization of media storages has been completed.",媒体库同步已完成。,module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","您的 web 服务器的设置不正确，并允许对敏感文件的未经授权访问。'' 请联系您的托管服务提供商。",module,Magento_AdminNotification
 "Close popup",关闭弹窗,module,Magento_AdminNotification
 Close,关闭,module,Magento_AdminNotification
+"System Messages:",系统消息:,module,Magento_AdminNotification
 "Critical System Messages",关键系统消息,module,Magento_AdminNotification
 "Major System Messages",主要系统消息,module,Magento_AdminNotification
 "System messages",系统消息,module,Magento_AdminNotification
+"See All (","查看所有 (",module,Magento_AdminNotification
 "Please correct the data sent.",请更正发送的数据。,module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","实体型模式必须是一个实例 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","实体模类型型必须是实例 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
@@ -960,6 +966,7 @@ Catalog,目录重写,module,Magento_Catalog
 "Edit Product Attribute",编辑产品属性,module,Magento_Catalog
 "An attribute set named '%1' already exists.","属性集，名为""%1""已经存在。",module,Magento_Catalog
 "Something went wrong while saving the attribute.",保存该属性时，出了错。,module,Magento_Catalog
+"Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","属性代码""%1""不合法。该字段只能使用字母 (a-z)，数字 (0-9) 或下划线(_)，第一个字符应该是字母。",module,Magento_Catalog
 "We can't update the attribute.",我们不能更新的属性。,module,Magento_Catalog
 "You saved the product attribute.",你保存的产品属性。,module,Magento_Catalog
 "An attribute with this code already exists.",这段代码的属性已经存在。,module,Magento_Catalog
@@ -1515,7 +1522,7 @@ px.,全部展开,module,Magento_Cms
 "Collapse All",全部折叠,module,Magento_Cms
 "Expand All",全部展开,module,Magento_Cms
 "Default Config",默认配置,module,Magento_Config
-"Save Config",现场3。1。1,module,Magento_Config
+"Save Config",保存配置,module,Magento_Config
 "Use Default",使用默认,module,Magento_Config
 "Use Website",使用网站,module,Magento_Config
 Add,添加,module,Magento_Config
@@ -1744,7 +1751,7 @@ System,系统,module,Magento_CurrencySymbol
 "We can't find that email and website combination.",我们找不到该电子邮件和网站组合。,module,Magento_CustomerImportExport
 "Please enter a password with a valid length.",请输入一个有效的长度的密码。,module,Magento_CustomerImportExport
 "Sign Out",退出,module,Magento_Customer
-"Sign In",您已成功退出,module,Magento_Customer
+"Sign In",登录,module,Magento_Customer
 "You subscribe to our newsletter.",您订阅我们的时事通讯。,module,Magento_Customer
 "You don't subscribe to our newsletter.",您没有订阅我们的时事通讯。,module,Magento_Customer
 "You have not set a default shipping address.",您没有设置默认的送货地址。,module,Magento_Customer
@@ -4015,7 +4022,7 @@ Promotions,促销活动,module,Magento_SalesRule
 "Invalid data provided",提供无效数据,module,Magento_SalesRule
 "%1 coupon(s) have been generated.","%1 coupon(s) 已生成。",module,Magento_SalesRule
 "Something went wrong while generating coupons. Please review the log and try again.",在生成优惠券时出了错。请查看日志并再试一次。,module,Magento_SalesRule
-Catalog,目录重写,module,Magento_SalesRule
+Catalog,目录,module,Magento_SalesRule
 "The wrong rule is specified.",指定了错误的规则。,module,Magento_SalesRule
 "You saved the rule.",你保存的规则。,module,Magento_SalesRule
 "Something went wrong while saving the rule data. Please review the error log.",保存规则数据时出了错。请查看错误日志。,module,Magento_SalesRule
@@ -4139,7 +4146,7 @@ Quantity,数量,module,Magento_Sales
 "Last Ordered Items",去年订购的商品,module,Magento_Sales
 "Recently Viewed",最近浏览过的,module,Magento_Sales
 "Wish List",收藏夹,module,Magento_Sales
-"Please select a store",请选择一个存储,module,Magento_Sales
+"Please select a store",请选择一个商店,module,Magento_Sales
 "Order Totals",订单合计,module,Magento_Sales
 "Shipping Incl. Tax (%1)","小计 (含税)",module,Magento_Sales
 "Shipping Excl. Tax (%1)","运费不包括税 (%1)",module,Magento_Sales
@@ -4793,6 +4800,7 @@ Shipments,发货,module,Magento_Shipping
 "We can't initialize shipment for delete tracking number.",我们不能初始化装运删除运单号。,module,Magento_Shipping
 "We can't delete tracking number.",我们不能删除跟踪号码。,module,Magento_Shipping
 "We can't load track with retrieving identifier right now.",我们不能加载跟踪记录与现在检索标识符。,module,Magento_Shipping
+"We can't save the shipment right now.",我们现在无法保存发货信息。,module,Magento_Shipping
 "The shipment has been created.",已创建装运。,module,Magento_Shipping
 "Cannot save shipment.",无法保存装运。,module,Magento_Shipping
 "The order no longer exists.",该订单不存在。,module,Magento_Shipping
@@ -6289,6 +6297,7 @@ Template,模板,module,Magento_CatalogWidget
 "Cache Lifetime (Seconds)","缓存有效期 (秒)",module,Magento_CatalogWidget
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","由 86400 默认情况下，如果不是设置。若要立即刷新，请清除块 HTML 输出缓存。",module,Magento_CatalogWidget
 Conditions,条件,module,Magento_CatalogWidget
+Small,小,module,Magento_Catalog
 Main,主要,module,Magento_Catalog
 Thumbnail,缩略图,module,Magento_Catalog
 "Custom image",自定义图像,module,Magento_Catalog
