@@ -5564,6 +5564,7 @@ Yes,是,module,Magento_Variable
 "My Credit Cards",我的信用卡,module,Magento_Vault
 "Card Number",卡号,module,Magento_Vault
 Type,类型,module,Magento_Vault
+Delete,删除,module,Magento_Vault
 "Consumer is not authorized to access %resources",消费者未被授权访问%资源,module,Magento_Webapi
 "Operation allowed only in HTTPS",网络服务配置,module,Magento_Webapi
 "Cannot perform GET operation with store code 'all'","不能使用存储代码 'all '来执行 GET 操作",module,Magento_Webapi
