@@ -1141,7 +1141,7 @@ Import,导入,module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","请更正为 %1 => %2 率输入的数据",module,Magento_CurrencySymbol
 "All valid rates have been saved.",所有有效的汇率已被保存。,module,Magento_CurrencySymbol
 System,系统,module,Magento_CurrencySymbol
-"Old rate:",旧的规则:,module,Magento_CurrencySymbol
+"Old rate:",旧率:,module,Magento_CurrencySymbol
 "Customer address id column is not specified","客户地址 id 列未指定",module,Magento_CustomerImportExport
 "Orphan rows that will be skipped due default row errors",由于默认行错误将被跳过的行,module,Magento_CustomerImportExport
 "Invalid value in Store column (store does not exists?)","在列中存储的值无效 (存储不存在吗?)",module,Magento_CustomerImportExport
