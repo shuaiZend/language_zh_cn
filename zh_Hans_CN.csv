@@ -1733,8 +1733,8 @@ Import,导入,module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","请更正为 %1 => %2 率输入的数据",module,Magento_CurrencySymbol
 "All valid rates have been saved.",所有有效的汇率已被保存。,module,Magento_CurrencySymbol
 System,系统,module,Magento_CurrencySymbol
-"You applied the custom currency symbols.",你应用自定义的货币符号。,module,Magento_CurrencySymbol
-"Old rate:",旧的规则:,module,Magento_CurrencySymbol
+"You applied the custom currency symbols.",你应用了自定义的货币符号。,module,Magento_CurrencySymbol
+"Old rate:",旧率:,module,Magento_CurrencySymbol
 "Please specify a website.",请指定一个网站。,module,Magento_CustomerImportExport
 "Please specify an email.",请注明邮件。,module,Magento_CustomerImportExport
 "We found an invalid value in a website column.","商店列表中的无效值 (商店不存在)",module,Magento_CustomerImportExport
