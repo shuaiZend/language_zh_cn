@@ -5850,7 +5850,7 @@ Delete,删除,module,Magento_GiftMessage
 "You have been successfully subscribed to our newsletter.",您已成功订阅我们的时事通讯。,module,Magento_Newsletter
 "You have been unsubscribed from the newsletter.",你已经取消订阅新闻通讯。,module,Magento_Newsletter
 "Place Order",对不起，暂无报价可供此订单现在。,module,Magento_OfflinePayments
-"Place Order",对不起，暂无报价可供此订单现在。,module,Magento_Payment
+"Place Order",提交订单,module,Magento_Payment
 "Forgot an Item?",忘了一个项目吗?,module,Magento_Payment
 "Edit Your Cart",编辑您的购物车,module,Magento_Payment
 "Sign a billing agreement to streamline further purchases with PayPal.",签署一项协议，简化使用Paypal支付的流程。,module,Magento_Paypal
