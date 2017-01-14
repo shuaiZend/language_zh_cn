@@ -3904,43 +3904,6 @@ Summary,用户中心,module,Magento_Review
 "Product Rating:",产品评级:,module,Magento_Review
 "Product Review (submitted on %1):","产品审查 (提交的关于 %1):",module,Magento_Review
 "Back to Product Reviews",回到产品评论,module,Magento_Review
-"Page not found.",找不到网页。,module,Magento_Rss
-Feed,"RSS 订阅源",module,Magento_Rss
-"Miscellaneous Feeds",杂项的饲料,module,Magento_Rss
-"Get Feed",得到饲料,module,Magento_Rss
-Apply,应用,module,Magento_Rule
-"Please choose a valid discount amount.","没有关于实体类型“% 1”的相关信息",module,Magento_Rule
-"End Date must follow Start Date.",结束日期必须晚于开始日期。,module,Magento_Rule
-"Please specify a website.",请指定的网站。,module,Magento_Rule
-"Please specify Customer Groups.",请指定客户组。,module,Magento_Rule
-to,至,module,Magento_Rule
-by,通过,module,Magento_Rule
-"Please choose an action to add.",请选择要添加的操作。,module,Magento_Rule
-"Perform following actions",执行下列操作,module,Magento_Rule
-is,非,module,Magento_Rule
-"is not",不是,module,Magento_Rule
-"equals or greater than",等于或小于,module,Magento_Rule
-"equals or less than",等于或小于,module,Magento_Rule
-"greater than",大于,module,Magento_Rule
-"less than",小于,module,Magento_Rule
-contains,包含,module,Magento_Rule
-"does not contain",不包含,module,Magento_Rule
-"is one of",小于,module,Magento_Rule
-"is not one of",不是的,module,Magento_Rule
-"Please choose a condition to add.",请选择要添加的条件,module,Magento_Rule
-Add,添加,module,Magento_Rule
-Remove,删除,module,Magento_Rule
-ALL,所有,module,Magento_Rule
-ANY,任何,module,Magento_Rule
-TRUE,真正,module,Magento_Rule
-FALSE,假,module,Magento_Rule
-"If %1 of these conditions are %2:","如果这些条件 %1 %2:",module,Magento_Rule
-"Conditions Combination",条件组合,module,Magento_Rule
-"Attribute Set",属性集,module,Magento_Rule
-Category,类别,module,Magento_Rule
-"Open Chooser",打开选择器,module,Magento_Rule
-"Unknown condition operator",未知的条件运算符,module,Magento_Rule
-"There is no information about associated entity type ""%1"".","有是没有关联的实体类型""%1""有关的信息。",module,Magento_Rule
 "Cart Price Rules",购物车价格规则,module,Magento_SalesRule
 "Add New Rule",添加新规则,module,Magento_SalesRule
 "Save and Continue Edit",保存并继续编辑,module,Magento_SalesRule
@@ -4728,40 +4691,6 @@ Reports,报告,module,Magento_Search
 "Your search query can't be longer than %1, so we shortened your query.","您的搜索查询不能超过 %1，所以我们缩短您的查询。",module,Magento_Search
 "Search entire store here...",在这里搜索整个商店...,module,Magento_Search
 "There are no search terms available.",没有搜索条件。,module,Magento_Search
-"Page not found.",找不到网页。,module,Magento_SendFriend
-"You can't send messages more than %1 times an hour.",限制发送,module,Magento_SendFriend
-"The link to a friend was sent.",被送到一位朋友的链接。,module,Magento_SendFriend
-"We found some problems with the data.",我们发现了一些问题的数据。,module,Magento_SendFriend
-"Some emails were not sent.",未发送几封电子邮件。,module,Magento_SendFriend
-"You've met your limit of %1 sends in an hour.","你见过你的 %1 发送在一个小时的极限。",module,Magento_SendFriend
-"Please enter a sender name.",请输入发件人的名称。,module,Magento_SendFriend
-"Invalid Sender Email",无效发件人的电子邮件,module,Magento_SendFriend
-"Please enter a message.",请输入一条消息。,module,Magento_SendFriend
-"Please specify at least one recipient.",请指定至少一个收件人。,module,Magento_SendFriend
-"Please enter a correct recipient email address.",请输入一个正确的收件人电子邮件地址。,module,Magento_SendFriend
-"No more than %1 emails can be sent at a time.","不超过 %1 的电子邮件可以发送一次。",module,Magento_SendFriend
-"Please define a correct product instance.",请定义一个正确的产品实例。,module,Magento_SendFriend
-"Invalid Sender Information",无效发件人信息,module,Magento_SendFriend
-"Please define the correct sender information.",请定义正确的发件人信息。,module,Magento_SendFriend
-"IP Address","IP 地址",module,Magento_SendFriend
-"Cookie (unsafe)","Cookie (不安全)",module,Magento_SendFriend
-"No Product Exception.",没有产品异常。,module,Magento_SendFriend
-"No Category Exception.",没有类别的异常。,module,Magento_SendFriend
-"Some error",某些错误,module,Magento_SendFriend
-"Localized Exception.",本地化例外。,module,Magento_SendFriend
-Exception.,异常。,module,Magento_SendFriend
-"Remove Recipent",删除语气,module,Magento_SendFriend
-Remove,删除,module,Magento_SendFriend
-Name,名字,module,Magento_SendFriend
-Email,邮箱,module,Magento_SendFriend
-"* Required Fields",*必要字段,module,Magento_SendFriend
-Sender,发送方,module,Magento_SendFriend
-Message,信息,module,Magento_SendFriend
-Invitee,被邀请者,module,Magento_SendFriend
-"Maximum %1 email addresses allowed.","允许最多 %1邮箱地址",module,Magento_SendFriend
-"Add Invitee",添加被邀请者,module,Magento_SendFriend
-"Send Email",发送邮件,module,Magento_SendFriend
-Back,后退,module,Magento_SendFriend
 "New Shipment for Order #%1","新的出运订单 #%1",module,Magento_Shipping
 "Submit Shipment",提交装运,module,Magento_Shipping
 "You are trying to add a quantity for some products that doesn't match the quantity that was shipped.",您试图添加一些产品的数量不匹配被运的数量。,module,Magento_Shipping
@@ -5002,23 +4931,6 @@ Options,选项,module,Magento_Swatches
 "Save Option",保存选项,module,Magento_Swatches
 "Remove Option",删除选项,module,Magento_Swatches
 "Create New Value",创造新的价值,module,Magento_Swatches
-Code,代码,module,Magento_TaxImportExport
-Country,国家,module,Magento_TaxImportExport
-State,状态,module,Magento_TaxImportExport
-"Zip/Post Code",邮编,module,Magento_TaxImportExport
-Rate,费率,module,Magento_TaxImportExport
-"Zip/Post is Range",税收区域和税率,module,Magento_TaxImportExport
-"Range From",范围从,module,Magento_TaxImportExport
-"Range To",范围到,module,Magento_TaxImportExport
-"Tax Zones and Rates",税区和费率,module,Magento_TaxImportExport
-"Import and Export Tax Rates",导出税率,module,Magento_TaxImportExport
-"The tax rate has been imported.",已导入的税率。,module,Magento_TaxImportExport
-"Invalid file upload attempt",无效的文件上载尝试,module,Magento_TaxImportExport
-"Invalid file upload attempt.",无效的文件上传的尝试。,module,Magento_TaxImportExport
-"Invalid file format.",文件格式无效。,module,Magento_TaxImportExport
-"One of the countries has invalid code.",国家之一有无效的代码。,module,Magento_TaxImportExport
-"Import Tax Rates",进口税率,module,Magento_TaxImportExport
-"Export Tax Rates",出口税率,module,Magento_TaxImportExport
 "Tax Rate Information",税收规则信息,module,Magento_Tax
 "Tax Identifier",税务标识符,module,Magento_Tax
 "Zip/Post is Range",税收区域和税率,module,Magento_Tax
@@ -5145,112 +5057,6 @@ Save,保存,module,Magento_Tax
 "Add New Class",添加新类,module,Magento_Tax
 "Grand Total Excl. Tax",盛大的税金除外,module,Magento_Tax
 "Grand Total Incl. Tax",盛大的税金除外,module,Magento_Tax
-Themes,右栏2列,module,Magento_Theme
-"Save and Continue Edit",保存并继续编辑,module,Magento_Theme
-"Are you sure you want to delete this theme?",你确定你想要删除这个主题?,module,Magento_Theme
-"Theme: %1","主题: %1",module,Magento_Theme
-"New Theme",新主题,module,Magento_Theme
-"Theme CSS","主题的 css 文件",module,Magento_Theme
-"Theme CSS Assets","主题 CSS 资产",module,Magento_Theme
-"Custom CSS","自定义 CSS",module,Magento_Theme
-"Select CSS File to Upload","选择 CSS 文件上传",module,Magento_Theme
-"Upload CSS File","CSS 文件上传",module,Magento_Theme
-"Download CSS File","CSS 文件下载",module,Magento_Theme
-Manage,管理,module,Magento_Theme
-"Upload Images",上传图片,module,Magento_Theme
-"Images Assets",图像资产,module,Magento_Theme
-"Upload Fonts",上传字体,module,Magento_Theme
-"Fonts Assets",字体的资产,module,Magento_Theme
-"Edit custom.css","编辑 custom.css",module,Magento_Theme
-"Allowed file types *.css.","允许文件类型 *.css。",module,Magento_Theme
-"This file will replace the current custom.css file and can't be more than 2 MB.","此文件将替换当前的 custom.css 文件，并且不能超过 2 MB。",module,Magento_Theme
-"Max file size to upload %1M","最大文件大小上传 %1M",module,Magento_Theme
-"Something is wrong with the file upload settings.",文件上载设置出毛病了。,module,Magento_Theme
-"CSS Editor","CSS 编辑器",module,Magento_Theme
-"Theme Settings",主题设置,module,Magento_Theme
-"Parent Theme",父主题,module,Magento_Theme
-"Theme Path",主题路径,module,Magento_Theme
-"Theme Title",主题标题,module,Magento_Theme
-"Theme Preview Image",主题预览图像,module,Magento_Theme
-General,基本的,module,Magento_Theme
-"Copy of %1","%1 的副本",module,Magento_Theme
-"Max image size %1M","最大图像大小 %1M",module,Magento_Theme
-"Theme JavaScript","主题 JavaScript",module,Magento_Theme
-"Select JS Files to Upload","选择 JS 文件上传",module,Magento_Theme
-"Upload JS Files","JS 文件上传",module,Magento_Theme
-"JS Editor","JS 编辑器",module,Magento_Theme
-"Allowed file types *.js.","允许文件类型 *.js。",module,Magento_Theme
-Theme,网站模板,module,Magento_Theme
-"Media Storage",多媒体储存,module,Magento_Theme
-"Create Folder",创建文件夹,module,Magento_Theme
-"Delete Folder",删除文件夹,module,Magento_Theme
-"Delete File",删除文件,module,Magento_Theme
-"Insert File",我们不能删除根目录%1现在。,module,Magento_Theme
-"New Folder Name:",新文件夹的名称:,module,Magento_Theme
-"Are you sure you want to delete this folder?",确实要删除此文件夹吗?,module,Magento_Theme
-"Are you sure you want to delete this file?",是否确实要删除此文件?,module,Magento_Theme
-"Storage Root",存储根,module,Magento_Theme
-"You deleted the theme.",你删除的主题。,module,Magento_Theme
-"We cannot delete the theme.",我们不能删除该主题。,module,Magento_Theme
-"File not found: ""%1"".","找不到文件:""%1""。",module,Magento_Theme
-"We can't find file.",我们找不到文件。,module,Magento_Theme
-"We cannot find theme ""%1"".","我们找不到主题""%1""。",module,Magento_Theme
-"We cannot find the theme.",我们找不到主题。,module,Magento_Theme
-"This theme is not editable.",这个主题不是可编辑的。,module,Magento_Theme
-"You saved the theme.",你保存主题。,module,Magento_Theme
-"We can't upload the CSS file right now.","我们现在不能上传的 CSS 文件。",module,Magento_Theme
-"We cannot find a theme with id ""%1"".","我们找不到 id 为""%1""的主题。",module,Magento_Theme
-"We can't upload the JS file right now.","我们现在不能上传 JS 文件。",module,Magento_Theme
-"Sorry, something went wrong. That's all we know.",对不起，出了错。这是我们都知道。,module,Magento_Theme
-"Invalid type",无效的类型,module,Magento_Theme
-"Exception does not contain field '%1'","异常不包含字段 '%1'",module,Magento_Theme
-"Invalid regular expression: ""%1"".","无效的正则表达式:""%1""。",module,Magento_Theme
-label,标签,module,Magento_Theme
-"-- Please Select --","-- 请选择 --",module,Magento_Theme
-"The start date can't follow the end date.",开始日期不能遵循的结束日期。,module,Magento_Theme
-"The date range for this design change overlaps another design change for the specified store.",此设计更改的日期范围重叠另一设计更改为指定的商店。,module,Magento_Theme
-Copy,您阅读的当前页,module,Magento_Theme
-"Theme id should be set","应设置主题 id",module,Magento_Theme
-"Circular-reference in theme inheritance detected for ""%1""","在主题继承为""%1""检测到循环引用",module,Magento_Theme
-"The CSS file must be less than %1M.","CSS 文件必须小于 %1M。",module,Magento_Theme
-"The JS file must be less than %1M.","JS 文件必须小于 %1M。",module,Magento_Theme
-"We can't upload the file right now.",我们现在不能上传文件。,module,Magento_Theme
-"Use only standard alphanumeric, dashes and underscores.","使用只有标准的字母数字、 破折号和下划线。",module,Magento_Theme
-"We found a directory with the same name.",我们发现一个具有相同名称的目录。,module,Magento_Theme
-"We cannot find a directory with this name.",我们找不到具有此名称的目录。,module,Magento_Theme
-"We can't delete root directory %1 right now.","我们现在不能删除根目录 %1。",module,Magento_Theme
-"Theme isn't deletable.",主题不能删除。,module,Magento_Theme
-"localized exception",本地化的异常,module,Magento_Theme
-Message,信息,module,Magento_Theme
-"Test Label",测试标签,module,Magento_Theme
-Phrase,短语,module,Magento_Theme
-exception,例外,module,Magento_Theme
-"We found no files.",我们发现，没有文件。,module,Magento_Theme
-"Browse Files",浏览文件,module,Magento_Theme
-Remove,删除,module,Magento_Theme
-"Help Us Keep Magento Healthy","帮助我们保持 Magento 健康",module,Magento_Theme
-"Report All Bugs","报告所有 Bug",module,Magento_Theme
-"Toggle Nav",切换导航,module,Magento_Theme
-"JavaScript seems to be disabled in your browser.","JavaScript 似乎在您的浏览器中禁用。",module,Magento_Theme
-"For the best experience on our site, be sure to turn on Javascript in your browser.","在我们的网站上获得最佳体验，请务必打开 Javascript 在您的浏览器。",module,Magento_Theme
-"Local Storage seems to be disabled in your browser.",本地存储似乎在您的浏览器中禁用。,module,Magento_Theme
-"For the best experience on our site, be sure to turn on Local Storage in your browser.",在我们的网站上获得最佳体验，请务必打开本地存储在您的浏览器。,module,Magento_Theme
-"This is demo store. No orders will be fulfilled.",这是演示店铺。没有订单将会完成。,module,Magento_Theme
-"Items %1 to %2 of %3 total","项目 %1 到 %2 %3 总",module,Magento_Theme
-"%1 Item","%1 项目",module,Magento_Theme
-"%1 Item(s)","%1 项目 (s)",module,Magento_Theme
-Page,页面,module,Magento_Theme
-Previous,上一个,module,Magento_Theme
-"You're currently reading page",您当前正在阅读页,module,Magento_Theme
-Next,下一个,module,Magento_Theme
-Show,显示,module,Magento_Theme
-"per page",每页,module,Magento_Theme
-"About the calendar",分类,module,Magento_Theme
-Close,关闭,module,Magento_Theme
-"Go Today",今天去,module,Magento_Theme
-Time,时间,module,Magento_Theme
-Hour,小时,module,Magento_Theme
-Minute,分钟,module,Magento_Theme
 "Dictionary (Translation on Storefront side)",译文,module,Magento_Translation
 "Embedded (Translation on Admin side)","嵌入式 (Admin 一边翻译)",module,Magento_Translation
 "Condition type ""%1"" is not allowed","不允许使用条件类型""%1""",module,Magento_Ui
@@ -5594,38 +5400,6 @@ Gift,礼物,module,Magento_Usps
 Documents,文件,module,Magento_Usps
 Other,其他​​​,module,Magento_Usps
 None,无,module,Magento_Usps
-"Custom Variables",自定义变量,module,Magento_Variable
-"Add New Variable",变量代码必须是唯一的。,module,Magento_Variable
-"Save and Continue Edit",保存并继续编辑,module,Magento_Variable
-"Custom Variable ""%1""","自定义变量""%1""",module,Magento_Variable
-"New Custom Variable",新的自定义变量,module,Magento_Variable
-Variable,变量,module,Magento_Variable
-"Variable Code",变量的代码,module,Magento_Variable
-"Variable Name",变量名称,module,Magento_Variable
-"Use Default Variable Values",使用变量的默认值,module,Magento_Variable
-No,否,module,Magento_Variable
-Yes,是,module,Magento_Variable
-"Variable HTML Value","HTML 的变量值",module,Magento_Variable
-"Variable Plain Value",平原的变量值,module,Magento_Variable
-"You deleted the custom variable.",删除自定义的变量。,module,Magento_Variable
-"You saved the custom variable.",你保存的自定义的变量。,module,Magento_Variable
-"Variable Code must be unique.",变量的代码必须是唯一的。,module,Magento_Variable
-"Validation has failed.",验证已失败。,module,Magento_Variable
-%1,1%,module,Magento_Variable
-"Insert Variable...",插入变量。。。,module,Magento_Variable
-"Operation allowed only in HTTPS",网络服务配置,module,Magento_Webapi
-"Cannot perform GET operation with store code 'all'","不能使用存储代码 'all '来执行 GET 操作",module,Magento_Webapi
-"Request does not match any route.",请求与任何路由不匹配。,module,Magento_Webapi
-"Authentication header format is invalid.",身份验证标头格式无效。,module,Magento_Webapi
-"Authentication header is absent.",身份验证标头缺失。,module,Magento_Webapi
-"Not allowed parameters: %1. Please use only %2 and %3.","不允许使用参数: %1。请使用 %2 和 %3。",module,Magento_Webapi
-"Requested service is not available: ""%1""","请求服务不可用:""%1""",module,Magento_Webapi
-"Operation ""%1"" not found.","找不到操作""%1""。",module,Magento_Webapi
-"SOAP extension is not loaded.","没有加载SOAP 扩展。",module,Magento_Webapi
-"Invalid XML","无效的 XML",module,Magento_Webapi
-"Invalid XML: Detected use of illegal DOCTYPE","无效的 XML: 使用了非法 DOCTYPE",module,Magento_Webapi
-message,信息,module,Magento_Webapi
-Message,信息,module,Magento_Webapi
 "Add Tax",加税,module,Magento_Weee
 "Delete Tax",删除税,module,Magento_Weee
 "All Websites",所有网站,module,Magento_Weee
@@ -5852,9 +5626,6 @@ Password:,密码:,module,Magento_Customer
 "Once your package ships we will send an email with a link to track your order.",一旦你的包船我们将发送一封电子邮件的链接来跟踪您的订单。,module,Magento_Sales
 "Your shipping confirmation is below. Thank you again for your business.",下面是您发货确认信息。再次感谢您为您的业务。,module,Magento_Sales
 "Your Shipment #%shipment_id for Order #%order_id","为订单 #%order_id 你装运 #%shipment_id",module,Magento_Sales
-"%name,",%名称，,module,Magento_SendFriend
-"%sender_name wants to share this product with you:","%sender_name 想要与你分享这种产品:",module,Magento_SendFriend
-"Message from %sender_name:",消息来自%SENDER_NAME：,module,Magento_SendFriend
 "Sitemap Generation Warnings",网站地图生成警告,module,Magento_Sitemap
 "%name,",%名称，,module,Magento_User
 "The password for your account has been successfully changed.",您的帐户的密码更改成功。,module,Magento_User
@@ -5953,10 +5724,8 @@ Save,保存,module,Magento_ProductVideo
 Cancel,保存,module,Magento_ProductVideo
 Delete,删除,module,Magento_ProductVideo
 "Images and Videos",图像和视频,module,Magento_ProductVideo
-"This won't take long . . .","这不会需要很长时间。 。 。",module,Magento_Rule
 "Add Products",添加产品,module,Magento_Sales
 Ok,OK,module,Magento_Sales
-"We could not detect a size.",我们未能检测到的大小。,module,Magento_Theme
 "Go to Details Page",转到详细信息页,module,Magento_Ui
 "Please enter more or equal than {0} symbols.","请输入多于或等于比 {0} 符号。",module,Magento_Ui
 "Please enter less or equal than {0} symbols.","请输入多于或等于比 {0} 符号。",module,Magento_Ui
@@ -7083,9 +6852,6 @@ undefined,未定义,module,Magento_Reports
 "Allow Guests to Write Reviews",允许客人来写评论,module,Magento_Review
 Active,活动,module,Magento_Review
 Inactive,未激活,module,Magento_Review
-"RSS Feeds","RSS 源",module,Magento_Rss
-"Rss Config","Rss 配置",module,Magento_Rss
-"Enable RSS","启动 RSS",module,Magento_Rss
 "Auto Generated Specific Coupon Codes",自动生成特定的优惠券代码,module,Magento_SalesRule
 "Web Site",网站,module,Magento_SalesRule
 General,基本的,module,Magento_Sales
@@ -7210,15 +6976,6 @@ yes,是,module,Magento_Search
 no,否,module,Magento_Search
 Action,操作,module,Magento_Search
 Edit,编辑,module,Magento_Search
-"Email to a Friend",推荐给朋友,module,Magento_SendFriend
-"Email Templates",邮件模板,module,Magento_SendFriend
-Enabled,启动,module,Magento_SendFriend
-"Select Email Template",选择电子邮件模板,module,Magento_SendFriend
-"Email template chosen based on theme fallback when ""Default"" option is selected.",电子邮件模板选择基于主题的回退时，选择“默认”选项。,module,Magento_SendFriend
-"Allow for Guests",允许为客人,module,Magento_SendFriend
-"Max Recipients",最大收件人,module,Magento_SendFriend
-"Max Products Sent in 1 Hour","在 1 小时内发送的最大产品",module,Magento_SendFriend
-"Limit Sending By",限制通过发送,module,Magento_SendFriend
 "Shipping Settings",传送设置,module,Magento_Shipping
 Origin,起源,module,Magento_Shipping
 Country,国家,module,Magento_Shipping
@@ -7267,8 +7024,6 @@ Layouts,布局,module,Magento_Store
 "Database DDL operations","数据库 DDL 操作",module,Magento_Store
 "Results of DDL queries, such as describing tables or indexes.","DDL 查询，例如描述表或索引的结果。",module,Magento_Store
 "Swatches per Product",每个产品的色板,module,Magento_Swatches
-CSV,"Excel XML",module,Magento_TaxImportExport
-"Excel XML","XML Excel",module,Magento_TaxImportExport
 "Tax Classes",税收类,module,Magento_Tax
 "Tax Class for Shipping",航运的税类,module,Magento_Tax
 "Default Tax Class for Product",产品的默认税类,module,Magento_Tax
@@ -7306,42 +7061,6 @@ Rate,费率,module,Magento_Tax
 "Subtotal Only",只有小计,module,Magento_Tax
 "Order Total",订单金额,module,Magento_Tax
 "Your credit card will be charged for",您的信用卡将被收费,module,Magento_Tax
-Empty,"产品 %1",module,Magento_Theme
-"1 column","1 列",module,Magento_Theme
-"HTML Head","HTML 标头",module,Magento_Theme
-"Favicon Icon",图标图标,module,Magento_Theme
-"Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats!","允许的文件类型: ICO、 PNG、 GIF、 JPG、 JPEG、 APNG、 SVG。并不是所有浏览器都支持所有这些格式!",module,Magento_Theme
-"Default Title",默认标题,module,Magento_Theme
-"Title Prefix",标题前缀,module,Magento_Theme
-"Title Suffix",标题后缀,module,Magento_Theme
-"Default Description",默认描述,module,Magento_Theme
-"Default Keywords",默认的关键字,module,Magento_Theme
-"Miscellaneous Scripts",杂项脚本,module,Magento_Theme
-"This will be included before head closing tag in page HTML.","这将会包括头在页面 HTML 标签之前。",module,Magento_Theme
-"Display Demo Store Notice",显示演示店铺通知,module,Magento_Theme
-"Search Engine Robots",搜索引擎机器人,module,Magento_Theme
-"Default Robots",默认机器人,module,Magento_Theme
-"Edit custom instruction of robots.txt File","编辑自定义指令的 robots.txt 文件",module,Magento_Theme
-"Reset to Defaults",重置为默认值,module,Magento_Theme
-"This action will delete your custom instructions and reset robots.txt file to system's default settings.","此操作将删除您的自定义说明并置 robots.txt 文件为系统的默认设置。",module,Magento_Theme
-Header,标题头,module,Magento_Theme
-"Logo Image","Logo 替代文字",module,Magento_Theme
-"Logo Image Width",徽标图像宽度,module,Magento_Theme
-"Logo Image Height",徽标图像高度,module,Magento_Theme
-"Logo Image Alt","徽标图像 Alt",module,Magento_Theme
-"Welcome Text",欢迎文本,module,Magento_Theme
-Footer,页脚,module,Magento_Theme
-Copyright,版权：,module,Magento_Theme
-"Miscellaneous HTML","杂项的 HTML",module,Magento_Theme
-"This will be displayed just before body closing tag.",这将显示只是在身体结束标记之前。,module,Magento_Theme
-"Default welcome msg!",默认欢迎msg!,module,Magento_Theme
-"Copyright © 2015 Magento. All rights reserved.","版权所有 © 2015 Magento。保留所有权利。",module,Magento_Theme
-"Admin empty",管理员为空,module,Magento_Theme
-"Admin 1column","管理员 1column",module,Magento_Theme
-"Skip to Content",跳到内容,module,Magento_Theme
-"2 columns with left bar","2 列左侧的栏",module,Magento_Theme
-"2 columns with right bar","与右 2 列栏",module,Magento_Theme
-"3 columns","3 列",module,Magento_Theme
 "Translation Strategy",翻译策略,module,Magento_Translation
 Translations,翻译,module,Magento_Translation
 "Translation files.",翻译文件。,module,Magento_Translation
@@ -7429,14 +7148,6 @@ Machinable,可加工,module,Magento_Usps
 Debug,调试,module,Magento_Usps
 "Show Method if Not Applicable","Show 方法如果不适用",module,Magento_Usps
 "Sort Order",排序,module,Magento_Usps
-"Variable ID","可变的 ID",module,Magento_Variable
-Name,名字,module,Magento_Variable
-"Magento Web API","Magento API Web",module,Magento_Webapi
-"SOAP Settings","SOAP 设置",module,Magento_Webapi
-"Default Response Charset",默认响应字符集,module,Magento_Webapi
-"If empty, UTF-8 will be used.","如果为空，将使用 utf-8。",module,Magento_Webapi
-"Web Services Configuration","Web 服务配置",module,Magento_Webapi
-"REST and SOAP configurations, generated WSDL file.","休息和 SOAP 配置，生成的 WSDL 文件。",module,Magento_Webapi
 "Fixed Product Taxes",固定的产品税,module,Magento_Weee
 "Enable FPT","启用 FPT",module,Magento_Weee
 "Display Prices In Product Lists",在产品列表中显示的价格,module,Magento_Weee
