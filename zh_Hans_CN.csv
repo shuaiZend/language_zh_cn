@@ -3351,6 +3351,18 @@ Close,关闭,module,Magento_Sales
 "View All",查看全部,module,Magento_Sales
 "Gift Message for This Order",此订单的礼物留言,module,Magento_Sales
 "Add to Cart",添加到购物车,module,Magento_Sales
+"The link to a friend was sent.",被送到一位朋友的链接。,module,Magento_SendFriend
+"We found some problems with the data.",我们发现了一些问题的数据。,module,Magento_SendFriend
+"Some emails were not sent.",未发送几封电子邮件。,module,Magento_SendFriend
+"Invalid Sender Email",无效发件人的电子邮件,module,Magento_SendFriend
+"Please enter a correct recipient email address.",请输入一个正确的收件人电子邮件地址。,module,Magento_SendFriend
+"No more than %1 emails can be sent at a time.","不超过 %1 的电子邮件可以发送一次。",module,Magento_SendFriend
+"Invalid Sender Information",无效发件人信息,module,Magento_SendFriend
+Name,名字,module,Magento_SendFriend
+"* Required Fields",*必要字段,module,Magento_SendFriend
+"Maximum %1 email addresses allowed.","允许最多 %1邮箱地址",module,Magento_SendFriend
+"Send Email",发送邮件,module,Magento_SendFriend
+Back,后退,module,Magento_SendFriend
 "New Shipment for Order #%1","新的出运订单 #%1",module,Magento_Shipping
 "Submit Shipment",提交装运,module,Magento_Shipping
 "Products should be added to package(s)",产品应添加到程序包,module,Magento_Shipping
@@ -4008,6 +4020,13 @@ None,无,module,Magento_Usps
 "Variable Code must be unique.",变量的代码必须是唯一的。,module,Magento_Variable
 "Validation has failed.",验证已失败。,module,Magento_Variable
 "Insert Variable...",插入变量。。。,module,Magento_Variable
+"Operation allowed only in HTTPS",网络服务配置,module,Magento_Webapi
+"Request does not match any route.",请求与任何路由不匹配。,module,Magento_Webapi
+"Not allowed parameters: %1. Please use only %2 and %3.","不允许使用参数: %1。请使用 %2 和 %3。",module,Magento_Webapi
+"Requested service is not available: ""%1""","请求服务不可用:""%1""",module,Magento_Webapi
+"Operation ""%1"" not found.","找不到操作""%1""。",module,Magento_Webapi
+"Invalid XML","无效的 XML",module,Magento_Webapi
+"Invalid XML: Detected use of illegal DOCTYPE","无效的 XML: 使用了非法 DOCTYPE",module,Magento_Webapi
 "Add Tax",加税,module,Magento_Weee
 "Delete Tax",删除税,module,Magento_Weee
 "All Websites",所有网站,module,Magento_Weee
@@ -5136,6 +5155,14 @@ Created,创建,module,Magento_Sales
 "Grand Total (Purchased)","总计 (购买)",module,Magento_Sales
 "PDF Invoices","PDF 发票",module,Magento_Sales
 "Search Engine",搜索引擎,module,Magento_Search
+"Email to a Friend",推荐给朋友,module,Magento_SendFriend
+"Email Templates",邮件模板,module,Magento_SendFriend
+Enabled,启动,module,Magento_SendFriend
+"Select Email Template",选择电子邮件模板,module,Magento_SendFriend
+"Allow for Guests",允许为客人,module,Magento_SendFriend
+"Max Recipients",最大收件人,module,Magento_SendFriend
+"Max Products Sent in 1 Hour","在 1 小时内发送的最大产品",module,Magento_SendFriend
+"Limit Sending By",限制通过发送,module,Magento_SendFriend
 "Shipping Settings",传送设置,module,Magento_Shipping
 Origin,起源,module,Magento_Shipping
 Country,国家,module,Magento_Shipping
@@ -5318,6 +5345,12 @@ Machinable,可加工,module,Magento_Usps
 Debug,调试,module,Magento_Usps
 "Show Method if Not Applicable","Show 方法如果不适用",module,Magento_Usps
 "Sort Order",排序,module,Magento_Usps
+"Magento Web API","Magento API Web",module,Magento_Webapi
+"SOAP Settings","SOAP 设置",module,Magento_Webapi
+"Default Response Charset",默认响应字符集,module,Magento_Webapi
+"If empty, UTF-8 will be used.","如果为空，将使用 utf-8。",module,Magento_Webapi
+"Web Services Configuration","Web 服务配置",module,Magento_Webapi
+"REST and SOAP configurations, generated WSDL file.","休息和 SOAP 配置，生成的 WSDL 文件。",module,Magento_Webapi
 "Fixed Product Taxes",固定的产品税,module,Magento_Weee
 "Enable FPT","启用 FPT",module,Magento_Weee
 "Display Prices In Product Lists",在产品列表中显示的价格,module,Magento_Weee
