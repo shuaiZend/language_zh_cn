@@ -372,6 +372,7 @@ Loading...,"加载 。。。",module,Magento_Backend
 "Database Backup",数据库备份,module,Magento_Backup
 "The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","归档文件可以压缩与 <a href=""%1"">%2</a> 在 Windows 系统上。",module,Magento_Backup
 "You need more permissions to activate maintenance mode right now.",你需要更多的权限，现在激活维护模式。,module,Magento_Backup
+"To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","若要创建备份，请取消选择""置于维护模式存储""，或更新您的权限。",module,Magento_Backup
 "Something went wrong while putting your store into maintenance mode.",将您的存储区置于维护模式时，出了错。,module,Magento_Backup
 "You need more free space to create a backup.",你需要更多的可用空间来创建备份。,module,Magento_Backup
 "You need more permissions to create a backup.",你需要更多的权限来创建一个备份。,module,Magento_Backup
@@ -386,6 +387,7 @@ successful,成功,module,Magento_Backup
 "You deleted the selected backup(s).","删除所选的 backup(s)。",module,Magento_Backup
 "Can't load snapshot archive",无法加载快照存档,module,Magento_Backup
 "Please correct the password.",请更正密码。,module,Magento_Backup
+"To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","若要完成回滚，请取消选择""置于维护模式存储""或更新您的权限。",module,Magento_Backup
 "We can't find the backup file.",我们找不到备份文件。,module,Magento_Backup
 "We can't connect to the FTP right now.","我们现在无法连接到 FTP。",module,Magento_Backup
 "Failed to validate FTP.","验证 FTP 失败。",module,Magento_Backup
@@ -428,8 +430,9 @@ Exclude,排除,module,Magento_Backup
 "Magento root directory","Magento 根目录",module,Magento_Backup
 "Create Backup",创建备份,module,Magento_Backup
 Country,国家,module,Magento_Braintree
-"Allowed Credit Card Types",无法更新送货方式,module,Magento_Braintree
+"Allowed Credit Card Types",允许的信用卡类型,module,Magento_Braintree
 "Add Rule",添加规则,module,Magento_Braintree
+"Braintree Settlement Report",Braintree结算报告,module,Magento_Braintree
 "Sorry, but something went wrong",抱歉，出错了。,module,Magento_Braintree
 "We can't initialize checkout.",我们不能初始化校验。,module,Magento_Braintree
 "No authorization transaction to proceed capture.",继续捕获未授权交易。,module,Magento_Braintree
@@ -451,6 +454,7 @@ Authorizing,正在认证,module,Magento_Braintree
 Authorized,已授权,module,Magento_Braintree
 "Gateway rejected",网关拒绝,module,Magento_Braintree
 Failed,失败,module,Magento_Braintree
+"Processor declined",处理失败,module,Magento_Braintree
 Settled,解决,module,Magento_Braintree
 Settling,解决,module,Magento_Braintree
 "Submitted for settlement",为解决提交,module,Magento_Braintree
@@ -495,6 +499,7 @@ Delete,删除,module,Magento_Bundle
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","指定 sku 的产物:""%1""已经分配给产品:""%2""",module,Magento_Bundle
 "Product with specified sku: %1 is not a bundle product","产品与指定 sku: %1 不是捆绑产品",module,Magento_Bundle
 "Requested bundle option product doesn't exist",请求的包选项产品不存在,module,Magento_Bundle
+"%fieldName is a required field.","%fieldName 字段是必填。",module,Magento_Bundle
 "Requested option doesn't exist",请求的选项不存在,module,Magento_Bundle
 "Cannot delete option with id %1","无法删除选项与 id %1",module,Magento_Bundle
 "Could not save option",不能保存选项,module,Magento_Bundle
@@ -508,13 +513,21 @@ Separately,分开,module,Magento_Bundle
 "Please select all required options.",请选择所需的所有选项。,module,Magento_Bundle
 "We can't add this item to your shopping cart right now.",我们这个项目不能添加到您的购物车现在。,module,Magento_Bundle
 Percent,百分之,module,Magento_Bundle
+"We can't save custom-defined options for bundles with dynamic pricing.",无法保存动态标价套装产品的自定义选项,module,Magento_Bundle
+Cancel,取消,module,Magento_Bundle
 "Add Selected Products",添加所选的产品,module,Magento_Bundle
+"Add Option",添加选项,module,Magento_Bundle
 "New Option",新的选项,module,Magento_Bundle
 "Option Title",新选项,module,Magento_Bundle
+"Default Title",默认标题,module,Magento_Bundle
 "Store View Title",存储视图标题,module,Magento_Bundle
 "Input Type",输入类型,module,Magento_Bundle
 Drop-down,下拉,module,Magento_Bundle
+"Radio Buttons",单选按钮,module,Magento_Bundle
+Checkbox,复选框,module,Magento_Bundle
+"Multiple Select",多选,module,Magento_Bundle
 Required,必填,module,Magento_Bundle
+"Is Default",设为默认值,module,Magento_Bundle
 Name,名字,module,Magento_Bundle
 "Default Quantity",默认数量,module,Magento_Bundle
 "User Defined",用户自定义,module,Magento_Bundle
@@ -607,8 +620,14 @@ Always,总是,module,Magento_Captcha
 "Allow Qty Below 0 and Notify Customer","允许数量低于 0 并通知客户",module,Magento_CatalogInventory
 "In Stock",有货,module,Magento_CatalogInventory
 "Out of Stock",缺货,module,Magento_CatalogInventory
+"Unable to save Stock Item",无法保存现货项,module,Magento_CatalogInventory
 "Stock Item with id ""%1"" does not exist.","Id 为""%1""的库存项目不存在。",module,Magento_CatalogInventory
+"Unable to remove Stock Item with id ""%1""","无法删除编号id为 ""%1"" 的现货项",module,Magento_CatalogInventory
+"Unable to save Stock",无法保存现货库存,module,Magento_CatalogInventory
 "Stock with id ""%1"" does not exist.","股票与 id""%1""并不存在。",module,Magento_CatalogInventory
+"Unable to remove Stock with id ""%1""","无法删除编号id为 ""%1"" 的现货库存",module,Magento_CatalogInventory
+"Unable to save Stock Status",无法保存现货库存状态,module,Magento_CatalogInventory
+"Unable to remove Stock Status for product %1","无法删除现货库存状态为 %1 的产品",module,Magento_CatalogInventory
 "Not all of your products are available in the requested quantity.",不是所有的你的产品有请求的数量。,module,Magento_CatalogInventory
 "Product with SKU ""%1"" does not exist","产品与 SKU""%1""不存在",module,Magento_CatalogInventory
 "The fewest you may purchase is %1.","您可以购买最少是 %1。",module,Magento_CatalogInventory
@@ -619,7 +638,9 @@ Always,总是,module,Magento_Captcha
 "You can buy %1 only in quantities of %2 at a time.","你可以一次买只在数量的 %2 %1。",module,Magento_CatalogInventory
 "You can buy this product only in quantities of %1 at a time.","你可以一次买这种产品只在 %1 的数量。",module,Magento_CatalogInventory
 "Decimal qty increments is not allowed.",不允许小数数量的增量。,module,Magento_CatalogInventory
+"Stock Status",现货库存状态,module,Magento_CatalogInventory
 Quantity,数量,module,Magento_CatalogInventory
+"Advanced Inventory",高级库存,module,Magento_CatalogInventory
 "%1 is available to buy in increments of %2","%1 是 %2 的可购买的增量",module,Magento_CatalogInventory
 "Only %1 left","只有 %1 左",module,Magento_CatalogInventory
 "Product availability",产品的可用性,module,Magento_CatalogInventory
@@ -695,6 +716,7 @@ Relevance,相关性,module,Magento_CatalogSearch
 Category,类别,module,Magento_CatalogSearch
 "%1 and above","%1 及以上",module,Magento_CatalogSearch
 "%1 - %2",1%-%2,module,Magento_CatalogSearch
+"Sorry, something went wrong. You can find out more in the error log.",抱歉，出问题了。你可以在错误日志中找到更多的信息。,module,Magento_CatalogSearch
 Product,产品,module,Magento_CatalogSearch
 "Search Settings",搜索设置,module,Magento_CatalogSearch
 Search,搜索,module,Magento_CatalogSearch
@@ -821,6 +843,7 @@ Websites,网站,module,Magento_Catalog
 "Create Category",创建类别,module,Magento_Catalog
 "Category Name",类别名称,module,Magento_Catalog
 "Parent Category",父类别,module,Magento_Catalog
+"If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products > Categories</a>.","如果没有自定义父类别，请使用默认的父类别。您可以在任何时候在<a href=""%1""target=""_blank""> 产品 > 类别</a>重新分配类别。",module,Magento_Catalog
 "Price Alert Subscriptions",价格警报订阅,module,Magento_Catalog
 "Stock Alert Subscriptions",股票的警报订阅,module,Magento_Catalog
 "There are no customers for this alert.",没有客户此警报。,module,Magento_Catalog
@@ -1014,6 +1037,8 @@ Category,类别,module,Magento_Catalog
 "Clear Price",明确价格,module,Magento_Catalog
 "%1 and above","%1 及以上",module,Magento_Catalog
 "The filters must be an array.",过滤器必须是一个数组。,module,Magento_Catalog
+"Product was not registered",产品未注册,module,Magento_Catalog
+"Store was not registered",店铺未注册,module,Magento_Catalog
 "Group price must be a number greater than 0.","组价格必须是大于 0 的数字。",module,Magento_Catalog
 "Media Gallery converter should be an instance of EntryConverterInterface.","媒体剪辑库转换器应该是 EntryConverterInterface 的一个实例。",module,Magento_Catalog
 "There is no MediaGalleryEntryConverter for given type","有是没有 MediaGalleryEntryConverter，对于给定类型",module,Magento_Catalog
@@ -1117,12 +1142,14 @@ Select...,选择。。。,module,Magento_Catalog
 "Advanced Pricing",高级定价,module,Magento_Catalog
 "Tier Price",分级价格,module,Magento_Catalog
 "Customer Group",客户组,module,Magento_Catalog
+"Special Price From",特殊价格开始于,module,Magento_Catalog
 To,至,module,Magento_Catalog
 Done,完成,module,Magento_Catalog
 "Add Selected",添加所选项目,module,Magento_Catalog
 "Select Attribute",选择属性,module,Magento_Catalog
 "Create New Attribute",创建新的属性,module,Magento_Catalog
 "Customizable Options",定制选项,module,Magento_Catalog
+"Custom options let customers choose the product variations they want.",自定义选项让用户选择他们想要的产品变化。,module,Magento_Catalog
 "Add Option",添加选项,module,Magento_Catalog
 "New Option",新的选项,module,Magento_Catalog
 "Select Product",选择产品,module,Magento_Catalog
@@ -1138,17 +1165,26 @@ Required,必填,module,Magento_Catalog
 "Please leave blank if it is not an image.",请留下空白，如果它不是一个图像。,module,Magento_Catalog
 "This item has weight",这件物品有重量,module,Magento_Catalog
 "This item has no weight",这件物品没有重量,module,Magento_Catalog
+"Set Product as New From",作为新产品开始于,module,Magento_Catalog
 "Related Products, Up-Sells, and Cross-Sells",相关产品，向上销售和交叉销售,module,Magento_Catalog
+"Related products are shown to customers in addition to the item the customer is looking at.",客户浏览产品时显示相关产品,module,Magento_Catalog
 "Add Related Products",添加相关的产品,module,Magento_Catalog
 "An up-sell item is offered to the customer as a pricier or higher-quality alternative to the product the customer is looking at.",向上销售商品作为比客户正在查看商品价格更高或质量更高的替代品展示给客户。,module,Magento_Catalog
 "Add Up-Sell Products",添加向上销售产品,module,Magento_Catalog
 "Up-Sell Products",向上销售产品,module,Magento_Catalog
+"These ""impulse-buy"" products appear next to the shopping cart as cross-sells to the items already in the shopping cart.",在购物车里的产品旁显示“心动促销”产品作为交叉销售,module,Magento_Catalog
+"Add Cross-Sell Products",添加交叉销售产品,module,Magento_Catalog
 "Cross-Sell Products",交叉销售产品,module,Magento_Catalog
+"Add Selected Products",添加所选的产品,module,Magento_Catalog
 Remove,移除,module,Magento_Catalog
 Thumbnail,缩略图,module,Magento_Catalog
 Actions,动作,module,Magento_Catalog
 "Schedule Update From",从更新安排,module,Magento_Catalog
+"Product in Websites",网站上的产品,module,Magento_Catalog
+"If your Magento site has multiple views, you can set the scope to apply to a specific view.","如果你的 Magento 网站有多个视图，您可以设置适用于特定视图的范围。",module,Magento_Catalog
 name,名称,module,Magento_Catalog
+"Copy Data from",复制数据来源于,module,Magento_Catalog
+"If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.","如果没有自定义父类别，请使用默认的父类别。您可以在任何时候在<a href=""%1""target=""_blank""> 产品 &gt; 类别</a>重新分配类别。",module,Magento_Catalog
 "This operation can take a long time",此操作可能需要很长时间,module,Magento_Catalog
 "Collapse All",全部折叠,module,Magento_Catalog
 "Expand All",全部展开,module,Magento_Catalog
@@ -1164,6 +1200,7 @@ Groups,团体,module,Magento_Catalog
 "A name is required.",名称是必需的。,module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.",此组包含系统属性。请将系统属性移动到另一个组，然后重试。,module,Magento_Catalog
 "Please enter a new group name.",请输入一个新的组名称。,module,Magento_Catalog
+"An attribute group named ""/name/"" already exists"".","属性组名""/name/""已经存在""。",module,Magento_Catalog
 "Sorry, we're unable to complete this request.",对不起，我们无法完成这个请求。,module,Magento_Catalog
 "You can't remove attributes from this attribute set.",你不能移除此属性集的属性。,module,Magento_Catalog
 "Custom Options",自定义选项,module,Magento_Catalog
@@ -5935,6 +5972,8 @@ Password:,密码:,theme,frontend/Magento/luma
 "We could not detect a size.",我们未能检测到的大小。,module,Magento_Backend
 "We don't recognize or support this file extension type.",我们不承认或支持该文件扩展类型。,module,Magento_Backend
 "This payment is not available",这笔付款不可用,module,Magento_Braintree
+MM,月月,module,Magento_Braintree
+YY,年年,module,Magento_Braintree
 "Please try again with another form of payment.",请再试一次与另一种付款方式。,module,Magento_Braintree
 "Sorry, but something went wrong.",抱歉，出错了。,module,Magento_Braintree
 "Add Products to New Option",将产品添加到新的选项,module,Magento_Bundle
@@ -6230,6 +6269,7 @@ Tags,标签,module,Magento_Backend
 "If no value is specified, the system default is used. The system default may be modified by third party extensions.",如果未不指定任何值，则使用系统默认值。系统默认值可修改第三方扩展。,module,Magento_Backend
 "Design Rule",设计规则,module,Magento_Backend
 "User Agent Rules",用户代理规则,module,Magento_Backend
+Magento_Ui/js/dynamic-rows/record,路径Magento_Ui/js/dynamic-rows/record,module,Magento_Backend
 Pagination,分页,module,Magento_Backend
 "Pagination Frame",分页框架,module,Magento_Backend
 "How many links to display at once.",一次显示多少链接。,module,Magento_Backend
@@ -6267,8 +6307,10 @@ Environment,环境,module,Magento_Braintree
 "Public Key",公共密钥,module,Magento_Braintree
 "Private Key",密钥,module,Magento_Braintree
 "Advanced Braintree Settings","先进的Braintree 设置",module,Magento_Braintree
+"Vault Title",保密支付标题,module,Magento_Braintree
 "Merchant Account ID","商人帐户 ID",module,Magento_Braintree
 "Advanced Fraud Protection",先进的防欺诈保护,module,Magento_Braintree
+"Kount Merchant ID",Kount自动欺诈交易检查服务账号ID,module,Magento_Braintree
 Debug,调试,module,Magento_Braintree
 "CVV Verification",CVV验证,module,Magento_Braintree
 "Credit Card Types",信用卡类型,module,Magento_Braintree
@@ -6284,7 +6326,29 @@ Debug,调试,module,Magento_Braintree
 "Display on Shopping Cart",在购物车上的显示,module,Magento_Braintree
 "3D Secure Verification Settings","3D 安全验证设置",module,Magento_Braintree
 "3D Secure Verification","3D 安全验证",module,Magento_Braintree
+"Threshold Amount",阈值金额,module,Magento_Braintree
+"Verify for Applicable Countries",为适用的国家验证,module,Magento_Braintree
+"Verify for Specific Countries",为特定的国家验证,module,Magento_Braintree
+"Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","将筛选器应用才能得到结果。只有前 100 条记录将显示在网格中，您将能够下载完整版本的.csv 格式报告。",module,Magento_Braintree
+Select...,选择...,module,Magento_Braintree
+Status,状态,module,Magento_Braintree
+"Transaction Type",交易类型,module,Magento_Braintree
+"PayPal Payment ID","贝宝PayPal付款 ID",module,Magento_Braintree
+"Transaction ID","交易记录 ID",module,Magento_Braintree
+"Order ID",订单编号：,module,Magento_Braintree
+"Payment Type",支付方式,module,Magento_Braintree
 Type,类型,module,Magento_Braintree
+"Created At",创建于,module,Magento_Braintree
+Amount,数额,module,Magento_Braintree
+"Settlement Code",结算编码,module,Magento_Braintree
+"Settlement Response Text",结算响应文本,module,Magento_Braintree
+"Refund Ids","退款 Id",module,Magento_Braintree
+"Settlement Batch ID",结算批处理编号ID,module,Magento_Braintree
+Currency,货币,module,Magento_Braintree
+Select...,选择...,module,Magento_Bundle
+Status,状态,module,Magento_Bundle
+Thumbnail,缩略图,module,Magento_Bundle
+Type,类型:,module,Magento_Bundle
 CAPTCHA,验证码,module,Magento_Captcha
 "Enable CAPTCHA in Admin",启用验证码在管理员,module,Magento_Captcha
 Font,字体,module,Magento_Captcha
@@ -6299,6 +6363,7 @@ Forms,表单,module,Magento_Captcha
 "Case Sensitive",区分大小写,module,Magento_Captcha
 "Enable CAPTCHA on Storefront",启用在店面上的验证码,module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","如果选择，则始终启用验证码为""创建用户""和""忘记密码""的形式。",module,Magento_Captcha
+"Inventory Section",库存类目,module,Magento_CatalogInventory
 Inventory,库存,module,Magento_CatalogInventory
 "Stock Options",股票期权,module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed",减少库存时订单,module,Magento_CatalogInventory
@@ -6319,6 +6384,10 @@ Backorders,延期交货,module,Magento_CatalogInventory
 "Qty Increments",数量的增量,module,Magento_CatalogInventory
 Stock,股票,module,Magento_CatalogInventory
 "Index stock",股票指数,module,Magento_CatalogInventory
+"Use Config Settings",使用配置设置,module,Magento_CatalogInventory
+"Qty Uses Decimals",数量使用小数,module,Magento_CatalogInventory
+"Allow Multiple Boxes for Shipping",允许分箱物流快递,module,Magento_CatalogInventory
+"Use Deferred Stock Update",使用延迟现货库存更新,module,Magento_CatalogInventory
 "Catalog Rule Product",目录规则产品,module,Magento_CatalogRule
 "Indexed rule/product association",索引产品/规则关联,module,Magento_CatalogRule
 "Catalog Product Rule",目录产品规则,module,Magento_CatalogRule
@@ -6468,6 +6537,7 @@ Layout,布局,module,Magento_Catalog
 "Apply Design to Products",适用于产品的设计,module,Magento_Catalog
 "Schedule Design Update",设计更新安排,module,Magento_Catalog
 "Product Image Watermarks",产品图像水印,module,Magento_Catalog
+Base,基准分支,module,Magento_Catalog
 Image,图片,module,Magento_Catalog
 "Allowed file types: jpeg, gif, png.","允许的文件类型︰ jpeg, gif, png。",module,Magento_Catalog
 "Image Opacity",图像不透明度,module,Magento_Catalog
