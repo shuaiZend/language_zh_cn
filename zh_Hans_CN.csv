@@ -344,7 +344,7 @@ Database,数据库,module,Magento_Backup
 "Magento root directory","Magento 根目录",module,Magento_Backup
 "Create Backup",创建备份,module,Magento_Backup
 Country,国家,module,Magento_Braintree
-"Allowed Credit Card Types",无法更新送货方式,module,Magento_Braintree
+"Allowed Credit Card Types",允许的信用卡类型,module,Magento_Braintree
 "Add Rule",添加规则,module,Magento_Braintree
 "Stored Card",已储存的卡,module,Magento_Braintree
 "Credit Card Type",卡片验证号码,module,Magento_Braintree
@@ -848,6 +848,7 @@ Groups,团体,module,Magento_Catalog
 "A name is required.",名称是必需的。,module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.",此组包含系统属性。请将系统属性移动到另一个组，然后重试。,module,Magento_Catalog
 "Please enter a new group name.",请输入一个新的组名称。,module,Magento_Catalog
+"An attribute group named ""/name/"" already exists"".","属性组名""/name/""已经存在""。",module,Magento_Catalog
 "Custom Options",自定义选项,module,Magento_Catalog
 "This is a required option.",这是必需的选项。,module,Magento_Catalog
 "Maximum image width",最大图像宽度,module,Magento_Catalog
