@@ -367,6 +367,7 @@ Loading...,"加载 。。。",module,Magento_Backend
 "Database Backup",数据库备份,module,Magento_Backup
 "The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","归档文件可以压缩与 <a href=""%1"">%2</a> 在 Windows 系统上。",module,Magento_Backup
 "You need more permissions to activate maintenance mode right now.",你需要更多的权限，现在激活维护模式。,module,Magento_Backup
+"To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","若要创建备份，请取消选择""置于维护模式存储""，或更新您的权限。",module,Magento_Backup
 "Something went wrong while putting your store into maintenance mode.",将您的存储区置于维护模式时，出了错。,module,Magento_Backup
 "You need more free space to create a backup.",你需要更多的可用空间来创建备份。,module,Magento_Backup
 "You need more permissions to create a backup.",你需要更多的权限来创建一个备份。,module,Magento_Backup
@@ -381,6 +382,7 @@ successful,成功,module,Magento_Backup
 "You deleted the selected backup(s).","删除所选的 backup(s)。",module,Magento_Backup
 "Can't load snapshot archive",无法加载快照存档,module,Magento_Backup
 "Please correct the password.",请更正密码。,module,Magento_Backup
+"To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","若要完成回滚，请取消选择""置于维护模式存储""或更新您的权限。",module,Magento_Backup
 "We can't find the backup file.",我们找不到备份文件。,module,Magento_Backup
 "We can't connect to the FTP right now.","我们现在无法连接到 FTP。",module,Magento_Backup
 "Failed to validate FTP.","验证 FTP 失败。",module,Magento_Backup
@@ -423,7 +425,7 @@ Exclude,排除,module,Magento_Backup
 "Magento root directory","Magento 根目录",module,Magento_Backup
 "Create Backup",创建备份,module,Magento_Backup
 Country,国家,module,Magento_Braintree
-"Allowed Credit Card Types",无法更新送货方式,module,Magento_Braintree
+"Allowed Credit Card Types",允许的信用卡类型,module,Magento_Braintree
 "Add Rule",添加规则,module,Magento_Braintree
 Month,月,module,Magento_Braintree
 Year,年,module,Magento_Braintree
@@ -871,6 +873,7 @@ Websites,网站,module,Magento_Catalog
 "Products Information",产品信息,module,Magento_Catalog
 "Category Name",类别名称,module,Magento_Catalog
 "Parent Category",父类别,module,Magento_Catalog
+"If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products > Categories</a>.","如果没有自定义父类别，请使用默认的父类别。您可以在任何时候在<a href=""%1""target=""_blank""> 产品 > 类别</a>重新分配类别。",module,Magento_Catalog
 "We saved the price alert subscription.",我们保存价格警报订阅。,module,Magento_Catalog
 "We saved the stock notification.",我们保存库存的通知。,module,Magento_Catalog
 "There are no customers for this alert.",没有客户此警报。,module,Magento_Catalog
