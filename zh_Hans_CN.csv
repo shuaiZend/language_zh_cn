@@ -5785,6 +5785,7 @@ Remove,删除,theme,frontend/Magento/luma
 "Save for later use.",保存供以后使用。,module,Magento_Braintree
 "Place Order",对不起，暂无报价可供此订单现在。,module,Magento_Braintree
 "Attention: Captcha is case sensitive.","注意: 验证码是区分大小写。",module,Magento_Captcha
+"Payment Transaction Failed Reminder",付款交易记录失败提醒,module,Magento_Checkout
 "Payment Transaction Failed",付款交易记录失败,module,Magento_Checkout
 Reason,原因,module,Magento_Checkout
 "Checkout Type",签出类型,module,Magento_Checkout
@@ -5990,6 +5991,9 @@ Submit,提交,module,Magento_Catalog
 Adding...,正在添加...,module,Magento_Catalog
 Added,已添加,module,Magento_Catalog
 "unselect all",取消全选,module,Magento_Catalog
+"Provided Zip/Postal Code seems to be invalid.",提供的邮政编码似乎无效。,module,Magento_Checkout
+"If you believe it is the right one you can ignore this notice.",如果你觉的是正确的，可以忽略此通知。,module,Magento_Checkout
+"Review & Payments",审查及付款,module,Magento_Checkout
 Shipping,运费,module,Magento_Checkout
 "Save Address",保存地址,module,Magento_Checkout
 "We could not detect a size.",我们未能检测到的大小。,module,Magento_Cms
@@ -6580,6 +6584,7 @@ Details,详情,module,Magento_Catalog
 "Send Payment Failed Email Copy To",发送付款失败邮件的复件到,module,Magento_Checkout
 "Separate by "","".","单独的""，""。",module,Magento_Checkout
 "Send Payment Failed Email Copy Method",发送支付失败邮件副本的方法,module,Magento_Checkout
+Summary,摘要,module,Magento_Checkout
 "Order Total",订单金额,module,Magento_Checkout
 "We'll send your order confirmation here.",在这里，我们会给您的订单确认。,module,Magento_Checkout
 Payment,付款,module,Magento_Checkout
