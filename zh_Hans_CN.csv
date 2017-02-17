@@ -444,28 +444,6 @@ Authorize,授权,module,Magento_Braintree
 "Authorize and Capture",授权和获取,module,Magento_Braintree
 "--Please Select--","-- 请选择 --",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.",请在下订单前同意所有的条款和条件。,module,Magento_Braintree
-"Paypal account",Paypal帐户,module,Magento_Braintree
-"Coinbase account","Coinbase 帐户",module,Magento_Braintree
-"Europe bank account",欧洲银行帐户,module,Magento_Braintree
-"Credit card",信用卡,module,Magento_Braintree
-"Apple pay card","Apple Pay卡",module,Magento_Braintree
-"Android pay card","Android Pay卡",module,Magento_Braintree
-"Authorization expired",授权过期,module,Magento_Braintree
-Authorizing,正在认证,module,Magento_Braintree
-Authorized,已授权,module,Magento_Braintree
-"Gateway rejected",网关拒绝,module,Magento_Braintree
-Failed,失败,module,Magento_Braintree
-"Processor declined",处理失败,module,Magento_Braintree
-Settled,解决,module,Magento_Braintree
-Settling,解决,module,Magento_Braintree
-"Submitted for settlement",为解决提交,module,Magento_Braintree
-Voided,作废,module,Magento_Braintree
-Unrecognized,无法识别,module,Magento_Braintree
-"Settlement declined",拒绝的解决,module,Magento_Braintree
-"Settlement pending",待解决,module,Magento_Braintree
-"Settlement confirmed",结算确认,module,Magento_Braintree
-Sale,销售,module,Magento_Braintree
-Credit,信用,module,Magento_Braintree
 "Credit Card Type",卡片验证号码,module,Magento_Braintree
 "Credit Card Number",信用卡卡号,module,Magento_Braintree
 "Please, enter valid Credit Card Number",请输入有效的信用卡号码,module,Magento_Braintree
@@ -4367,6 +4345,7 @@ Canceled,已取消,module,Magento_Sales
 "Unknown State",未知状态,module,Magento_Sales
 "We found an invalid quantity to refund item ""%1"".","我们发现无效的数量，退还项目""%1""。",module,Magento_Sales
 "Maximum shipping amount allowed to refund is: %1","最大的航运量允许退还是: %1",module,Magento_Sales
+"The most money available to refund is %1.","最多可退还的钱是 %1。",module,Magento_Sales
 "Could not delete credit memo",不能删除的贷项通知单,module,Magento_Sales
 "Could not save credit memo",不能保存的贷项通知单,module,Magento_Sales
 "This order already has associated customer account",这项命令已经有关联的客户帐户,module,Magento_Sales
@@ -4402,13 +4381,9 @@ Mixed,混合,module,Magento_Sales
 "The payment method you requested is not available.",付款不允许存储对象。,module,Magento_Sales
 "The payment disallows storing objects.",付款不允许存储对象。,module,Magento_Sales
 "The transaction ""%1"" cannot be captured yet.","""%1""交易不能尚未抓获。",module,Magento_Sales
-"We will authorize %1 after the payment is approved at the payment gateway.","付款被批准在支付网关后，我们将授权 %1。",module,Magento_Sales
-"Order is suspended as its authorizing amount %1 is suspected to be fraudulent.","秩序被暂停其授权金额 %1 怀疑有欺诈性。",module,Magento_Sales
-"Authorized amount of %1","预授权的金额的 %1",module,Magento_Sales
-"An amount of %1 will be captured after being approved at the payment gateway.","%1 金额将被俘后被批准在支付网关。",module,Magento_Sales
-"Captured amount of %1 online","捕获的量的 %1 在线",module,Magento_Sales
 "The order amount of %1 is pending approval on the payment gateway.","订单金额的 %1 正在等待批准的支付网关。",module,Magento_Sales
 "Ordered amount of %1","%1 的订购的量",module,Magento_Sales
+"An amount of %1 will be captured after being approved at the payment gateway.","%1 金额将被俘后被批准在支付网关。",module,Magento_Sales
 "Registered notification about captured amount of %1.","登记通知关于 %1 的捕获量。",module,Magento_Sales
 "Order is suspended as its capture amount %1 is suspected to be fraudulent.","秩序被暂停其捕获量 %1 怀疑有欺诈性。",module,Magento_Sales
 "The parent transaction ID must have a transaction ID.","父事务 ID 必须具有事务 id。",module,Magento_Sales
@@ -4446,7 +4421,6 @@ Tax,税,module,Magento_Sales
 title,标题,module,Magento_Sales
 "The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","PDF 总模型 %1 必须或延长 \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal。",module,Magento_Sales
 "We cannot register an existing shipment",我们不能注册现有装运,module,Magento_Sales
-"We found an invalid quantity to ship for item ""%1"".","我们发现一个无效的数量为船舶项目""%1""。",module,Magento_Sales
 "Please enter a tracking number.",请输入一个跟踪号码。,module,Magento_Sales
 "Could not delete shipment",不能删除装运,module,Magento_Sales
 "Could not save shipment",不能保存装运,module,Magento_Sales
@@ -4478,7 +4452,6 @@ State/Province,州/省,module,Magento_Sales
 "You can not cancel Credit Memo",你不可以取消的贷项通知单,module,Magento_Sales
 "Could not cancel creditmemo",不能取消付款,module,Magento_Sales
 "We cannot register an existing credit memo.",我们不能注册现有的贷项通知单。,module,Magento_Sales
-"The most money available to refund is %1.","最多可退还的钱是 %1。",module,Magento_Sales
 "We found an invalid quantity to invoice item ""%1"".","我们发现一个无效的数量，发票项目""%1""。",module,Magento_Sales
 "The Order State ""%1"" must not be set manually.","并非必须手动设置订单状态""%1""。",module,Magento_Sales
 "VAT Request Identifier",增值税请求标识符,module,Magento_Sales
@@ -4493,6 +4466,8 @@ Closed,已关闭,module,Magento_Sales
 New,新建,module,Magento_Sales
 "test message",测试消息,module,Magento_Sales
 "Email has not been sent",尚未发送电子邮件,module,Magento_Sales
+"We will authorize %1 after the payment is approved at the payment gateway.","付款被批准在支付网关后，我们将授权 %1。",module,Magento_Sales
+"Authorized amount of %1","预授权的金额的 %1",module,Magento_Sales
 View,查看,module,Magento_Sales
 "Group was removed",删除组,module,Magento_Sales
 "Changing address information will not recalculate shipping, tax or other order amount.","更改地址信息将不重新计算航运、 税收或其他订单金额。",module,Magento_Sales
@@ -4886,21 +4861,15 @@ Error:,错误：,module,Magento_Shipping
 "contact us",联系我们,module,Magento_Shipping
 Info:,信息:,module,Magento_Shipping
 Track:,追踪,module,Magento_Shipping
-Status:,状态:,module,Magento_Shipping
 "Delivered on:",发表:,module,Magento_Shipping
-"Signed by:",签署人:,module,Magento_Shipping
-"Delivered to:",发送给:,module,Magento_Shipping
-"Shipped or billed on:",运输或支付帐单上:,module,Magento_Shipping
-"Service Type:",服务类型:,module,Magento_Shipping
-Weight:,重量,module,Magento_Shipping
+"There is no tracking available for this shipment.",这批货尚没有跟踪。,module,Magento_Shipping
+"There is no tracking available.",没有跟踪是可用的。,module,Magento_Shipping
+"Close Window",关闭窗口,module,Magento_Shipping
 "Track history",跟踪历史记录,module,Magento_Shipping
 Location,位置,module,Magento_Shipping
 Date,日期,module,Magento_Shipping
 "Local Time",当地时间,module,Magento_Shipping
 Description,描述,module,Magento_Shipping
-"There is no tracking available for this shipment.",这批货尚没有跟踪。,module,Magento_Shipping
-"There is no tracking available.",没有跟踪是可用的。,module,Magento_Shipping
-"Close Window",关闭窗口,module,Magento_Shipping
 "Save & Generate","保存 & 生成",module,Magento_Sitemap
 "Edit Sitemap",编辑站点地图,module,Magento_Sitemap
 "New Sitemap",新网站地图,module,Magento_Sitemap
@@ -4945,7 +4914,6 @@ All,全部,module,Magento_Sitemap
 "Requested store is inactive",请求的存储处于非活动状态,module,Magento_Store
 "Requested store is not found",找不到请求的存储,module,Magento_Store
 "Environment emulation nesting is not allowed.",不允许环境仿真嵌套。,module,Magento_Store
-"Only default scope allowed",只有默认允许范围,module,Magento_Store
 "Invalid scope object",无效的范围对象,module,Magento_Store
 "Store with the same code",使用相同的代码存储,module,Magento_Store
 "Website with the same code",使用相同代码的网站,module,Magento_Store
@@ -4955,8 +4923,8 @@ All,全部,module,Magento_Sitemap
 "All Store Views",所有商店界面,module,Magento_Store
 "-- Please Select --","-- 请选择 --",module,Magento_Store
 Admin,管理员,module,Magento_Store
-"More than one default website is defined",定义了多个默认网站,module,Magento_Store
 "Default website is not defined",未定义默认网站,module,Magento_Store
+"More than one default website is defined",定义了多个默认网站,module,Magento_Store
 "Your Language:",您的语言：,module,Magento_Store
 "Your Language",您的语言：,module,Magento_Store
 Language,语言,module,Magento_Store
@@ -5600,7 +5568,6 @@ Yes,是,module,Magento_Variable
 "No token found.",发现没有标记。,module,Magento_Vault
 "Wrong request.",请求错误。,module,Magento_Vault
 "Deletion failure. Please try again.",删除失败。请再试一次。,module,Magento_Vault
-"My Credit Cards",我的信用卡,module,Magento_Vault
 "Card Number",卡号,module,Magento_Vault
 Type,类型,module,Magento_Vault
 Delete,删除,module,Magento_Vault
@@ -5820,7 +5787,6 @@ items,项目,module,Magento_Checkout
 "Options Details",选项详细信息,module,Magento_Checkout
 Remove,删除,module,Magento_Checkout
 "Cart Subtotal",购物车小计,module,Magento_Checkout
-"No Payment Methods",没有付款方法,module,Magento_Checkout
 "Payment Information",支付信息,module,Magento_Checkout
 "No Payment method available.",没有可用的付款方法。,module,Magento_Checkout
 "You can track your order status by creating an account.",通过创建一个帐户跟踪您的订单状态。,module,Magento_Checkout
@@ -6303,7 +6269,6 @@ Action,操作,module,Magento_Backup
 Braintree,布伦特里,module,Magento_Braintree
 "Enable this Solution",启用此解决方案,module,Magento_Braintree
 "Enable PayPal through Braintree",启用通过布伦特里贝宝,module,Magento_Braintree
-"Vault enabled",存储库启用,module,Magento_Braintree
 "Basic Braintree Settings","基本Braintree 设置",module,Magento_Braintree
 Title,标题,module,Magento_Braintree
 Environment,环境,module,Magento_Braintree
@@ -6338,12 +6303,12 @@ Debug,调试,module,Magento_Braintree
 Select...,选择...,module,Magento_Braintree
 Status,状态,module,Magento_Braintree
 "Transaction Type",交易类型,module,Magento_Braintree
+"Payment Type",支付方式,module,Magento_Braintree
 "PayPal Payment ID","贝宝PayPal付款 ID",module,Magento_Braintree
+"Created At",创建于,module,Magento_Braintree
 "Transaction ID","交易记录 ID",module,Magento_Braintree
 "Order ID",订单编号：,module,Magento_Braintree
-"Payment Type",支付方式,module,Magento_Braintree
 Type,类型,module,Magento_Braintree
-"Created At",创建于,module,Magento_Braintree
 Amount,数额,module,Magento_Braintree
 "Settlement Code",结算编码,module,Magento_Braintree
 "Settlement Response Text",结算响应文本,module,Magento_Braintree
@@ -7076,19 +7041,18 @@ Import,导入,module,Magento_OfflineShipping
 "Merchant Location",商家位置,module,Magento_Paypal
 "Merchant Country",商户国家,module,Magento_Paypal
 "If not specified, Default Country from General Config will be used",如果未指定，将使用默认的国家，从一般配置,module,Magento_Paypal
+"PayPal Express Checkout",贝宝快递签出,module,Magento_Paypal
+"Add another payment method to your existing solution or as a stand-alone option.",为现有的解决方案或作为一个独立的选项，将添加另一种付款方法。,module,Magento_Paypal
 "Choose a secure bundled payment solution for your business.",选择安全捆绑的支付解决方案为您的业务。,module,Magento_Paypal
 "Payments Pro and Express Checkout","付款 Pro 和快递签出",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","基本设置-PayPal 付款临",module,Magento_Paypal
-"PayPal Payment Gateways",贝宝支付网关,module,Magento_Paypal
-"Process payments using your own internet merchant account.",使用您自己的互联网商家帐户的处理付款。,module,Magento_Paypal
-"PayPal Express Checkout",贝宝快递签出,module,Magento_Paypal
-"Add another payment method to your existing solution or as a stand-alone option.",为现有的解决方案或作为一个独立的选项，将添加另一种付款方法。,module,Magento_Paypal
+"PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>","所有在一贝宝付款解决方案 <i>接受、 过程信用卡和 PayPal 付款。</i>",module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.",接受支付完全可定制的结帐页面。,module,Magento_Paypal
-"PayPal Payment Solutions",贝宝付款解决方案,module,Magento_Paypal
+"Process payments using your own internet merchant account.",使用您自己的互联网商家帐户的处理付款。,module,Magento_Paypal
 "Express Checkout",快速结帐,module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.",贝宝作为一种额外的付款方法添加到结帐页面。,module,Magento_Paypal
 "Required PayPal Settings",所需的贝宝设置,module,Magento_Paypal
-"Email Associated with PayPal Merchant Account",与贝宝商人帐户关联的电子邮件,module,Magento_Paypal
+"Email Associated with PayPal Merchant Account (Optional)","与贝宝商人帐户 (可选) 关联的电子邮件",module,Magento_Paypal
 "Don't have a PayPal account? Simply enter your email address.","难道没有一个 PayPal 帐户吗?只需输入您的电子邮件地址。",module,Magento_Paypal
 "API Authentication Methods","API 的身份验证方法",module,Magento_Paypal
 "API Username","API 用户名",module,Magento_Paypal
@@ -7167,8 +7131,6 @@ Schedule,计划任务,module,Magento_Paypal
 "Header Border Color",页眉边框颜色,module,Magento_Paypal
 "2-pixel perimeter around the header space.","2 像素周边的页眉空间。",module,Magento_Paypal
 "Page Background Color",页面背景颜色,module,Magento_Paypal
-"Payments Advanced (Includes Express Checkout)","先进的付款 (包括快递签出)",module,Magento_Paypal
-"Accept payments with a PCI-compliant checkout that keeps customers on your site.","接受 PCI 兼容的签出，可以让顾客在网站上的支付。",module,Magento_Paypal
 "Payments Advanced and Express Checkout",付款先进和快递签出,module,Magento_Paypal
 Partner,合作伙伴,module,Magento_Paypal
 Vendor,供应商,module,Magento_Paypal
@@ -7182,22 +7144,17 @@ User,用户,module,Magento_Paypal
 "Require CVV Entry","需要 CVV 条目",module,Magento_Paypal
 "Send Email Confirmation",发送电子邮件确认,module,Magento_Paypal
 "URL method for Cancel URL and Return URL","取消的 URL 和返回的 URL 的 URL 方法",module,Magento_Paypal
-"Payflow Link (Includes Express Checkout)","转账链接 (包括快递签出)",module,Magento_Paypal
-"Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.","将你的商人帐户连接 PCI 兼容的网关，让用户无需离开您的网站支付。",module,Magento_Paypal
 "Payflow Link and Express Checkout",转账链接和快递签出,module,Magento_Paypal
-"Email Associated with PayPal Merchant Account (Optional)","与贝宝商人帐户 (可选) 关联的电子邮件",module,Magento_Paypal
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.",如果您没有在您的帐户设置的多个用户，请重新输入您的供应商/商人登录名。,module,Magento_Paypal
 "Enable Payflow Link",启用转账链接,module,Magento_Paypal
 "Enable Express Checkout",启用快速退房手续,module,Magento_Paypal
 "Basic Settings - PayPal Payflow Link","基本设置-PayPal 转账链接",module,Magento_Paypal
 "Website Payments Pro Hosted Solution",网站付款专业托管的解决方案,module,Magento_Paypal
-"Accept payments with a PCI compliant checkout that keeps customers on your site.","接受 PCI 兼容结帐，可以让顾客在网站上的支付。",module,Magento_Paypal
 "Payments Pro Hosted Solution","付款 Pro 托管解决方案",module,Magento_Paypal
 "Display Express Checkout in the Payment Information step",在付款信息步骤中显示快速结账,module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout",网站付款专业托管的解决方案和快速退房手续,module,Magento_Paypal
 "Basic Settings - PayPal Website Payments Pro Hosted Solution",基本设置-支付网站付款专业托管解决方案,module,Magento_Paypal
 "Payflow Pro","转账 Pro",module,Magento_Paypal
-"Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.",可完全自定义的网关，让用户无需离开您的网站支付连接你的商人帐户。,module,Magento_Paypal
 "Basic Settings - PayPal Payflow Pro","基本设置-PayPal 转账 Pro",module,Magento_Paypal
 "Credit Card Settings",信用卡设置,module,Magento_Paypal
 "Allowed Credit Card Types",无法更新送货方式,module,Magento_Paypal
@@ -7207,7 +7164,6 @@ User,用户,module,Magento_Paypal
 "AVS Zip Does Not Match","AVS Zip 不匹配",module,Magento_Paypal
 "International AVS Indicator Does Not Match","国际 AVS 指标不符",module,Magento_Paypal
 "Card Security Code Does Not Match",信用卡安全代码不匹配,module,Magento_Paypal
-"Payflow Pro (Includes Express Checkout)","转账 Pro (包括快递签出)",module,Magento_Paypal
 "Payflow Pro and Express Checkout","转账 Pro 和快递签出",module,Magento_Paypal
 "Persistent Shopping Cart",持续购物车,module,Magento_Persistent
 "General Options",一般选择,module,Magento_Persistent
