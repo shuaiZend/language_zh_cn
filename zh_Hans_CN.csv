@@ -2072,12 +2072,12 @@ Name,名字,module,Magento_Customer
 "Server side less compilation",服务器端少编译,module,Magento_Developer
 "Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds %1 %2.","选择此选项以允许DHL 通过拆分订单，如果它超过%1 %2 优化的运费。",module,Magento_Dhl
 "Wrong Content Type",错误的内容类型,module,Magento_Dhl
-Pounds,公斤,module,Magento_Dhl
+Pounds,英镑,module,Magento_Dhl
 Kilograms,公斤,module,Magento_Dhl
 Inches,英寸,module,Magento_Dhl
 Centimeters,厘米,module,Magento_Dhl
 inch,英寸,module,Magento_Dhl
-Height,宽度,module,Magento_Dhl
+Height,高度：,module,Magento_Dhl
 Depth,深度,module,Magento_Dhl
 Width,宽,module,Magento_Dhl
 Regular,定期的,module,Magento_Dhl
