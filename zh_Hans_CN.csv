@@ -1373,12 +1373,12 @@ Name,名字,module,Magento_Customer
 "Client side less compilation",放空则允许从任何位置访问。,module,Magento_Developer
 "Server side less compilation",服务器端少编译,module,Magento_Developer
 "Wrong Content Type",错误的内容类型,module,Magento_Dhl
-Pounds,公斤,module,Magento_Dhl
+Pounds,英镑,module,Magento_Dhl
 Kilograms,公斤,module,Magento_Dhl
 Inches,英寸,module,Magento_Dhl
 Centimeters,厘米,module,Magento_Dhl
 inch,英寸,module,Magento_Dhl
-Height,宽度,module,Magento_Dhl
+Height,高度：,module,Magento_Dhl
 Depth,深度,module,Magento_Dhl
 Width,宽,module,Magento_Dhl
 Regular,定期的,module,Magento_Dhl
