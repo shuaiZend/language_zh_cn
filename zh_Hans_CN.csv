@@ -333,7 +333,6 @@ Minute,分钟,module,Magento_Backend
 "JavaScript may be disabled in your browser.","可能您的浏览器中禁用了 JavaScript。",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","要使用本网站必须首先在您的浏览器启用 JavaScript。",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.",这是只是一个演示的商店。您可以浏览并下订单，但什么都不会被处理。,module,Magento_Backend
-"Report Bugs",报告错误,module,Magento_Backend
 "Store View:",店铺视图,module,Magento_Backend
 "Stores Configuration",店铺配置,module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.",请确认范围开关。尚未保存的所有数据将都会丢失。,module,Magento_Backend
@@ -453,6 +452,8 @@ Authorize,授权,module,Magento_Braintree
 "Please, enter valid Card Verification Number",请输入有效的信用卡验证号码,module,Magento_Braintree
 ending,结束,module,Magento_Braintree
 expires,到期,module,Magento_Braintree
+Actions,动作,module,Magento_Braintree
+Delete,删除,module,Magento_Braintree
 "Percent Discount",百分比折扣,module,Magento_Bundle
 "-- Select --","— — 选择 — —",module,Magento_Bundle
 Dynamic,动态,module,Magento_Bundle
@@ -563,7 +564,6 @@ Always,总是,module,Magento_Captcha
 "Entity type model '%1' is not found","实体型模式必须是一个实例 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","实体模类型型必须是实例 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "There are no product types available for export.",文件“%1”未找到或已阅读的限制。,module,Magento_CatalogImportExport
-"Entity type model must be an instance of Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType","实体模类型型必须是实例 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "Category ""%1"" has not been created.","尚未创建类别""%1""。",module,Magento_CatalogImportExport
 "File directory '%1' is not readable.",文件目录“%1”不是写。,module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","文件目录 '%1' 不是可写的。",module,Magento_CatalogImportExport
@@ -895,7 +895,6 @@ Categories,分类,module,Magento_Catalog
 "Category is not available for requested store.",类别不是可用于请求的存储区。,module,Magento_Catalog
 "There was a category move error. %1",出现了一个类别移动错误。%1,module,Magento_Catalog
 "There was a category move error.",出现了一个类别移动错误。,module,Magento_Catalog
-"You moved the category",你移动的类别,module,Magento_Catalog
 "Attribute ""%1"" is required.","""%1""属性是必需的。",module,Magento_Catalog
 "You saved the category.",你保存的类别。,module,Magento_Catalog
 "Something went wrong while saving the category.",保存该类别时出了错。,module,Magento_Catalog
@@ -1044,7 +1043,6 @@ Disabled,禁用,module,Magento_Catalog
 "The image does not exist.",不存在的图像。,module,Magento_Catalog
 "Please correct the image file type.",请纠正图像文件类型。,module,Magento_Catalog
 "We couldn't move this file: %1.","我们不能移动这个文件: %1。",module,Magento_Catalog
-"We can't find the image file.",我们找不到该图像文件。,module,Magento_Catalog
 "The option type to get group instance is incorrect.",要获取组实例的选项类型不正确。,module,Magento_Catalog
 "Select type options required values rows.",选择类型选项所需的值的行。,module,Magento_Catalog
 "ProductSku should be specified",应指定ProductSku,module,Magento_Catalog
@@ -1119,7 +1117,6 @@ message,信息,module,Magento_Catalog
 Images,图片,module,Magento_Catalog
 Select...,选择。。。,module,Magento_Catalog
 "Advanced Pricing",高级定价,module,Magento_Catalog
-"Tier Price",分级价格,module,Magento_Catalog
 "Customer Group",客户组,module,Magento_Catalog
 "Special Price From",特殊价格开始于,module,Magento_Catalog
 To,至,module,Magento_Catalog
@@ -1160,7 +1157,6 @@ Thumbnail,缩略图,module,Magento_Catalog
 Actions,动作,module,Magento_Catalog
 "Schedule Update From",从更新安排,module,Magento_Catalog
 "Product in Websites",网站上的产品,module,Magento_Catalog
-"If your Magento site has multiple views, you can set the scope to apply to a specific view.","如果你的 Magento 网站有多个视图，您可以设置适用于特定视图的范围。",module,Magento_Catalog
 name,名称,module,Magento_Catalog
 "Copy Data from",复制数据来源于,module,Magento_Catalog
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.","如果没有自定义父类别，请使用默认的父类别。您可以在任何时候在<a href=""%1""target=""_blank""> 产品 &gt; 类别</a>重新分配类别。",module,Magento_Catalog
@@ -1179,7 +1175,6 @@ Groups,团体,module,Magento_Catalog
 "A name is required.",名称是必需的。,module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.",此组包含系统属性。请将系统属性移动到另一个组，然后重试。,module,Magento_Catalog
 "Please enter a new group name.",请输入一个新的组名称。,module,Magento_Catalog
-"An attribute group named ""/name/"" already exists"".","属性组名""/name/""已经存在""。",module,Magento_Catalog
 "Sorry, we're unable to complete this request.",对不起，我们无法完成这个请求。,module,Magento_Catalog
 "You can't remove attributes from this attribute set.",你不能移除此属性集的属性。,module,Magento_Catalog
 "Custom Options",自定义选项,module,Magento_Catalog
@@ -1374,7 +1369,6 @@ Checkout,结帐,module,Magento_Checkout
 "Error message!",错误消息!,module,Magento_Checkout
 Error!,错误!,module,Magento_Checkout
 "DB exception","DB 异常",module,Magento_Checkout
-"Wrong minimum amount.",错误的最小金额。,module,Magento_Checkout
 Message,信息,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1""onclick=""this.target='_blank'""class=""print""> 打印收据</a>",module,Magento_Checkout
 "Apply Discount Code",使用打折代码,module,Magento_Checkout
@@ -1488,9 +1482,6 @@ Exception,例外,module,Magento_Cms
 "All Store Views",所有商店界面,module,Magento_Cms
 Edit,编辑,module,Magento_Cms
 Delete,删除,module,Magento_Cms
-"Delete ${ $.$data.title }","删除 ${ $.$data.title }",module,Magento_Cms
-"Are you sure you wan't to delete a ${ $.$data.title } record?","你确定你想删除 ${ $.$data.title } 记录?",module,Magento_Cms
-"Delete ""${ $.$data.title }""","删除""${ $.$data.title }""",module,Magento_Cms
 View,查看,module,Magento_Cms
 px.,全部展开,module,Magento_Cms
 "No files found",找不到文件,module,Magento_Cms
@@ -1622,7 +1613,6 @@ Actions,动作,module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.",此属性用于在可配置的产品。您无法删除它从属性集。,module,Magento_ConfigurableProduct
 "Associated Products",相关产品,module,Magento_ConfigurableProduct
 "Step 2: Attribute Values","第 2 步: 属性值",module,Magento_ConfigurableProduct
-"Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","从要在该产品中包含每个属性选择值。每个唯一值的组合创建独特产品的 SKU。",module,Magento_ConfigurableProduct
 "Sort Variations",排序变化,module,Magento_ConfigurableProduct
 Options,选项,module,Magento_ConfigurableProduct
 "Select All",选择全部,module,Magento_ConfigurableProduct
@@ -1902,13 +1892,6 @@ Customers,客户,module,Magento_Customer
 "Reset password token mismatch.",重置密码令牌不匹配。,module,Magento_Customer
 "Reset password token expired.",重置密码令牌到期。,module,Magento_Customer
 "Please correct the transactional account email type.",请更正的事务性的帐户电子邮件类型。,module,Magento_Customer
-"Please enter the first name.",请输入姓氏。,module,Magento_Customer
-"Please enter the last name.",请输入姓氏。,module,Magento_Customer
-"Please enter the street.",请输入国家。,module,Magento_Customer
-"Please enter the city.",请输入城市。,module,Magento_Customer
-"Please enter the phone number.",请输入电话号码。,module,Magento_Customer
-"Please enter the zip/postal code.",请输入邮政编码。,module,Magento_Customer
-"Please enter the country.",请输入该国。,module,Magento_Customer
 "Please enter the state/province.",请输入省/市/自治区。,module,Magento_Customer
 """%1"" is a required value.",“%1”的长度必须等于或小于%2个字符。,module,Magento_Customer
 Global,全球,module,Magento_Customer
@@ -3995,7 +3978,6 @@ Auto,自动,module,Magento_SalesRule
 Subtotal,小计,module,Magento_SalesRule
 "Total Items Quantity",总的项目数量,module,Magento_SalesRule
 "Total Weight",总重量,module,Magento_SalesRule
-"Payment Method",支付方式,module,Magento_SalesRule
 "Shipping Method",运送方式,module,Magento_SalesRule
 "Shipping Postcode",航运邮编,module,Magento_SalesRule
 "Shipping Region",航运区域,module,Magento_SalesRule
@@ -5323,10 +5305,7 @@ Store,商店,module,Magento_UrlRewrite
 "URL Rewrite Management","URL 重写管理",module,Magento_UrlRewrite
 "Add URL Rewrite","添加 URL 重写",module,Magento_UrlRewrite
 Custom,自定义,module,Magento_UrlRewrite
-"For category",类别,module,Magento_UrlRewrite
-"For product",给产品,module,Magento_UrlRewrite
 "For CMS page","给CMS 页面",module,Magento_UrlRewrite
-"Create URL Rewrite:","创建 URL 重写:",module,Magento_UrlRewrite
 "You deleted the URL rewrite.","你删除 URL 重写。",module,Magento_UrlRewrite
 "We can't delete URL Rewrite right now.","我们不能删除 URL 重写现在。",module,Magento_UrlRewrite
 "URL Rewrites",URL重写,module,Magento_UrlRewrite
@@ -5526,7 +5505,6 @@ Letter,信,module,Magento_Usps
 Flat,单位,module,Magento_Usps
 Parcel,包裹,module,Magento_Usps
 Variable,变量,module,Magento_Usps
-"Flat-Rate Box",扁平率的框,module,Magento_Usps
 "Flat-Rate Envelope",扁平率信封,module,Magento_Usps
 Rectangular,矩形,module,Magento_Usps
 Non-rectangular,非矩形,module,Magento_Usps
@@ -5777,12 +5755,8 @@ Cancel,保存,module,Magento_Checkout
 "You can create an account after checkout.",您可以在结账后创建帐户。,module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.",您已经有账号了，可以登录或继续使用游客账号,module,Magento_Checkout
 Login,登录,module,Magento_Checkout
-Close,关闭,module,Magento_Checkout
 item,项目,module,Magento_Checkout
 items,项目,module,Magento_Checkout
-"Go to Checkout",去结帐,module,Magento_Checkout
-"Recently added item(s)",最近添加的商品,module,Magento_Checkout
-"View and edit cart",查看和编辑购物车,module,Magento_Checkout
 "See Details",查看详细信息,module,Magento_Checkout
 "Options Details",选项详细信息,module,Magento_Checkout
 Remove,删除,module,Magento_Checkout
@@ -5805,8 +5779,6 @@ edit,编辑,module,Magento_Checkout
 Next,下一个,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time",抱歉，这个订单目前没有报价,module,Magento_Checkout
 "Order Summary",订单汇总,module,Magento_Checkout
-"Item in Cart",购物里的商品,module,Magento_Checkout
-"Items in Cart",购物里的商品,module,Magento_Checkout
 "View Details",查看详细信息,module,Magento_Checkout
 "Name: %name","名称: %name",module,Magento_Contact
 "Email: %email","电子邮件: %email",module,Magento_Contact
@@ -6490,9 +6462,7 @@ Content,内容,module,Magento_Catalog
 "Add CMS Block","添加 CMS 块",module,Magento_Catalog
 "Display Settings",显示设置,module,Magento_Catalog
 Anchor,锚点,module,Magento_Catalog
-"Sort Products By",对产品进行排序,module,Magento_Catalog
 "Use All",使用所有,module,Magento_Catalog
-"Default Product Sorting",默认产品排序,module,Magento_Catalog
 "Layered Navigation Price Step",分层的导航价格步。,module,Magento_Catalog
 "URL Key",网址,module,Magento_Catalog
 "Meta Title","Meta 标题",module,Magento_Catalog
@@ -6500,7 +6470,6 @@ Anchor,锚点,module,Magento_Catalog
 "Meta Description","Meta 描述",module,Magento_Catalog
 "Products in Category",类别中的产品,module,Magento_Catalog
 Design,设计,module,Magento_Catalog
-"Use Parent Category Settings",使用父类别设置,module,Magento_Catalog
 Theme,主题,module,Magento_Catalog
 Layout,布局,module,Magento_Catalog
 "Layout Update XML","布局更新 XML",module,Magento_Catalog
@@ -6541,7 +6510,6 @@ Details,详情,module,Magento_Catalog
 "Display Cart Summary",显示购物车摘要,module,Magento_Checkout
 "Shopping Cart Sidebar",购物车侧边栏,module,Magento_Checkout
 "Display Shopping Cart Sidebar",显示购物车侧边栏,module,Magento_Checkout
-"Maximum Display Recently Added Item(s)",最大显示最近添加的项目,module,Magento_Checkout
 "Payment Failed Emails",支付失败的电子邮件,module,Magento_Checkout
 "Payment Failed Email Sender",支付失败邮件发件人,module,Magento_Checkout
 "Payment Failed Email Receiver",支付失败邮件接收者,module,Magento_Checkout
@@ -6745,7 +6713,6 @@ ZIP,邮编,module,Magento_Customer
 "Last Activity",最后一次活动,module,Magento_Customer
 Type,类型,module,Magento_Customer
 "Customer Information",客户信息,module,Magento_Customer
-"If your Magento site has multiple views, you can set the scope to apply to a specific view.","如果你的 Magento 网站有多个视图，您可以设置适用于特定视图的范围。",module,Magento_Customer
 "Send Welcome Email From",发送欢迎电子邮件从,module,Magento_Customer
 Addresses,地址,module,Magento_Customer
 "Are you sure you want to delete this item?",您确定要删除此项吗？,module,Magento_Customer
@@ -7046,7 +7013,6 @@ Import,导入,module,Magento_OfflineShipping
 "Choose a secure bundled payment solution for your business.",选择安全捆绑的支付解决方案为您的业务。,module,Magento_Paypal
 "Payments Pro and Express Checkout","付款 Pro 和快递签出",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","基本设置-PayPal 付款临",module,Magento_Paypal
-"PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>","所有在一贝宝付款解决方案 <i>接受、 过程信用卡和 PayPal 付款。</i>",module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.",接受支付完全可定制的结帐页面。,module,Magento_Paypal
 "Process payments using your own internet merchant account.",使用您自己的互联网商家帐户的处理付款。,module,Magento_Paypal
 "Express Checkout",快速结帐,module,Magento_Paypal
@@ -7344,7 +7310,6 @@ Phone,电话,module,Magento_Sales
 "ZIP/Post Code",邮政代码,module,Magento_Sales
 "Signed-up Point",签署了点,module,Magento_Sales
 Website,网站,module,Magento_Sales
-order-header,订单头,module,Magento_Sales
 "Bill-to Name",收件人姓名,module,Magento_Sales
 Created,创建,module,Magento_Sales
 "Invoice Date",发票日期,module,Magento_Sales
@@ -7451,7 +7416,6 @@ CSV,"Excel XML",module,Magento_TaxImportExport
 "This sets whether shipping amounts entered from Magento Admin or obtained from gateways include tax.","这设置是否航运数额从 Magento 管理员输入或从网关得到包括税。",module,Magento_Tax
 "Apply Customer Tax",适用客户税,module,Magento_Tax
 "Apply Discount On Prices",应用在价格上的折扣,module,Magento_Tax
-"Apply discount on price including tax is calculated based on store tax if ""Apply Tax after Discount"" is selected.","应用折扣价格包括税是基于计算存储税如果选择了""应用税后折扣""。",module,Magento_Tax
 "Apply Tax On",关于适用税,module,Magento_Tax
 "Enable Cross Border Trade",启用跨边境贸易,module,Magento_Tax
 "When catalog price includes tax, enable this setting to fix the price no matter what the customer's tax rate.",当目录价格包括税收时，启用此设置将修复价格无论客户的税率。,module,Magento_Tax
@@ -7477,11 +7441,9 @@ Rate,费率,module,Magento_Tax
 "Your credit card will be charged for",您的信用卡将被收费,module,Magento_Tax
 Empty,"产品 %1",module,Magento_Theme
 "1 column","1 列",module,Magento_Theme
-"Search Engine Robots",搜索引擎机器人,module,Magento_Theme
 "Default Robots",默认机器人,module,Magento_Theme
 "This will be included before head closing tag in page HTML.","这将会包括头在页面 HTML 标签之前。",module,Magento_Theme
 "Edit custom instruction of robots.txt File","编辑自定义指令的 robots.txt 文件",module,Magento_Theme
-"Reset to Defaults",重置为默认值,module,Magento_Theme
 "This action will delete your custom instructions and reset robots.txt file to system's default settings.","此操作将删除您的自定义说明并置 robots.txt 文件为系统的默认设置。",module,Magento_Theme
 "Default Description",默认描述,module,Magento_Theme
 "Default welcome msg!",默认欢迎msg!,module,Magento_Theme
@@ -7496,8 +7458,6 @@ Empty,"产品 %1",module,Magento_Theme
 "Display Demo Store Notice",显示演示店铺通知,module,Magento_Theme
 Header,标题头,module,Magento_Theme
 "Logo Image","Logo 替代文字",module,Magento_Theme
-"Logo Image Width",徽标图像宽度,module,Magento_Theme
-"Logo Image Height",徽标图像高度,module,Magento_Theme
 "Welcome Text",欢迎文本,module,Magento_Theme
 "Logo Image Alt","徽标图像 Alt",module,Magento_Theme
 Footer,页脚,module,Magento_Theme
