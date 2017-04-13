@@ -378,7 +378,7 @@ Back,后退,module,Magento_Braintree
 "What is this?",这是什么？,module,Magento_Braintree
 "Make Default",设为默认,module,Magento_Braintree
 "Billing Address",账单地址,module,Magento_Braintree
-"First Name",姓,module,Magento_Braintree
+"First Name",名,module,Magento_Braintree
 "Last Name",姓,module,Magento_Braintree
 Company,公司,module,Magento_Braintree
 City,城市,module,Magento_Braintree
@@ -655,7 +655,7 @@ Websites,网站,module,Magento_Catalog
 "We saved the price alert subscription.",我们保存价格警报订阅。,module,Magento_Catalog
 "We saved the stock notification.",我们保存库存的通知。,module,Magento_Catalog
 "There are no customers for this alert.",没有客户此警报。,module,Magento_Catalog
-"First Name",姓,module,Magento_Catalog
+"First Name",名,module,Magento_Catalog
 "Last Name",姓,module,Magento_Catalog
 Email,邮箱,module,Magento_Catalog
 "Subscribe Date",订阅日期,module,Magento_Catalog
@@ -1363,7 +1363,7 @@ Login,登录,module,Magento_Customer
 "Forgot Your Password?",您忘记密码了吗?,module,Magento_Customer
 "Subscription option",订阅选项,module,Magento_Customer
 "General Subscription",一般的订阅,module,Magento_Customer
-"Sign Up for Newsletter",校刊订阅,module,Magento_Customer
+"Sign Up for Newsletter",订阅资讯,module,Magento_Customer
 "Address Information",地址信息,module,Magento_Customer
 "Confirm Password",确认密码,module,Magento_Customer
 "New Customers",请在该字段中输入大于或等于1的数字,module,Magento_Customer
@@ -2093,7 +2093,7 @@ No,否,module,Magento_Payment
 "What is this?",这是什么？,module,Magento_Payment
 "Billing Agreements",结算协议,module,Magento_Paypal
 Email,邮箱,module,Magento_Paypal
-"First Name",姓,module,Magento_Paypal
+"First Name",名,module,Magento_Paypal
 "Last Name",姓,module,Magento_Paypal
 "Reference ID","引用 ID",module,Magento_Paypal
 Status,状态,module,Magento_Paypal
@@ -2562,7 +2562,7 @@ Quantity,数量,module,Magento_Reports
 Updated,已更新,module,Magento_Reports
 "IP Address","IP 地址",module,Magento_Reports
 Customers,客户,module,Magento_Reports
-"First Name",姓,module,Magento_Reports
+"First Name",名,module,Magento_Reports
 "Last Name",姓,module,Magento_Reports
 "Items in Cart",购物车中,module,Magento_Reports
 "Products in carts",在车中的产品,module,Magento_Reports
@@ -3193,7 +3193,7 @@ City,城市,module,Magento_Sales
 Company,地址,module,Magento_Sales
 Country,国家,module,Magento_Sales
 Email,邮箱,module,Magento_Sales
-"First Name",姓,module,Magento_Sales
+"First Name",名,module,Magento_Sales
 "Last Name",姓,module,Magento_Sales
 State/Province,州/省,module,Magento_Sales
 "Street Address",街道地址,module,Magento_Sales
@@ -3846,7 +3846,7 @@ Roles,角色,module,Magento_User
 "Role Users",角色用户,module,Magento_User
 "User ID","用户 ID",module,Magento_User
 "User Name",用户名称,module,Magento_User
-"First Name",姓,module,Magento_User
+"First Name",名,module,Magento_User
 "Last Name",姓,module,Magento_User
 Email,邮箱,module,Magento_User
 Status,状态,module,Magento_User
@@ -4617,7 +4617,7 @@ ZIP,邮编,module,Magento_Customer
 "Confirmed email",已确认的电子邮件,module,Magento_Customer
 "Account Created in",在中创建帐户,module,Magento_Customer
 "Tax VAT Number",税务增值税号码,module,Magento_Customer
-"First Name",姓,module,Magento_Customer
+"First Name",名,module,Magento_Customer
 "Last Name",姓,module,Magento_Customer
 "Last Activity",最后一次活动,module,Magento_Customer
 Type,类型,module,Magento_Customer
