@@ -1659,11 +1659,11 @@ Cancel,保存,module,Magento_ConfigurableProduct
 "We can't process your request right now. Sorry, that's all we know.",我们现在无法处理您的请求。对不起，我们都知道。,module,Magento_Contact
 "* Required Fields",*必要字段,module,Magento_Contact
 "Write Us",给我们写信,module,Magento_Contact
-"Jot us a note and we’ll get back to you as quickly as possible.",我们记笔记，我们会尽可能快地回到你。,module,Magento_Contact
+"Jot us a note and we’ll get back to you as quickly as possible.",我们会及时与您取得联系,module,Magento_Contact
 Name,名字,module,Magento_Contact
 Email,邮箱,module,Magento_Contact
 "Phone Number",电话号码,module,Magento_Contact
-"What’s on your mind?",您的想法是什么?,module,Magento_Contact
+"What’s on your mind?",您的留言,module,Magento_Contact
 Submit,提交,module,Magento_Contact
 "Invalid domain name: %1","无效的域名: %1",module,Magento_Cookie
 "Invalid cookie lifetime: %1","无效的 cookie 的生命周期: %1",module,Magento_Cookie
@@ -2037,7 +2037,7 @@ Password,密码,module,Magento_Customer
 "Forgot Your Password?",您忘记密码了吗?,module,Magento_Customer
 "Subscription option",订阅选项,module,Magento_Customer
 "General Subscription",一般的订阅,module,Magento_Customer
-"Sign Up for Newsletter",校刊订阅,module,Magento_Customer
+"Sign Up for Newsletter",订阅资讯,module,Magento_Customer
 "Address Information",地址信息,module,Magento_Customer
 "Sign-in Information",登录信息,module,Magento_Customer
 "Confirm Password",确认密码,module,Magento_Customer
