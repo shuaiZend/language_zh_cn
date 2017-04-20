@@ -5759,6 +5759,7 @@ Cancel,保存,module,Magento_Checkout
 Login,登录,module,Magento_Checkout
 item,项目,module,Magento_Checkout
 items,项目,module,Magento_Checkout
+"Go to Checkout",去结帐,module,Magento_Checkout
 "See Details",查看详细信息,module,Magento_Checkout
 "Options Details",选项详细信息,module,Magento_Checkout
 Remove,删除,module,Magento_Checkout
