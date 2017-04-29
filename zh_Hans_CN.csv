@@ -5784,6 +5784,7 @@ Next,下一个,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time",抱歉，这个订单目前没有报价,module,Magento_Checkout
 "Order Summary",订单汇总,module,Magento_Checkout
 "Item in Cart",购物里的商品,module,Magento_Checkout
+"Items in Cart",购物里的商品,module,Magento_Checkout
 "View Details",查看详细信息,module,Magento_Checkout
 "Name: %name","名称: %name",module,Magento_Contact
 "Email: %email","电子邮件: %email",module,Magento_Contact
