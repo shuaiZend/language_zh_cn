@@ -28,7 +28,7 @@ notice,通知,module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","请跳转至 <a href=""%1""> 缓存管理</a> 并刷新缓存类型。",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.",我们未能同步一个或多个媒体文件。请参阅日志文件中的详细信息。,module,Magento_AdminNotification
 "Synchronization of media storages has been completed.",媒体库同步已完成。,module,Magento_AdminNotification
-"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","您的 web 服务器的设置不正确，并允许对敏感文件的未经授权访问。'' 请联系您的托管服务提供商。",module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.",您的web服务器设置错误，允许对敏感文件进行未经授权的访问。请与您的主机供应商联系。,module,Magento_AdminNotification
 "Close popup",关闭弹窗,module,Magento_AdminNotification
 Close,关闭,module,Magento_AdminNotification
 "System Messages:",系统消息:,module,Magento_AdminNotification
@@ -62,7 +62,7 @@ void,无效,module,Magento_Authorizenet
 "Invalid amount for capture.",获取的金额无效。,module,Magento_Authorizenet
 "Payment capturing error.",付款时出错。,module,Magento_Authorizenet
 "Invalid transaction ID.",无效交易id。,module,Magento_Authorizenet
-"Payment voiding error.",付款无效时出错。,module,Magento_Authorizenet
+"Payment voiding error.",无效的错误付款。,module,Magento_Authorizenet
 "Invalid amount for refund.",退款金额无效。,module,Magento_Authorizenet
 "Payment refunding error.",退款出错。,module,Magento_Authorizenet
 "The transaction was declined because the response hash validation failed.",该交易被拒绝，因为响应hash验证失败。,module,Magento_Authorizenet
@@ -285,7 +285,7 @@ System,系统,module,Magento_Backend
 "Last 7 Days","最近 7 天",module,Magento_Backend
 "Current Month",当月,module,Magento_Backend
 "Authentication storage is incorrect.",身份验证存储不正确。,module,Magento_Backend
-"You did not sign in correctly or your account is temporarily disabled.",你不没有正确登录或您的帐户被暂时禁用。,module,Magento_Backend
+"You did not sign in correctly or your account is temporarily disabled.",登录不正确或者您的账号已禁用。,module,Magento_Backend
 "Authentication error occurred.",发生身份验证错误。,module,Magento_Backend
 Order,订单,module,Magento_Backend
 "Order #%1","订单 #%1",module,Magento_Backend
@@ -607,7 +607,7 @@ Always,总是,module,Magento_Captcha
 "Please type the letters below",请键入下面的字母,module,Magento_Captcha
 "Entity type model '%1' is not found","实体型模式必须是一个实例 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","实体模类型型必须是实例 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
-"There are no product types available for export.",文件“%1”未找到或已阅读的限制。,module,Magento_CatalogImportExport
+"There are no product types available for export.",没有可以导出的产品类型,module,Magento_CatalogImportExport
 "Entity type model must be an instance of Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType","实体模类型型必须是实例 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "File directory '%1' is not readable.",文件目录“%1”不是写。,module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","文件目录 '%1' 不是可写的。",module,Magento_CatalogImportExport
@@ -630,9 +630,9 @@ Always,总是,module,Magento_Captcha
 "We can't rebuild the index for an undefined product.",我们不能重建索引未定义的产品。,module,Magento_CatalogInventory
 "Could not rebuild index for empty products array",无法重建索引空的产品阵列,module,Magento_CatalogInventory
 "The stock item for Product is not valid.",产品的库存记录不是有效的。,module,Magento_CatalogInventory
-"This product is out of stock.",本产品是缺货。,module,Magento_CatalogInventory
+"This product is out of stock.",该产品已售罄。,module,Magento_CatalogInventory
 "Some of the products are out of stock.",部分产品已脱销。,module,Magento_CatalogInventory
-"The stock item for Product in option is not valid.",库存产品选项中的不是有效的。,module,Magento_CatalogInventory
+"The stock item for Product in option is not valid.",选项中的产品的库存项目无效。,module,Magento_CatalogInventory
 "Undefined product type",未定义的产品类型,module,Magento_CatalogInventory
 "%1 is not a correct comparison method.","%1 不是一个正确的比较方法。",module,Magento_CatalogInventory
 "No Backorders",没有延期交货,module,Magento_CatalogInventory
@@ -642,7 +642,7 @@ Always,总是,module,Magento_Captcha
 "Out of Stock",缺货,module,Magento_CatalogInventory
 "Stock Item with id ""%1"" does not exist.","Id 为""%1""的库存项目不存在。",module,Magento_CatalogInventory
 "Stock with id ""%1"" does not exist.","股票与 id""%1""并不存在。",module,Magento_CatalogInventory
-"Not all of your products are available in the requested quantity.",不是所有的你的产品有请求的数量。,module,Magento_CatalogInventory
+"Not all of your products are available in the requested quantity.",不是所有的产品都在要求的数量。,module,Magento_CatalogInventory
 "Product with SKU ""%1"" does not exist","产品与 SKU""%1""不存在",module,Magento_CatalogInventory
 "The fewest you may purchase is %1.","您可以购买最少是 %1。",module,Magento_CatalogInventory
 "Please correct the quantity for some products.",请更正一些产品的数量。,module,Magento_CatalogInventory
@@ -657,7 +657,7 @@ Always,总是,module,Magento_Captcha
 "Product availability",产品的可用性,module,Magento_CatalogInventory
 "Product Name",产品名称,module,Magento_CatalogInventory
 Qty,数量,module,Magento_CatalogInventory
-"Catalog Price Rule",立足于“%2”属性，您禁用%1目录价格规则。,module,Magento_CatalogRule
+"Catalog Price Rule",目录价格规则。,module,Magento_CatalogRule
 "Add New Rule",添加新规则,module,Magento_CatalogRule
 "Apply Rules",应用规则,module,Magento_CatalogRule
 "Save and Apply",保存并应用,module,Magento_CatalogRule
@@ -721,7 +721,7 @@ Promo,促销,module,Magento_CatalogRule
 "Conditions Combination",条件组合,module,Magento_CatalogRule
 "Product Attribute",产品属性,module,Magento_CatalogRule
 "Updated rules applied.",应用的更新的规则。,module,Magento_CatalogRule
-"You disabled %1 Catalog Price Rules based on ""%2"" attribute.","你禁用的 %1 目录价格规则，基于""%2""属性。",module,Magento_CatalogRule
+"You disabled %1 Catalog Price Rules based on ""%2"" attribute.",根据“%2”属性，您禁用了%1的目录价格规则。,module,Magento_CatalogRule
 Home,主页,module,Magento_CatalogSearch
 "Go to Home Page",转到主页,module,Magento_CatalogSearch
 "Catalog Advanced Search",高级分类搜索,module,Magento_CatalogSearch
@@ -800,7 +800,7 @@ label,标签,module,Magento_Catalog
 "Attribute Code",属性代码,module,Magento_Catalog
 "This is used internally. Make sure you don't use spaces or more than %1 symbols.",这是在内部使用。确保你不要使用空格或超过1%的符号。,module,Magento_Catalog
 "Default Value",默认值,module,Magento_Catalog
-"Unique Value",组ID为“%1”不存在。,module,Magento_Catalog
+"Unique Value",独特价值,module,Magento_Catalog
 "Unique Value (not shared with other products)","(不能与其他产品共享) 的独特价值",module,Magento_Catalog
 "Not shared with other products",不能与其他产品共享,module,Magento_Catalog
 "Input Validation for Store Owner",输入商店所有者的验证信息,module,Magento_Catalog
@@ -820,7 +820,7 @@ Scope,范围,module,Magento_Catalog
 "Use for Promo Rule Conditions",促销规则的情况下使用,module,Magento_Catalog
 "Enable WYSIWYG",使所见即所得,module,Magento_Catalog
 "Allow HTML Tags on Storefront","在前端允许 HTML 标签",module,Magento_Catalog
-"Visible on Catalog Pages on Storefront",可见前端的目录页,module,Magento_Catalog
+"Visible on Catalog Pages on Storefront",在前端目录页显示可见,module,Magento_Catalog
 "Used in Product Listing",在产品列表中使用,module,Magento_Catalog
 "Depends on design theme",取决于设计主题,module,Magento_Catalog
 "Used for Sorting in Product Listing",用于排序的产品列表,module,Magento_Catalog
@@ -851,7 +851,7 @@ Delete,删除,module,Magento_Catalog
 Save,保存,module,Magento_Catalog
 "New Set Name",新集的名称,module,Magento_Catalog
 "Edit Attribute Set '%1'","编辑属性集 '%1'",module,Magento_Catalog
-Empty,"产品 %1",module,Magento_Catalog
+Empty,空白,module,Magento_Catalog
 "Add Attribute","-- 请选择 --",module,Magento_Catalog
 "Add New Group",添加新组,module,Magento_Catalog
 "Add Group",添加组,module,Magento_Catalog
@@ -863,10 +863,10 @@ Empty,"产品 %1",module,Magento_Catalog
 "Attribute Sets",属性集,module,Magento_Catalog
 "Close Window",关闭窗口,module,Magento_Catalog
 "New Product",新产品,module,Magento_Catalog
-"Save & Edit",保存与编辑,module,Magento_Catalog
-"Save & New",保存与新,module,Magento_Catalog
-"Save & Duplicate",保存与重复,module,Magento_Catalog
-"Save & Close",保存和关闭,module,Magento_Catalog
+"Save & Edit",保存并编辑该产品,module,Magento_Catalog
+"Save & New",保存并新建产品,module,Magento_Catalog
+"Save & Duplicate",保存并复制该产品,module,Magento_Catalog
+"Save & Close",保存并关闭该产品,module,Magento_Catalog
 Attributes,属性,module,Magento_Catalog
 Change,更改,module,Magento_Catalog
 "Advanced Inventory",库存状况,module,Magento_Catalog
@@ -898,10 +898,10 @@ Import,导入,module,Magento_Catalog
 "Tier Pricing",层级价格,module,Magento_Catalog
 "Default Price",默认价格,module,Magento_Catalog
 "All Websites",所有网站,module,Magento_Catalog
-"ALL GROUPS",有货,module,Magento_Catalog
+"ALL GROUPS",所有分组,module,Magento_Catalog
 "Add Price",添加价格,module,Magento_Catalog
 "Default Values",默认值,module,Magento_Catalog
-"Related Products",超售,module,Magento_Catalog
+"Related Products",相关产品,module,Magento_Catalog
 Up-sells,向上销售,module,Magento_Catalog
 Cross-sells,交叉销售,module,Magento_Catalog
 "Size for %1","大小为 %1 的",module,Magento_Catalog
@@ -920,7 +920,7 @@ Edit,编辑,module,Magento_Catalog
 Hidden,从产品页隐藏,module,Magento_Catalog
 "start typing to search category",开始键入搜索类别,module,Magento_Catalog
 "New Category",新的类别,module,Magento_Catalog
-"Images (.gif, .jpg, .png)",取消可见,module,Magento_Catalog
+"Images (.gif, .jpg, .png)","图像 （.gif、.jpg、.png）",module,Magento_Catalog
 "Add New Images",添加新的图像,module,Magento_Catalog
 "Inc. Tax",公司税,module,Magento_Catalog
 "Does this have a weight?",这有一个重量?,module,Magento_Catalog
@@ -949,17 +949,17 @@ None,无,module,Magento_Catalog
 Categories,分类,module,Magento_Catalog
 "Manage Catalog Categories",管理目录类别,module,Magento_Catalog
 "Manage Categories",管理类别,module,Magento_Catalog
-"Category is not available for requested store.",类别不是可用于请求的存储区。,module,Magento_Catalog
+"Category is not available for requested store.",无法为所要求的商店提供类别。,module,Magento_Catalog
 "There was a category move error.",出现了一个类别移动错误。,module,Magento_Catalog
 "There was a category move error. %1",出现了一个类别移动错误。%1,module,Magento_Catalog
 "You moved the category",你移动的类别,module,Magento_Catalog
 "Attribute ""%1"" is required.","""%1""属性是必需的。",module,Magento_Catalog
-"Something went wrong while saving the category.",保存该类别时出了错。,module,Magento_Catalog
+"Something went wrong while saving the category.",保存该类别时出现错误。,module,Magento_Catalog
 "You saved the category.",你保存的类别。,module,Magento_Catalog
 "Please select products for attributes update.",请选择产品更新属性。,module,Magento_Catalog
 "Please make sure to define SKU values for all processed products.","请务必定义所有加工产品的 SKU 值。",module,Magento_Catalog
 "A total of %1 record(s) were updated.","更新记录 %1",module,Magento_Catalog
-"Something went wrong while updating the product(s) attributes.",在更新的产品属性时出了错。,module,Magento_Catalog
+"Something went wrong while updating the product(s) attributes.",在更新的产品属性时出现错误。,module,Magento_Catalog
 Catalog,目录重写,module,Magento_Catalog
 "Manage Product Attributes",管理产品属性,module,Magento_Catalog
 "We can't delete the attribute.",我们不能删除该属性。,module,Magento_Catalog
@@ -969,7 +969,7 @@ Catalog,目录重写,module,Magento_Catalog
 "This attribute cannot be edited.",不能编辑此属性。,module,Magento_Catalog
 "Edit Product Attribute",编辑产品属性,module,Magento_Catalog
 "An attribute set named '%1' already exists.","属性集，名为""%1""已经存在。",module,Magento_Catalog
-"Something went wrong while saving the attribute.",保存该属性时，出了错。,module,Magento_Catalog
+"Something went wrong while saving the attribute.",在保存属性时出现了问题。,module,Magento_Catalog
 "Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","属性代码""%1""不合法。该字段只能使用字母 (a-z)，数字 (0-9) 或下划线(_)，第一个字符应该是字母。",module,Magento_Catalog
 "We can't update the attribute.",我们不能更新的属性。,module,Magento_Catalog
 "You saved the product attribute.",你保存的产品属性。,module,Magento_Catalog
@@ -979,10 +979,10 @@ Catalog,目录重写,module,Magento_Catalog
 "This product no longer exists.",此产品不存在。,module,Magento_Catalog
 Products,产品展示,module,Magento_Catalog
 "A group with the same name already exists.",具有相同名称的组已存在。,module,Magento_Catalog
-"Something went wrong while saving this group.",保存该组时出了错。,module,Magento_Catalog
+"Something went wrong while saving this group.",保存该组时出现问题。,module,Magento_Catalog
 "A total of %1 record(s) have been deleted.","已经删除 %1的记录",module,Magento_Catalog
 "A total of %1 record(s) have been updated.","已经更新 %1的记录",module,Magento_Catalog
-"Something went wrong while updating the product(s) status.",更新产品状态时出了错。,module,Magento_Catalog
+"Something went wrong while updating the product(s) status.",更新产品状态时出现错误。,module,Magento_Catalog
 "Unable to save product",无法保存产品,module,Magento_Catalog
 "You saved the product.",你保存的产品。,module,Magento_Catalog
 "SKU for product %1 has been changed to %2.","为产品 %1 SKU 已改为 %2。",module,Magento_Catalog
@@ -995,10 +995,10 @@ Products,产品展示,module,Magento_Catalog
 "Manage Attribute Sets",管理属性集,module,Magento_Catalog
 "This attribute set no longer exists.",此属性设置不再存在。,module,Magento_Catalog
 "You saved the attribute set.",你保存的属性集。,module,Magento_Catalog
-"Something went wrong while saving the attribute set.",保存属性集时出了错。,module,Magento_Catalog
+"Something went wrong while saving the attribute set.",在保存属性时出现了问题。,module,Magento_Catalog
 "You added product %1 to the comparison list.","你添加产品 %1 到比较列表中。",module,Magento_Catalog
 "You cleared the comparison list.",你清除了比较列表。,module,Magento_Catalog
-"Something went wrong  clearing the comparison list.",什么地方出毛病结算比较列表。,module,Magento_Catalog
+"Something went wrong  clearing the comparison list.",清除比较列表出错。,module,Magento_Catalog
 "You removed product %1 from the comparison list.","您从比较列表中删除产品 %1。",module,Magento_Catalog
 "1 item","产品 %1",module,Magento_Catalog
 "%1 items","%1 项目",module,Magento_Catalog
@@ -1008,13 +1008,13 @@ List,列表,module,Magento_Catalog
 All,全部,module,Magento_Catalog
 "Product is not loaded",产品未加载,module,Magento_Catalog
 "Bad controller interface for showing product",坏的控制器接口，用于显示产品,module,Magento_Catalog
-"Make sure the To Date is later than or the same as the From Date.",请确保对日期迟于或从日期相同。,module,Magento_Catalog
+"Make sure the To Date is later than or the same as the From Date.",确保日期晚于或与日期相同。,module,Magento_Catalog
 "Sorry, but we can't find the new parent category you selected.",抱歉，但我们找不到您选择的新的父类别。,module,Magento_Catalog
 "Sorry, but we can't find the new category you selected.",抱歉，但我们找不到您选择的新类别。,module,Magento_Catalog
 "We can't move the category because the parent category name matches the child category name.",我们无法移动的类别，因为父类别名称匹配的子类别名称。,module,Magento_Catalog
 "Can't delete root category.",不能删除根类别。,module,Magento_Catalog
 "The value of attribute ""%1"" must be unique.","""%1""属性的值必须是唯一的。",module,Magento_Catalog
-"Default Product Listing Sort by does not exist in Available Product Listing Sort By.",可用的产品清单进行排序中不存在默认产品清单排序的。,module,Magento_Catalog
+"Default Product Listing Sort by does not exist in Available Product Listing Sort By.",默认的产品列表排序并不存在于可用的产品清单排序中。,module,Magento_Catalog
 "No layout updates",没有布局更新,module,Magento_Catalog
 "Products only",仅产品,module,Magento_Catalog
 "Static block only",只有静态模块,module,Magento_Catalog
@@ -1023,7 +1023,7 @@ All,全部,module,Magento_Catalog
 "Could not save product ""%1"" with position %2 to category %3","无法保存产品""%1""与位置到类别 %3 %2",module,Magento_Catalog
 "Category does not contain specified product",类别不包含指定的产品,module,Magento_Catalog
 "Could not save product ""%product"" with position %position to category %category","无法保存产品""%product""与位置到类别 %category %position",module,Magento_Catalog
-"Operation do not allow to move a parent category to any of children category",操作不允许移动到任子类别的父类别,module,Magento_Catalog
+"Operation do not allow to move a parent category to any of children category",操作不允许将父类别移动到任何子类别,module,Magento_Catalog
 "Could not move category",不能移动类别,module,Magento_Catalog
 "Could not save category: %1","不能保存类别: %1",module,Magento_Catalog
 "Cannot delete category with id %1","不能删除类别与 id %1",module,Magento_Catalog
@@ -1035,7 +1035,7 @@ All,全部,module,Magento_Catalog
 "Automatic (equalize price ranges)","自动 (均衡价格范围)",module,Magento_Catalog
 "Automatic (equalize product counts)","自动 (均衡产品计数)",module,Magento_Catalog
 Manual,手动,module,Magento_Catalog
-Fixed,百分之,module,Magento_Catalog
+Fixed,固定,module,Magento_Catalog
 Percent,%,module,Magento_Catalog
 "-- Please select --","-- 请选择 --",module,Magento_Catalog
 "Product Thumbnail Itself",产品缩略图本身,module,Magento_Catalog
@@ -1073,7 +1073,7 @@ Category,类别,module,Magento_Catalog
 "Group price must be a number greater than 0.","组价格必须是大于 0 的数字。",module,Magento_Catalog
 "We couldn't copy file %1. Please delete media with non-existing images and try again.","我们不能复制文件 %1。请删除媒体与非存在的图像，然后重试。",module,Magento_Catalog
 "Media Gallery converter should be an instance of EntryConverterInterface.","媒体剪辑库转换器应该是 EntryConverterInterface 的一个实例。",module,Magento_Catalog
-"There is no MediaGalleryEntryConverter for given type","有是没有 MediaGalleryEntryConverter，对于给定类型",module,Magento_Catalog
+"There is no MediaGalleryEntryConverter for given type",没有给定类型的mediagalleryentry转换器,module,Magento_Catalog
 "Please enter a number 0 or greater in this field.",请在该字段中输入有效数字。,module,Magento_Catalog
 "The value of attribute ""%1"" must be set","""%1""属性的值必须设置",module,Magento_Catalog
 "SKU length should be %1 characters maximum.","SKU 长度应该是最多 %1 个字符。",module,Magento_Catalog
@@ -1081,7 +1081,7 @@ Category,类别,module,Magento_Catalog
 "We found a duplicate website, tier price, customer group and quantity.","我们发现重复的网站、 层价格、 客户组和数量。",module,Magento_Catalog
 "Invalid option id %1","无效的选项 id %1",module,Magento_Catalog
 "Can not create attribute set based on non product attribute set.",不能创建基于非产品属性集的属性集。,module,Magento_Catalog
-"Can not create attribute set based on not existing attribute set",不能创建基于不存在的属性集属性设置,module,Magento_Catalog
+"Can not create attribute set based on not existing attribute set",不能根据现有的属性集创建属性集,module,Magento_Catalog
 "Provided Attribute set non product Attribute set.",提供属性设置非产品属性集。,module,Magento_Catalog
 "Use config",用户配置,module,Magento_Catalog
 Enabled,启动,module,Magento_Catalog
@@ -1109,7 +1109,7 @@ Disabled,禁用,module,Magento_Catalog
 "The BuyRequest instance in options group is incorrect.",在选项组中的购买请求实例是不正确的。,module,Magento_Catalog
 "We can't add the product to the cart because of an option validation issue.",我们不能因为选项验证问题，将产品添加到购物车。,module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Option\Type\DefaultType","%1 并不延伸 \Magento\Catalog\Model\Product\Option\Type\DefaultType",module,Magento_Catalog
-"The file options format is not valid.",文件选项格式不是有效的。,module,Magento_Catalog
+"The file options format is not valid.",文件选项格式无效。,module,Magento_Catalog
 px.,全部展开,module,Magento_Catalog
 "The file '%1' for '%2' has an invalid extension.","'%2' '%1' 的文件具有无效的扩展名。",module,Magento_Catalog
 "The maximum allowed image size for '%1' is %2x%3 px.","允许的最大图像大小为 '%1' %2x%3 px。",module,Magento_Catalog
@@ -1117,11 +1117,11 @@ px.,全部展开,module,Magento_Catalog
 "The file '%1' is empty. Please choose another one","'%1' 文件是空的。请选择另一个",module,Magento_Catalog
 "The file '%1' is invalid. Please choose another one","文件 '%1' 是无效的。请选择另一个",module,Magento_Catalog
 "File '%1' is not an image.","文件 '%1' 不是图像。",module,Magento_Catalog
-"Validation failed. Required options were not filled or the file was not uploaded.",验证失败。不填充所需的选项或不上载文件。,module,Magento_Catalog
-"The file you uploaded is larger than %1 Megabytes allowed by server","你上传的文件大于 %1 服务器所允许的兆字节",module,Magento_Catalog
+"Validation failed. Required options were not filled or the file was not uploaded.",验证失败。需要的选项没有填充，或者文件没有上传。,module,Magento_Catalog
+"The file you uploaded is larger than %1 Megabytes allowed by server","您上传的文件大于服务器允许的% 1兆字节",module,Magento_Catalog
 "Option required.",所需的选项。,module,Magento_Catalog
 "The file is empty. Please choose another one",该文件是空的。请选择另一个,module,Magento_Catalog
-"Some of the selected item options are not currently available.",选定的项选项中有一些不当前可用。,module,Magento_Catalog
+"Some of the selected item options are not currently available.",目前还没有一些选定的项目选项。,module,Magento_Catalog
 "The text is too long.",文本太长。,module,Magento_Catalog
 "This product doesn't have tier price",这种产品没有一级价格,module,Magento_Catalog
 "Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","产品还没有与此类数据组价格: customerGroupId = '%1'，网站 = %2，数量 = %3",module,Magento_Catalog
@@ -1131,14 +1131,14 @@ px.,全部展开,module,Magento_Catalog
 "Could not save group price",无法保存组价格,module,Magento_Catalog
 "The file upload failed.",文件上载失败。,module,Magento_Catalog
 "The product has required options.",该产品具有要求的选项。,module,Magento_Catalog
-"Something went wrong while processing the request.",处理请求时出了错。,module,Magento_Catalog
+"Something went wrong while processing the request.",在处理请求时出现了问题。,module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\AbstractType","%1 并不延伸 \Magento\Catalog\Model\Product\Type\AbstractType",module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price","%1 并不延伸 \Magento\Catalog\Model\Product\Type\Price",module,Magento_Catalog
-"Not Visible Individually",不可见单独,module,Magento_Catalog
+"Not Visible Individually",单独不可见,module,Magento_Catalog
 Search,搜索,module,Magento_Catalog
 "Catalog, Search",目录搜索,module,Magento_Catalog
-"Something went wrong while removing products from the websites.",从网站删除产品时，出了错。,module,Magento_Catalog
-"Something went wrong while adding products to websites.",向网站中添加产品时出了错。,module,Magento_Catalog
+"Something went wrong while removing products from the websites.",在从网站上删除产品时出现了一些问题。,module,Magento_Catalog
+"Something went wrong while adding products to websites.",在向网站添加产品时出现了一些问题。,module,Magento_Catalog
 "Group with id ""%1"" does not exist.","Id 为""%1""组不存在。",module,Magento_Catalog
 "Attribute group that contains system attributes can not be deleted",不能删除包含系统属性的属性组,module,Magento_Catalog
 "Collection provider is not registered",集合提供程序没有注册,module,Magento_Catalog
@@ -1177,7 +1177,7 @@ Select...,选择。。。,module,Magento_Catalog
 "Is Default",为默认值,module,Magento_Catalog
 "Add Option",添加选项,module,Magento_Catalog
 "Sort Option",排序选项,module,Magento_Catalog
-Groups,团体,module,Magento_Catalog
+Groups,群组,module,Magento_Catalog
 "Double click on a group to rename it.",双击组重命名它。,module,Magento_Catalog
 "Unassigned Attributes",未分配的属性,module,Magento_Catalog
 "A name is required.",名称是必需的。,module,Magento_Catalog
@@ -1195,7 +1195,7 @@ Groups,团体,module,Magento_Catalog
 "Maximum number of characters:",最大字符数:,module,Magento_Catalog
 "start typing to search template",开始键入搜索模板,module,Magento_Catalog
 "Product online",产品在线,module,Magento_Catalog
-"Product offline",产品脱机,module,Magento_Catalog
+"Product offline",产品离线,module,Magento_Catalog
 "Product online status",产品在线状态,module,Magento_Catalog
 "Manage Stock",数量增加,module,Magento_Catalog
 Qty,数量,module,Magento_Catalog
@@ -1212,7 +1212,7 @@ Backorders,延期交货,module,Magento_Catalog
 "Out of Stock",缺货,module,Magento_Catalog
 "Add Product To Websites",向网站中添加产品,module,Magento_Catalog
 "Remove Product From Websites",从网站中删除产品,module,Magento_Catalog
-"To hide an item in catalog or search results, set the status to ""Disabled"".","若要隐藏目录或搜索结果中的项目，请将状态设置为""禁用""。",module,Magento_Catalog
+"To hide an item in catalog or search results, set the status to ""Disabled"".",在目录或搜索结果中隐藏项目，将状态设置为“禁用”。,module,Magento_Catalog
 "We can't save custom-defined options for bundles with dynamic pricing.",我们无法保存自定义选项为束与动态定价。,module,Magento_Catalog
 "Delete Custom Option",删除自定义选项,module,Magento_Catalog
 "Sort Custom Options",自定义的排序选项,module,Magento_Catalog
@@ -1223,7 +1223,7 @@ Required,必填,module,Magento_Catalog
 "Compatible File Extensions",兼容的文件扩展名,module,Magento_Catalog
 "Maximum Image Size",最大图像大小,module,Magento_Catalog
 "%1 <span>x</span> %2 <span>px.</span>","%1 <span>x</span> %2 <span>px。</span>",module,Magento_Catalog
-"Please leave blank if it is not an image.",请留下空白，如果它不是一个图像。,module,Magento_Catalog
+"Please leave blank if it is not an image.",如果不是图像，请留空。,module,Magento_Catalog
 Title,标题,module,Magento_Catalog
 "Sort Custom Option",排序的自定义选项,module,Magento_Catalog
 "Max Characters",最大字符数,module,Magento_Catalog
@@ -1264,7 +1264,7 @@ Actions,动作,module,Magento_Catalog
 "In stock",有货,module,Magento_Catalog
 "Out of stock",缺货,module,Magento_Catalog
 "Add to Wish List",添加到收藏夹,module,Magento_Catalog
-"You have no items to compare.",你有没有要比较的项目。,module,Magento_Catalog
+"You have no items to compare.",你没有要比较的项目。,module,Magento_Catalog
 "Remove This Item",删除该内容,module,Magento_Catalog
 Compare,比较,module,Magento_Catalog
 "Clear All",全部清除,module,Magento_Catalog
@@ -1325,7 +1325,7 @@ Manually,手动,module,Magento_CheckoutAgreements
 "Please agree to all the terms and conditions before placing the order.",请在下订单前同意所有的条款和条件。,module,Magento_CheckoutAgreements
 "Unable to save checkout agreement %1","无法保存结帐协议 %1",module,Magento_CheckoutAgreements
 "Unable to remove checkout agreement %1","无法删除结帐协议 %1",module,Magento_CheckoutAgreements
-"Checkout agreement with specified ID ""%1"" not found.","结帐协议具有指定 ID""%1""找不到。",module,Magento_CheckoutAgreements
+"Checkout agreement with specified ID ""%1"" not found.",与指定的ID“%1”的签出协议没有找到。,module,Magento_CheckoutAgreements
 "Shopping Cart",购物车,module,Magento_Checkout
 "Invalid method: %1",支付失败邮件副本发送方式,module,Magento_Checkout
 City,城市,module,Magento_Checkout
@@ -1510,7 +1510,7 @@ Pages,页面,module,Magento_Cms
 "We can't upload the file right now.",我们现在不能上传文件。,module,Magento_Cms
 "We can't delete root directory %1 right now.","我们现在不能删除根目录 %1。",module,Magento_Cms
 "Directory %1 is not under storage root path.","目录 %1 不是在存储根路径下。",module,Magento_Cms
-RuntimeException,抛,module,Magento_Cms
+RuntimeException,运行期异常,module,Magento_Cms
 Exception,例外,module,Magento_Cms
 "Could not create directory.",无法创建目录。,module,Magento_Cms
 "All Store Views",所有商店界面,module,Magento_Cms
@@ -1533,7 +1533,7 @@ Add,添加,module,Magento_Config
 "Delete File",删除文件,module,Magento_Config
 "Search String",搜索字符串,module,Magento_Config
 "Design Theme",设计网站模板,module,Magento_Config
-"Add \Exception","添加 \Exception",module,Magento_Config
+"Add \Exception","添加 \例外",module,Magento_Config
 "-- No Theme --","— — 无主题 — —",module,Magento_Config
 Enable,启用,module,Magento_Config
 Disable,禁用,module,Magento_Config
@@ -1554,17 +1554,17 @@ System,系统,module,Magento_Config
 "We can't save the Cron expression.",我们不能保存货币表达式,module,Magento_Config
 "Sorry, we haven't installed the default display currency you selected.",对不起，我们还没有安装您选择的默认显示货币。,module,Magento_Config
 "Sorry, the default display currency you selected is not available in allowed currencies.",很抱歉，您所选的默认显示货币不可允许货币。,module,Magento_Config
-"Please correct the email address: ""%1"".","请正确的电子邮件地址:""%1""。",module,Magento_Config
-"The sender name ""%1"" is not valid. Please use only visible characters and spaces.","发件人名称""%1""不是有效的。请使用仅可见字符和空格。",module,Magento_Config
+"Please correct the email address: ""%1"".","请更正电子邮件地址：“% 1”。",module,Magento_Config
+"The sender name ""%1"" is not valid. Please use only visible characters and spaces.",发送方名称“%1”是无效的。请只使用可见的字符和空格。,module,Magento_Config
 "Maximum sender name length is 255. Please correct your settings.","最大发件人名称长度是 255。请更正您的设置。",module,Magento_Config
 "The file you're uploading exceeds the server size limit of %1 kilobytes.","您所上传的文件超过服务器 %1 千字节的大小限制。",module,Magento_Config
 "The base directory to upload file is not specified.",未指定要上载文件的基目录。,module,Magento_Config
-"The specified image adapter cannot be used because of: %1","不能因为使用指定的图像适配器: %1",module,Magento_Config
+"The specified image adapter cannot be used because of: %1",指定的图像适配器不能使用，因为:%1,module,Magento_Config
 "Default scope",默认范围,module,Magento_Config
 "Base currency",基础货币,module,Magento_Config
 "Display default currency",显示默认货币,module,Magento_Config
-"website(%1) scope","website(%1) 范围",module,Magento_Config
-"store(%1) scope","store(%1) 范围",module,Magento_Config
+"website(%1) scope","网站(% 1)范围",module,Magento_Config
+"store(%1) scope","商店(%1) 范围",module,Magento_Config
 "Currency ""%1"" is used as %2 in %3.","作为 %2 在 %3 中使用货币""%1""。",module,Magento_Config
 "Please correct the timezone.",请正确的时区。,module,Magento_Config
 "The file ""%1"" does not exist","""%1""文件不存在",module,Magento_Config
@@ -1585,7 +1585,7 @@ Store,商店,module,Magento_Config
 "Yes (301 Moved Permanently)","是的 (301 永久移动)",module,Magento_Config
 Yes,是,module,Magento_Config
 Specified,指定,module,Magento_Config
-"Config form fieldset clone model required to be able to clone fields",能够克隆领域所需的配置窗体字段集克隆模型,module,Magento_Config
+"Config form fieldset clone model required to be able to clone fields",配置表单fieldset克隆模型，以便能够克隆字段,module,Magento_Config
 "Invalid XML in file %1:
 %2","无效的XML在文件%1:
 %2",module,Magento_Config
@@ -1599,29 +1599,29 @@ test,测试,module,Magento_Config
 Delete,删除,module,Magento_Config
 "Current Configuration Scope:",当前的配置作用域:,module,Magento_Config
 Stores,商店,module,Magento_Config
-"Add configurable attributes to the current Attribute Set (""%1"")","可配置的属性添加到当前属性设置 (""%1"")",module,Magento_ConfigurableProduct
-"Add configurable attributes to the new Attribute Set based on current",添加到新属性集的可配置属性在当前,module,Magento_ConfigurableProduct
+"Add configurable attributes to the current Attribute Set (""%1"")",向当前属性集添加可配置属性(“%1”),module,Magento_ConfigurableProduct
+"Add configurable attributes to the new Attribute Set based on current",基于当前属性为新的属性集添加可配置属性,module,Magento_ConfigurableProduct
 "New attribute set name",新的属性集名称,module,Magento_ConfigurableProduct
 "Add configurable attributes to the existing Attribute Set",可配置的属性添加到现有的属性设置,module,Magento_ConfigurableProduct
 "Choose existing Attribute Set",选择现有属性设置,module,Magento_ConfigurableProduct
 Configurations,配置,module,Magento_ConfigurableProduct
-"Attribute Values",设置产品图片,module,Magento_ConfigurableProduct
+"Attribute Values",属性值,module,Magento_ConfigurableProduct
 "Bulk Images &amp; Price",大容量图像及价格,module,Magento_ConfigurableProduct
 "Create New Attribute",创建新的属性,module,Magento_ConfigurableProduct
 "Select Attributes",选择属性,module,Magento_ConfigurableProduct
-Summary,用户中心,module,Magento_ConfigurableProduct
+Summary,概览,module,Magento_ConfigurableProduct
 "Choose an Option...",选择一个选项。,module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.",此属性用于在可配置的产品。,module,Magento_ConfigurableProduct
-"Product has been already attached",产品附带已经,module,Magento_ConfigurableProduct
-"Product with specified sku: %1 is not a configurable product","产品与指定 sku: %1 不是一个可配置的产品",module,Magento_ConfigurableProduct
+"Product has been already attached",产品已附呈,module,Magento_ConfigurableProduct
+"Product with specified sku: %1 is not a configurable product","指定的SKU产品：% 1是一个不可配置产品",module,Magento_ConfigurableProduct
 "Requested option doesn't exist",请求的选项不存在,module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","要求选项不存在: %1",module,Magento_ConfigurableProduct
 "Cannot delete variations from product: %1","不能从产品中删除变化: %1",module,Magento_ConfigurableProduct
 "Cannot delete option with id: %1","无法删除选项 id: %1",module,Magento_ConfigurableProduct
-"Option with id ""%1"" not found","Id 为""%1""找不到选项",module,Magento_ConfigurableProduct
+"Option with id ""%1"" not found","ID为“% 1”的选项未找到",module,Magento_ConfigurableProduct
 "Could not update option with id ""%1""","不可以使用 id""%1""更新选项",module,Magento_ConfigurableProduct
 "Product already has this option",产品已经具有此选项,module,Magento_ConfigurableProduct
-"Something went wrong while saving option.",保存选项时出了错。,module,Magento_ConfigurableProduct
+"Something went wrong while saving option.",保存选项时出现错误。,module,Magento_ConfigurableProduct
 "Only implemented for configurable product: %1","只有实施了可配置产品: %1",module,Magento_ConfigurableProduct
 "Option attribute ID is not specified.","不指定选项属性 ID。",module,Magento_ConfigurableProduct
 "Option label is not specified.",未指定选项标签。,module,Magento_ConfigurableProduct
@@ -1629,15 +1629,15 @@ Summary,用户中心,module,Magento_ConfigurableProduct
 "Value index is not specified for an option.",值索引未指定选项。,module,Magento_ConfigurableProduct
 "The configurable product does not have any variation attribute.",可配置的产品并没有任何变化的属性。,module,Magento_ConfigurableProduct
 "Product with id ""%1"" does not exist.","不存在 id 为""%1""的产品。",module,Magento_ConfigurableProduct
-"Product with id ""%1"" does not contain required attribute ""%2"".","与 id""%1""产品不包含所需的属性""%2""。",module,Magento_ConfigurableProduct
+"Product with id ""%1"" does not contain required attribute ""%2"".",id为“%1”的产品不包含必需的属性“%2”。,module,Magento_ConfigurableProduct
 "Products ""%1"" and %2 have the same set of attribute values.","产品""%1""和 %2 有相同的属性值集。",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.",无法将该项目添加到购物车。,module,Magento_ConfigurableProduct
-"You need to choose options for your item.",你需要选择你的项目的选择。,module,Magento_ConfigurableProduct
-"Some product variations fields are not valid.",一些产品变化字段不是有效的。,module,Magento_ConfigurableProduct
+"You need to choose options for your item.",您需要为您的项目选择选项。,module,Magento_ConfigurableProduct
+"Some product variations fields are not valid.",一些产品变化字段是无效的。,module,Magento_ConfigurableProduct
 "Configuration must have specified attributes",配置必须具有指定的属性,module,Magento_ConfigurableProduct
 "Configurable product ""%1"" do not have sub-products","可配置产品""%1""没有子产品",module,Magento_ConfigurableProduct
 "This group contains attributes used in configurable products. Please move these attributes to another group and try again.",此组包含用于配置产品的属性。请将这些属性移动到另一个组，然后重试。,module,Magento_ConfigurableProduct
-"This attribute is used in configurable products. You cannot remove it from the attribute set.",此属性用于在可配置的产品。您无法删除它从属性集。,module,Magento_ConfigurableProduct
+"This attribute is used in configurable products. You cannot remove it from the attribute set.",该属性用于可配置的产品。您无法从属性集中删除它。,module,Magento_ConfigurableProduct
 "Associated Products",相关产品,module,Magento_ConfigurableProduct
 "Step 2: Attribute Values","第 2 步: 属性值",module,Magento_ConfigurableProduct
 "Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","从要在该产品中包含每个属性选择值。每个唯一值的组合创建独特产品的 SKU。",module,Magento_ConfigurableProduct
@@ -1654,7 +1654,7 @@ Options,选项,module,Magento_ConfigurableProduct
         new products will be created. Use this step to customize images and price for your new products.","基于您的选择 <span class=""new-products-count""data-bind=""text:countVariations""></span> 将创建新的产品。使用此步骤可自定义图像和价格为你们的新产品。",module,Magento_ConfigurableProduct
 Images,图片,module,Magento_ConfigurableProduct
 "Apply single set of images to all SKUs","适用于所有 Sku 的图像的单集",module,Magento_ConfigurableProduct
-"Apply unique images by attribute to each SKU","每个 SKU 属性不适用于独特的图像",module,Magento_ConfigurableProduct
+"Apply unique images by attribute to each SKU",将唯一的图像应用到每个SKU上,module,Magento_ConfigurableProduct
 "Skip image uploading at this time",跳过这次上传的图像,module,Magento_ConfigurableProduct
 "Browse Files...",浏览文件。。。,module,Magento_ConfigurableProduct
 "Browse to find or drag image here",浏览以找到或将图像拖到此处,module,Magento_ConfigurableProduct
@@ -1668,11 +1668,11 @@ Role,职能,module,Magento_ConfigurableProduct
 Select,选择,module,Magento_ConfigurableProduct
 Price,价格,module,Magento_ConfigurableProduct
 "Apply single price to all SKUs","适用于所有 Sku 的单一价格",module,Magento_ConfigurableProduct
-"Apply unique prices by attribute to each SKU","每个 SKU 属性不适用于独特的价格",module,Magento_ConfigurableProduct
+"Apply unique prices by attribute to each SKU",根据每个SKU的属性应用独特的价格,module,Magento_ConfigurableProduct
 "Skip price at this time",在这个时候跳过价格,module,Magento_ConfigurableProduct
 Quantity,数量,module,Magento_ConfigurableProduct
 "Apply single quantity to each SKUs","适用于每个 Sku 单数量",module,Magento_ConfigurableProduct
-"Apply unique quantity by attribute to each SKU","每个 SKU 属性不适用于独特的数量",module,Magento_ConfigurableProduct
+"Apply unique quantity by attribute to each SKU",根据每个SKU的属性应用唯一数量,module,Magento_ConfigurableProduct
 "Skip quantity at this time",在这个时候跳过数量,module,Magento_ConfigurableProduct
 "Step 1: Select Attributes","步骤 1: 选择属性",module,Magento_ConfigurableProduct
 "Selected Attributes:",选定的属性:,module,Magento_ConfigurableProduct
@@ -1764,14 +1764,14 @@ System,系统,module,Magento_CurrencySymbol
 "Edit Address",更改账单地址,module,Magento_Customer
 "Add New Address",添加新地址,module,Magento_Customer
 region,地区,module,Magento_Customer
-"Create Order",未指定项目,module,Magento_Customer
+"Create Order",创建订单,module,Magento_Customer
 "Save Customer",保存客户,module,Magento_Customer
 "Delete Customer",删除客户,module,Magento_Customer
-"Reset Password",你的密码重设链接已过期。,module,Magento_Customer
+"Reset Password",重置密码,module,Magento_Customer
 "Force Sign-In",强制登录,module,Magento_Customer
 "New Customer",新用户,module,Magento_Customer
 "Save and Continue Edit",保存并继续编辑,module,Magento_Customer
-Back,后退,module,Magento_Customer
+Back,返回,module,Magento_Customer
 "Please select",请选择,module,Magento_Customer
 Reset,重置,module,Magento_Customer
 Product,产品,module,Magento_Customer
@@ -1782,12 +1782,12 @@ Action,操作,module,Magento_Customer
 Configure,配置,module,Magento_Customer
 Delete,删除,module,Magento_Customer
 "Shopping Cart from %1","从 %1 购物车",module,Magento_Customer
-Newsletter,已暂停,module,Magento_Customer
-"Newsletter Information",通讯信息,module,Magento_Customer
-"Subscribed to Newsletter",订阅新闻通讯,module,Magento_Customer
-"Last Date Subscribed",订阅的最后日期,module,Magento_Customer
-"Last Date Unsubscribed",取消订阅的最后日期,module,Magento_Customer
-"No Newsletter Found",发现没有通讯,module,Magento_Customer
+Newsletter,最新资讯,module,Magento_Customer
+"Newsletter Information",最新资讯信息,module,Magento_Customer
+"Subscribed to Newsletter",订阅最新资讯,module,Magento_Customer
+"Last Date Subscribed",订阅期限,module,Magento_Customer
+"Last Date Unsubscribed",取消订阅期限,module,Magento_Customer
+"No Newsletter Found",未找到最新资讯,module,Magento_Customer
 "Start date",开始日期,module,Magento_Customer
 "End Date",结束日期,module,Magento_Customer
 "Receive Date",接收日期,module,Magento_Customer
@@ -1820,12 +1820,12 @@ Never,永不,module,Magento_Customer
 "Deleted Stores",已删除存储区,module,Magento_Customer
 "Add Locale",收藏的天数,module,Magento_Customer
 "Add Date",添加日期,module,Magento_Customer
-"Days in Wish List",天在愿望清单,module,Magento_Customer
+"Days in Wish List",愿望清单存在天数,module,Magento_Customer
 No,否,module,Magento_Customer
 Yes,是,module,Magento_Customer
 "Delete File",删除文件,module,Magento_Customer
 Download,下载,module,Magento_Customer
-"Delete Image",全尺寸视图,module,Magento_Customer
+"Delete Image",删除图像,module,Magento_Customer
 "View Full Size",查看全尺寸,module,Magento_Customer
 "All countries",所有国家,module,Magento_Customer
 "Customer Groups",客户组,module,Magento_Customer
@@ -1839,13 +1839,13 @@ Download,下载,module,Magento_Customer
 "Maximum length must be less then %1 symbols","最大长度必须少然后 %1 符号",module,Magento_Customer
 "Tax Class",税收类,module,Magento_Customer
 "The customer is now assigned to Customer Group %s.","客户现在分配给客户组 %s。",module,Magento_Customer
-"Would you like to change the Customer Group for this order?",若要更改此订单的客户组，好吗?,module,Magento_Customer
+"Would you like to change the Customer Group for this order?",你想要改变此订单的客户组吗？,module,Magento_Customer
 "The VAT ID is valid.","增值税 ID 是有效的。",module,Magento_Customer
 "The VAT ID entered (%s) is not a valid VAT ID.","输入的增值税 ID (%s) 不是一个有效增值税 id。",module,Magento_Customer
 "The VAT ID is valid. The current Customer Group will be used.","增值税 ID 是有效的。将使用当前的客户组。",module,Magento_Customer
 "The VAT ID is valid but no Customer Group is assigned for it.","增值税 ID 是有效的但没有客户组分配给它。",module,Magento_Customer
 "Based on the VAT ID, the customer belongs to the Customer Group %s.","基于增值税 ID，客户属于客户组 %s。",module,Magento_Customer
-"Something went wrong while validating the VAT ID.","出事时验证增值税 id。",module,Magento_Customer
+"Something went wrong while validating the VAT ID.","验证增值税 id时出现问题。",module,Magento_Customer
 "The customer would belong to Customer Group %s.","客户将属于客户组 %s。",module,Magento_Customer
 "There was an error detecting Customer Group.",检测客户组时出错。,module,Magento_Customer
 "Validate VAT Number",验证增值税号码,module,Magento_Customer
@@ -1855,26 +1855,26 @@ Download,下载,module,Magento_Customer
 "Bad request.",请求有误。,module,Magento_Customer
 "This confirmation key is invalid or has expired.",此确认密钥无效或已过期。,module,Magento_Customer
 "There was an error confirming the account",确认该帐户时出错,module,Magento_Customer
-"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.","如果您是注册的增值税客户，请点击 <a href=""%1""> 这里</a>，输入适当的增值税计算您的送货地址。",module,Magento_Customer
-"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","如果您是注册的增值税客户，请点击 <a href=""%1""> 这里</a>，您的帐单地址输入适当的增值税计算。",module,Magento_Customer
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.","如果你是一个注册的增值税客户，请在这里点击< a href = "" % 1 "" >来输入你的送货地址，以进行增值税的计算。",module,Magento_Customer
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","如果你是一个注册的增值税客户，请在这里点击< a href = "" % 1 "" >来输入你的账单地址，以进行适当的增值税计算。",module,Magento_Customer
 "Thank you for registering with %1.","感谢您注册与 %1。",module,Magento_Customer
-"Please check your email for confirmation key.",请检查您的电子邮件确认键。,module,Magento_Customer
+"Please check your email for confirmation key.",请检查您的电子邮件以确认。,module,Magento_Customer
 "This email does not require confirmation.",这封电子邮件不要求确认。,module,Magento_Customer
-"Wrong email.","错误的 Email 格式",module,Magento_Customer
+"Wrong email.",错误的电子邮件。,module,Magento_Customer
 "Your password reset link has expired.",您的密码重置链接已过期。,module,Magento_Customer
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","您必须确认您的帐户，请检查您电子邮件的确认链接或<a href=""%1"">点击此处</a>打开一个新的链接。",module,Magento_Customer
 "There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","已存在此电子邮件地址的帐户。如果你确信它是您的电子邮件地址，<a href=""%1""> 请单击此处</a> 以获取您的密码和访问您的帐户。",module,Magento_Customer
 "We can't save the customer.",我们不能保存客户。,module,Magento_Customer
 "Please make sure your passwords match.",请确保您的密码相匹配。,module,Magento_Customer
-"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","如果您是注册的增值税客户，请 <a href=""%1""> 点击此处</a> 输入您的运输地址适当增值税的计算。",module,Magento_Customer
-"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","如果您是注册的增值税客户，请 <a href=""%1""> 点击此处</a> 输入您的运输地址适当增值税的计算。",module,Magento_Customer
+"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","如果你是一个注册的增值税客户，请在这里输入“% 1”>，进入你的送货地址，以进行适当的增值税计算。",module,Magento_Customer
+"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","如果你是一个注册的增值税客户，请在这里输入“% 1”>，以进入你的账单地址，以进行适当的增值税计算。",module,Magento_Customer
 "Account Information",账户信息,module,Magento_Customer
 "Invalid input",无效的输入,module,Magento_Customer
 "You saved the account information.",你保存的帐户信息。,module,Magento_Customer
 "Please enter new password.",请输入新密码。,module,Magento_Customer
 "Confirm your new password.",确认您的新密码。,module,Magento_Customer
 "Something went wrong while changing the password.",在更改密码时出了错。,module,Magento_Customer
-"Please correct the email address.",请正确的电子邮件地址。,module,Magento_Customer
+"Please correct the email address.",请输入正确的电子邮件地址。,module,Magento_Customer
 "We're unable to send the password reset email.",我们无法发送重新设置密码的电子邮件。,module,Magento_Customer
 "Please enter your email.",请输入您的电子邮箱地址。,module,Magento_Customer
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","如果与 %1 相关联的帐户，则您将收到电子邮件链接重置您的密码。",module,Magento_Customer
@@ -1904,35 +1904,35 @@ Customers,客户,module,Magento_Customer
 "Please select customer(s).",请选择客户。,module,Magento_Customer
 "Customer could not be deleted.",无法删除客户。,module,Magento_Customer
 "You deleted the customer.",你删除的客户。,module,Magento_Customer
-"Something went wrong while editing the customer.",编辑客户时出了错。,module,Magento_Customer
+"Something went wrong while editing the customer.",编辑客户时出现问题。,module,Magento_Customer
 "Manage Customers",客户管理,module,Magento_Customer
 "Please correct the data sent.",请更正发送的数据。,module,Magento_Customer
 "A total of %1 record(s) were updated.","更新记录 %1",module,Magento_Customer
 "A total of %1 record(s) were deleted.","共有 %1 条记录被删除。",module,Magento_Customer
-"The customer will receive an email with a link to reset password.",客户将收到一封电子邮件以将其重置密码的链接。,module,Magento_Customer
-"Something went wrong while resetting customer password.",在重置用户密码时出了错。,module,Magento_Customer
+"The customer will receive an email with a link to reset password.",客户将收到一个带有重置密码链接的电子邮件。,module,Magento_Customer
+"Something went wrong while resetting customer password.",在重新设置客户密码时出现了问题。,module,Magento_Customer
 "You saved the customer.",你保存的客户。,module,Magento_Customer
 "Something went wrong while saving the customer.",编辑客户时出了错。,module,Magento_Customer
 "Page not found.",找不到网页。,module,Magento_Customer
 "Online Customers",在线客户,module,Magento_Customer
 "Customers Now Online",客户现在在线,module,Magento_Customer
-"Please define Wish List item ID.","请定义的收藏列表项 id。",module,Magento_Customer
+"Please define Wish List item ID.",请定义愿望列表项的ID。,module,Magento_Customer
 "Please load Wish List item.",请加载的收藏列表项。,module,Magento_Customer
 "Login successful.",登录成功。,module,Magento_Customer
 """%1"" section source is not supported","不支持""%1""节源",module,Magento_Customer
 "%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","%1 不延长 \Magento\Customer\CustomerData\SectionSourceInterface",module,Magento_Customer
-"No confirmation needed.",没有需要的确认。,module,Magento_Customer
+"No confirmation needed.",不需要确认。,module,Magento_Customer
 "Account already active",帐户已激活,module,Magento_Customer
 "Invalid confirmation token",无效的确认令牌,module,Magento_Customer
 "This account is not confirmed.",此帐户尚未确认。,module,Magento_Customer
-"This customer already exists in this store.",此客户已存在于此存储。,module,Magento_Customer
+"This customer already exists in this store.",这个客户已经存在在这个商店中。,module,Magento_Customer
 "A customer with the same email already exists in an associated website.",相关网站中已存在具有相同的电子邮件的客户。,module,Magento_Customer
 "The password doesn't match this account.",密码不匹配此帐户。,module,Magento_Customer
 "Please enter a password with at least %1 characters.","请至少输入一个密码与 %1 字符。",module,Magento_Customer
 "The password can't begin or end with a space.",密码不能开始或以空格结尾。,module,Magento_Customer
 "Reset password token mismatch.",重置密码令牌不匹配。,module,Magento_Customer
 "Reset password token expired.",重置密码令牌到期。,module,Magento_Customer
-"Please correct the transactional account email type.",请更正的事务性的帐户电子邮件类型。,module,Magento_Customer
+"Please correct the transactional account email type.",请更正交易帐户电子邮件类型。,module,Magento_Customer
 "Please enter the first name.",请输入姓氏。,module,Magento_Customer
 "Please enter the last name.",请输入姓氏。,module,Magento_Customer
 "Please enter the street.",请输入国家。,module,Magento_Customer
@@ -1955,9 +1955,9 @@ Global,全球,module,Magento_Customer
 "Please enter a TAX/VAT number.",请输入税/增值税号码。,module,Magento_Customer
 "Please enter a gender.",请输入性别。,module,Magento_Customer
 "Please enter a valid password reset token.",请输入有效的密码重置标记。,module,Magento_Customer
-"The password can not begin or end with a space.",密码不能开始或以空格结尾。,module,Magento_Customer
+"The password can not begin or end with a space.",密码不能以空格开头或结尾。,module,Magento_Customer
 Admin,管理员,module,Magento_Customer
-"Attribute object is undefined",是未定义的属性对象,module,Magento_Customer
+"Attribute object is undefined",未定义的属性对象,module,Magento_Customer
 """%1"" invalid type entered.","""%1""输入的类型无效。",module,Magento_Customer
 """%1"" contains non-alphabetic or non-numeric characters.","""%1""中包含非字母或非数字字符。",module,Magento_Customer
 """%1"" is an empty string.","""%1""是一个空字符串。",module,Magento_Customer
@@ -1969,23 +1969,23 @@ Admin,管理员,module,Magento_Customer
 "'%value%' looks like an IP address, which is not an acceptable format.","'%value%' 看上去像一个 IP 地址，不是一种可接受的格式。",module,Magento_Customer
 "'%value%' looks like a DNS hostname but we cannot match the TLD against known list.","'%value%' 看上去像一个 DNS 主机名，但我们不能匹配对照已知列表 TLD。",module,Magento_Customer
 "'%value%' looks like a DNS hostname but contains a dash in an invalid position.","'%value%' 看上去像一个 DNS 主机名，但包含一个破折号在无效的位置。",module,Magento_Customer
-"'%value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.","'%value%' 看上去像一个 DNS 主机名，但我们不能以 TLD '%tld%' 的与匹配对照主机名的架构。",module,Magento_Customer
+"'%value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.","% '看起来像一个DNS主机名，但是我们无法将它与TLD ' % TLD % '的主机名模式相匹配。",module,Magento_Customer
 "'%value%' looks like a DNS hostname but cannot extract TLD part.","'%value%' 看上去像一个 DNS 主机名，但不能提取 TLD 部分。",module,Magento_Customer
 "'%value%' does not look like a valid local network name.","'%value%' 不像一个有效的本地网络名称。",module,Magento_Customer
 "'%value%' looks like a local network name, which is not an acceptable format.","'%value%' 看上去像一个本地网络名称，不是一种可接受的格式。",module,Magento_Customer
 "'%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","'%value%' 似乎是一个 DNS 主机名，但不能解码的给定的 punycode 符号。",module,Magento_Customer
 """%1"" is not a valid URL.","""%1""不是一个有效的 URL。",module,Magento_Customer
 """%1"" is not a valid date.","""%1""不是一个有效的日期。",module,Magento_Customer
-"""%1"" does not fit the entered date format.","""%1""并不适合输入的日期格式。",module,Magento_Customer
-"Please enter a valid date between %1 and %2 at %3.","请输入一个有效的日期 %1 和 %2 在 %3 之间。",module,Magento_Customer
+"""%1"" does not fit the entered date format.","“% 1”不符合输入日期格式。",module,Magento_Customer
+"Please enter a valid date between %1 and %2 at %3.","请在% 1和% 2之间输入有效日期。",module,Magento_Customer
 "Please enter a valid date equal to or greater than %1 at %2.","请输入一个有效的日期等于或大于 %1 在 %2。",module,Magento_Customer
 "Please enter a valid date less than or equal to %1 at %2.","请输入较少或等于 %1 在 %2 有效日期。",module,Magento_Customer
 """%1"" is not a valid file extension.","""%1""不是一个有效的文件扩展名。",module,Magento_Customer
 """%1"" is not a valid file.","""%1""不是一个有效的文件。",module,Magento_Customer
 """%1"" exceeds the allowed file size.","""%1""超出了允许的文件大小。",module,Magento_Customer
 """%1"" is not a valid image format.","""%1""不是有效的图像格式。",module,Magento_Customer
-"""%1"" width exceeds allowed value of %2 px.","""%1""宽度超过允许的值的 %2 px。",module,Magento_Customer
-"""%1"" height exceeds allowed value of %2 px.","""%1""高度超过允许的值的 %2 px。",module,Magento_Customer
+"""%1"" width exceeds allowed value of %2 px.","“% 1”的宽度超过允许的% 2像素。",module,Magento_Customer
+"""%1"" height exceeds allowed value of %2 px.","“% 1”的高度超过允许的% 2像素。",module,Magento_Customer
 """%1"" length must be equal or greater than %2 characters.","""%1""长度必须等于或大于 %2 个字符。",module,Magento_Customer
 """%1"" length must be equal or less than %2 characters.","""%1""长度必须等于或小于 %2 字符。",module,Magento_Customer
 label,标签,module,Magento_Customer
@@ -1999,8 +1999,8 @@ label,标签,module,Magento_Customer
 "VAT Number is valid.",VAT号码无效。,module,Magento_Customer
 "Please enter a valid VAT number.","请输入一个有效的 VAT 号码。",module,Magento_Customer
 "Your VAT ID was successfully validated.","你VAT ID 被成功验证。",module,Magento_Customer
-"You will be charged tax.",你将收取税收。,module,Magento_Customer
-"You will not be charged tax.",不，你将收取税收。,module,Magento_Customer
+"You will be charged tax.",你将被收取税收。,module,Magento_Customer
+"You will not be charged tax.",你不需要缴税。,module,Magento_Customer
 "The VAT ID entered (%1) is not a valid VAT ID.","输入的VAT ID (%s) 不是一个有效VAT ID。",module,Magento_Customer
 "Your Tax ID cannot be validated.","无法验证您的Tax ID。",module,Magento_Customer
 "If you believe this is an error, please contact us at %1","如果你认为这是错误的请致电 %1",module,Magento_Customer
@@ -2008,13 +2008,13 @@ Male,男性,module,Magento_Customer
 Female,女性,module,Magento_Customer
 "Not Specified",未指定,module,Magento_Customer
 "Thank you for registering with",感谢您注册与,module,Magento_Customer
-"enter your billing address for proper VAT calculation","您的帐单地址输入适当的VAT 计算",module,Magento_Customer
-"enter your shipping address for proper VAT calculation","您的帐单地址输入适当的VAT 计算",module,Magento_Customer
+"enter your billing address for proper VAT calculation",为正确的增值税计算输入账单地址,module,Magento_Customer
+"enter your shipping address for proper VAT calculation",为正确的增值税计算输入您的送货地址,module,Magento_Customer
 message,信息,module,Magento_Customer
 Exception,例外,module,Magento_Customer
 "Exception message",异常消息,module,Magento_Customer
 "Validator Exception",验证程序异常,module,Magento_Customer
-"Localized Exception",本地化的异常,module,Magento_Customer
+"Localized Exception",本地化异常,module,Magento_Customer
 Label,标签,module,Magento_Customer
 Select...,选择。。。,module,Magento_Customer
 Edit,编辑,module,Magento_Customer
@@ -2048,12 +2048,12 @@ Newsletters,通讯,module,Magento_Customer
 or,或者,module,Magento_Customer
 "Default Addresses",默认地址,module,Magento_Customer
 "Change Billing Address",更改账单地址,module,Magento_Customer
-"You have no default billing address in your address book.",你有没有默认的帐单地址簿中的地址。,module,Magento_Customer
+"You have no default billing address in your address book.",您的地址簿中没有默认的账单地址。,module,Magento_Customer
 "Change Shipping Address",更改送货地址,module,Magento_Customer
-"You have no default shipping address in your address book.",你有没有缺省的送货地址在您的通讯簿。,module,Magento_Customer
+"You have no default shipping address in your address book.",您的地址簿中没有默认的送货地址。,module,Magento_Customer
 "Additional Address Entries",额外的地址条目,module,Magento_Customer
 "Delete Address",删除地址,module,Magento_Customer
-"You have no other address entries in your address book.",你有没有其他的地址条目在您的通讯簿。,module,Magento_Customer
+"You have no other address entries in your address book.",在你的地址簿中没有其他地址条目。,module,Magento_Customer
 "* Required Fields",*必要字段,module,Magento_Customer
 Company,地址,module,Magento_Customer
 "Phone Number",电话号码,module,Magento_Customer
@@ -2071,10 +2071,10 @@ Country,国家,module,Magento_Customer
 "Use as my default shipping address",使用作为我的默认送货地址,module,Magento_Customer
 "Save Address",保存地址,module,Magento_Customer
 "Go back",返回,module,Magento_Customer
-"Please enter your email below and we will send you the confirmation link.",请输入您的电子邮件下面，我们将发送您的确认链接。,module,Magento_Customer
+"Please enter your email below and we will send you the confirmation link.",请在下面输入您的电子邮件，我们将发送确认链接。,module,Magento_Customer
 Email,邮箱,module,Magento_Customer
 "Send confirmation link",发送确认链接,module,Magento_Customer
-"Back to Sign In",回去签到,module,Magento_Customer
+"Back to Sign In",返回签到,module,Magento_Customer
 "Current Password",当前密码,module,Magento_Customer
 "New Password",新密码,module,Magento_Customer
 "Confirm New Password",确认新密码,module,Magento_Customer
@@ -2136,20 +2136,20 @@ Others,其他,module,Magento_Dhl
 "Freight worldwide",全球货运,module,Magento_Dhl
 "Jumbo box",珍宝箱,module,Magento_Dhl
 "DHL service is not available at %s date","DHL 服务 %s 日期不可用",module,Magento_Dhl
-"The response is in wrong format.",响应是错误的格式。,module,Magento_Dhl
+"The response is in wrong format.",响应格式错误。,module,Magento_Dhl
 "Error #%1 : %2","错误 #%1: %2",module,Magento_Dhl
 "We had to skip DHL method %1 because we couldn't find exchange rate %2 (Base Currency).","我们不得不跳过 DHL 方法 %1，因为我们找不到汇率 %2 (基础货币)。",module,Magento_Dhl
 "Zero shipping charge for '%1'","'%1' 的零运费",module,Magento_Dhl
 "Cannot identify measure unit for %1","找不到 %1 的计量单位",module,Magento_Dhl
 "Cannot identify weight unit for %1","找不到 %1 的重量单位",module,Magento_Dhl
-"There is no items in this order",按此顺序还有没有项目,module,Magento_Dhl
+"There is no items in this order",此订单中没有项目。,module,Magento_Dhl
 "Please, specify origin country",请指定原产地,module,Magento_Dhl
 Documents,文件,module,Magento_Dhl
 "Non Documents",非文件,module,Magento_Dhl
 "Height, width and length should be equal or greater than %1","高度、 宽度和长度应等于或大于 %1",module,Magento_Dhl
 "Wrong Region",区域错误,module,Magento_Dhl
 "Unable to retrieve tracking",无法检索跟踪,module,Magento_Dhl
-"Response is in the wrong format",反应是在错误的格式,module,Magento_Dhl
+"Response is in the wrong format",响应的格式是错误的,module,Magento_Dhl
 "No packages for request",没有要求包裹,module,Magento_Dhl
 "Unable to retrieve shipping label",无法检索发货标签,module,Magento_Dhl
 "Non documents",非文件,module,Magento_Dhl
@@ -2167,7 +2167,7 @@ label,标签,module,Magento_Directory
 "We can't initialize the import model.",我们无法初始化导入模板,module,Magento_Directory
 "Please specify the correct Import Service.",请指定正确的导入服务。,module,Magento_Directory
 WARNING:,警告：,module,Magento_Directory
-"Please correct the country code: %1.","请正确的国家/地区代码: %1。",module,Magento_Directory
+"Please correct the country code: %1.",请更正国家代码:%1。,module,Magento_Directory
 "Country and Format Type combination should be unique",应该是唯一的国家和格式类型组合,module,Magento_Directory
 "Please correct the rates received",请更正收取的差饷,module,Magento_Directory
 "Please select a region, state or province.",请选择一个地区，州或省。,module,Magento_Directory
@@ -2182,16 +2182,16 @@ Error,错误,module,Magento_DownloadableImportExport
 "Upload Files",上传文件,module,Magento_Downloadable
 "All Files",所有文本,module,Magento_Downloadable
 Unlimited,无限,module,Magento_Downloadable
-"Something went wrong while getting the requested content.",同时获得所请求的内容，出了错。,module,Magento_Downloadable
+"Something went wrong while getting the requested content.",在得到请求的内容时出现了问题,module,Magento_Downloadable
 "My Downloadable Products",我下载的产品,module,Magento_Downloadable
 "Please sign in to download your product or purchase <a href=""%1"">%2</a>.","请登录以下载您的产品或购买 <a href=""%1"">%2</a>。",module,Magento_Downloadable
 "Please sign in to download your product.",请登录后下载您的产品。,module,Magento_Downloadable
 "The link has expired.",链接已过期。,module,Magento_Downloadable
 "The link is not available.",链接不可用。,module,Magento_Downloadable
-"Sorry, there was an error getting requested content. Please contact the store owner.",对不起，没有获取请求的内容时出错。请联系店主。,module,Magento_Downloadable
+"Sorry, there was an error getting requested content. Please contact the store owner.",对不起，这里有一个错误被请求的内容。请与店主联系。,module,Magento_Downloadable
 "Please set resource file and link type.",请设置资源文件和链接类型。,module,Magento_Downloadable
 "Invalid download link type.",无效下载链接类型。,module,Magento_Downloadable
-"Something went wrong while saving the file(s).",在保存文件时出了错。,module,Magento_Downloadable
+"Something went wrong while saving the file(s).",在保存文件(s)时出现了问题,module,Magento_Downloadable
 "Provided content must be valid base64 encoded data.","提供的内容必须是有效的 base64 编码数据。",module,Magento_Downloadable
 "Provided file name contains forbidden characters.",提供的文件名称，包含禁用的字符。,module,Magento_Downloadable
 "Link price must have numeric positive value.",链接价格必须有正的数值。,module,Magento_Downloadable
@@ -2320,16 +2320,16 @@ Dropdown,下拉,module,Magento_Eav
 """%1"" is not a valid URL.","""%1""不是一个有效的 URL。",module,Magento_Eav
 """%1"" is not a valid date.","""%1""不是一个有效的日期。",module,Magento_Eav
 """%1"" does not fit the entered date format.","""%1""并不适合输入的日期格式。",module,Magento_Eav
-"""%1"" is a required value.",“%1”的长度必须等于或小于%2个字符。,module,Magento_Eav
+"""%1"" is a required value.","""%1""是一个必需的值。",module,Magento_Eav
 "Please enter a valid date between %1 and %2 at %3.","请输入一个有效的日期 %1 和 %2 在 %3 之间。",module,Magento_Eav
-"Please enter a valid date equal to or greater than %1 at %2.","请输入一个有效的日期等于或大于 %1 在 %2。",module,Magento_Eav
-"Please enter a valid date less than or equal to %1 at %2.","请输入较少或等于 %1 在 %2 有效日期。",module,Magento_Eav
+"Please enter a valid date equal to or greater than %1 at %2.",请输入与%2相同或大于%1的有效日期。,module,Magento_Eav
+"Please enter a valid date less than or equal to %1 at %2.",请输入小于或等于%1%2的有效日期。,module,Magento_Eav
 """%1"" is not a valid file extension.","""%1""不是一个有效的文件扩展名。",module,Magento_Eav
 """%1"" is not a valid file.","""%1""不是一个有效的文件。",module,Magento_Eav
 """%1"" exceeds the allowed file size.","""%1""超出了允许的文件大小。",module,Magento_Eav
 """%1"" is not a valid image format","""%1""不是一种有效的图像格式",module,Magento_Eav
-"""%1"" width exceeds allowed value of %2 px.","""%1""宽度超过允许的值的 %2 px。",module,Magento_Eav
-"""%1"" height exceeds allowed value of %2 px.","""%1""高度超过允许的值的 %2 px。",module,Magento_Eav
+"""%1"" width exceeds allowed value of %2 px.","“%1”宽度超过了%2 px的值。",module,Magento_Eav
+"""%1"" height exceeds allowed value of %2 px.","“%1”的高度超过了%2 px的值。",module,Magento_Eav
 """%1"" cannot contain more than %2 lines.","""%1""不能包含超过 %2 行。",module,Magento_Eav
 """%1"" length must be equal or greater than %2 characters.","""%1""长度必须等于或大于 %2 个字符。",module,Magento_Eav
 """%1"" length must be equal or less than %2 characters.","""%1""长度必须等于或小于 %2 字符。",module,Magento_Eav
@@ -2341,10 +2341,10 @@ Dropdown,下拉,module,Magento_Eav
 "Wrong attribute set id provided","错了属性集 id 提供",module,Magento_Eav
 "Attribute group does not belong to attribute set",属性组不属于属性集,module,Magento_Eav
 "Attribute set not found: %1","属性设置找不到: %1",module,Magento_Eav
-"Attribute ""%1"" not found in attribute set %2.","属性在属性集 %2 中未找到的""%1""。",module,Magento_Eav
+"Attribute ""%1"" not found in attribute set %2.",属性“%1”没有在属性设置%2中找到。,module,Magento_Eav
 "System attribute can not be deleted",不能删除系统属性,module,Magento_Eav
 "Cannot save attribute",无法保存属性,module,Magento_Eav
-"Attribute with attributeCode ""%1"" does not exist.","与 attributeCode""%1""属性不存在。",module,Magento_Eav
+"Attribute with attributeCode ""%1"" does not exist.",属性与attributeCode“%1”不存在。,module,Magento_Eav
 "Cannot delete attribute.",无法删除属性。,module,Magento_Eav
 "Attribute with id ""%1"" does not exist.","Id 为""%1""属性不存在。",module,Magento_Eav
 "There was an error saving attribute set.",保存属性集时出错。,module,Magento_Eav
@@ -2367,17 +2367,17 @@ Dropdown,下拉,module,Magento_Eav
 "Attribute %1 doesn't work with options","属性 %1 不能与选项",module,Magento_Eav
 "Cannot save attribute %1","无法保存属性 %1",module,Magento_Eav
 "Attribute %1 doesn't have any option","属性 %1 没有任何选项",module,Magento_Eav
-"Attribute %1 does not contain option with Id %2","%1 属性不包含选项与 Id %2",module,Magento_Eav
+"Attribute %1 does not contain option with Id %2",属性%1不包含Id%2的选项,module,Magento_Eav
 "Cannot load options for attribute %1","无法加载属性 %1 的选项",module,Magento_Eav
 "Attribute set name is empty.",属性集的名称是空的。,module,Magento_Eav
-"An attribute set named ""%1"" already exists.","属性集，名为""%1""已经存在。",module,Magento_Eav
+"An attribute set named ""%1"" already exists.",一个名为“%1”的属性已经存在。,module,Magento_Eav
 "No options found.",发现没有选项。,module,Magento_Eav
 label,标签,module,Magento_Eav
 "Invalid entity supplied: %1","无效的实体提供: %1",module,Magento_Eav
 "Attempt to add an invalid object",尝试添加无效的对象,module,Magento_Eav
 "Invalid attribute identifier for filter (%1)","筛选器 (%1) 无效的属性标识符",module,Magento_Eav
-"Invalid attribute requested: %1","请求的无效属性: %1",module,Magento_Eav
-"Joint field or attribute expression with this alias is already declared",已经宣布与此别名的联合字段或属性表达式,module,Magento_Eav
+"Invalid attribute requested: %1","无效的属性要求:% 1",module,Magento_Eav
+"Joint field or attribute expression with this alias is already declared",已经声明了使用该别名的联合字段或属性表达式,module,Magento_Eav
 "Invalid alias, already exists in joint attributes",无效的别名，已经存在于联合属性,module,Magento_Eav
 "Invalid foreign key",无效的外键,module,Magento_Eav
 "Invalid entity type",无效的实体类型,module,Magento_Eav
@@ -2401,8 +2401,8 @@ label,标签,module,Magento_Eav
 "Form Fieldset with the same code",表单字段使用相同的代码,module,Magento_Eav
 "Form Type with the same code",使用相同的代码的表单类型,module,Magento_Eav
 "The value of attribute ""%1"" is invalid.","""%1""属性的值是无效的。",module,Magento_Eav
-"Wrong entity ID","错了实体 ID",module,Magento_Eav
-"Wrong attribute set ID","错了属性集 ID",module,Magento_Eav
+"Wrong entity ID",错误的实体的ID,module,Magento_Eav
+"Wrong attribute set ID",错误的属性设置ID,module,Magento_Eav
 "Wrong attribute group ID","错误属性组 ID",module,Magento_Eav
 "AttributeSet does not exist.","AttributeSet 不存在。",module,Magento_Eav
 hello,你好,module,Magento_Eav
@@ -2414,7 +2414,7 @@ Back,后退,module,Magento_Email
 Reset,重置,module,Magento_Email
 "Delete Template",删除模板,module,Magento_Email
 "Convert to Plain Text",转换为纯文本,module,Magento_Email
-"Return Html Version",谢谢%STORE_NAME,module,Magento_Email
+"Return Html Version","返回 Html 版本",module,Magento_Email
 "Preview Template",预览模板,module,Magento_Email
 "Save Template",保存模板,module,Magento_Email
 "Load Template",加载模板,module,Magento_Email
@@ -2440,7 +2440,7 @@ Unknown,未知,module,Magento_Email
 "New System Template",新系统模板,module,Magento_Email
 "Email Templates",邮件模板,module,Magento_Email
 "Email Preview",电子邮件预览,module,Magento_Email
-"An error occurred. The email template can not be opened for preview.",时出错。不能预览打开的电子邮件模板。,module,Magento_Email
+"An error occurred. The email template can not be opened for preview.",发生了一个错误。不能打开电子邮件模板预览。,module,Magento_Email
 "This email template no longer exists.",此电子邮件模板不再存在。,module,Magento_Email
 "You saved the email template.",你保存的电子邮件模板。,module,Magento_Email
 "Area is already set",已经设置地区,module,Magento_Email
@@ -2477,7 +2477,7 @@ City,城市,module,Magento_Email
 "Design params must be set before calling this method",调用此方法之前，必须设置设计参数,module,Magento_Email
 "<pre> %1 </pre>",<pre>%1</pre>,module,Magento_Email
 "CSS inlining error:","CSS 行内错误:",module,Magento_Email
-"Error filtering template: %s","误差滤波模板: %s",module,Magento_Email
+"Error filtering template: %s","错误过滤模板:% s",module,Magento_Email
 "Invalid sender data",无效发件人数据,module,Magento_Email
 Title,标题,module,Magento_Email
 "Load default template",加载默认模板,module,Magento_Email
@@ -2485,16 +2485,16 @@ Template,模板,module,Magento_Email
 "Are you sure you want to strip tags?",你确定你想要去除标签?,module,Magento_Email
 "Are you sure you want to delete this template?",是否确实要删除此模板?,module,Magento_Email
 "The template did not load. Please review the log for details.",未加载该模板。请查看日志的详细信息。,module,Magento_Email
-"Change Encryption Key","这是你的新的加密密钥：<span style=""font-family:monospace;"">%1</span>。' '一定要记下来，并保存好！",module,Magento_EncryptionKey
+"Change Encryption Key",更改加密密钥,module,Magento_EncryptionKey
 "Encryption Key",加密密钥,module,Magento_EncryptionKey
 "New Encryption Key",新的加密密钥,module,Magento_EncryptionKey
 "The encryption key is used to protect passwords and other sensitive data.",加密密钥用于保护密码和其他敏感数据。,module,Magento_EncryptionKey
 "Auto-generate a Key",自动生成密钥,module,Magento_EncryptionKey
 No,否,module,Magento_EncryptionKey
 Yes,是,module,Magento_EncryptionKey
-"The generated key will be displayed after changing.",更改后，将显示生成的密钥。,module,Magento_EncryptionKey
+"The generated key will be displayed after changing.",生成的密钥将在更改后显示。,module,Magento_EncryptionKey
 "New Key",新的密钥,module,Magento_EncryptionKey
-"Deployment configuration file is not writable.",部署配置文件不是可写的。,module,Magento_EncryptionKey
+"Deployment configuration file is not writable.",部署配置文件不可写。,module,Magento_EncryptionKey
 "Please enter an encryption key.",请输入加密密钥。,module,Magento_EncryptionKey
 "The encryption key has been changed.",加密密钥已被更改。,module,Magento_EncryptionKey
 "This is your new encryption key: <span style=""font-family:monospace;"">%1</span>. Be sure to write it down and take good care of it!","这是你新的加密密钥: <span style=""font-family:monospace;"">%1</span>。一定要把它写下来，你保存好它!",module,Magento_EncryptionKey
@@ -2515,7 +2515,7 @@ Yes,是,module,Magento_EncryptionKey
 "Intl Priority Freight",国际优先货运,module,Magento_Fedex
 "Priority Overnight",隔夜优先,module,Magento_Fedex
 "Smart Post",智能的帖子,module,Magento_Fedex
-"Standard Overnight",标准一夜之间,module,Magento_Fedex
+"Standard Overnight",标准的一夜,module,Magento_Fedex
 Freight,运输,module,Magento_Fedex
 "National Freight",全国货运,module,Magento_Fedex
 "Regular Pickup",定期的检查,module,Magento_Fedex
@@ -2524,17 +2524,17 @@ Freight,运输,module,Magento_Fedex
 "Business Service Center",商务服务中心,module,Magento_Fedex
 Station,车站,module,Magento_Fedex
 "FedEx Envelope",联邦快递信封,module,Magento_Fedex
-"FedEx Pak",联邦快递白,module,Magento_Fedex
+"FedEx Pak",联邦快递包,module,Magento_Fedex
 "FedEx Box",联邦快递的盒子,module,Magento_Fedex
 "FedEx Tube",联邦快递管,module,Magento_Fedex
 "FedEx 10kg Box","联邦快递 10 公斤箱",module,Magento_Fedex
 "FedEx 25kg Box","联邦快递 25 公斤箱",module,Magento_Fedex
 "Your Packaging",您的包装,module,Magento_Fedex
-"Not Required",最大包装重量（请参阅您的装运承运人的最大支持装运重量）,module,Magento_Fedex
+"Not Required",不是必需的,module,Magento_Fedex
 Adult,成人,module,Magento_Fedex
 Direct,直接,module,Magento_Fedex
 Indirect,间接,module,Magento_Fedex
-Pounds,公斤,module,Magento_Fedex
+Pounds,英镑,module,Magento_Fedex
 Kilograms,公斤,module,Magento_Fedex
 "For some reason we can't retrieve tracking info right now.",出于某种原因，我们无法检索跟踪信息现在。,module,Magento_Fedex
 status,状态,module,Magento_Fedex
@@ -2545,8 +2545,8 @@ None,无,module,Magento_Fedex
 "Gift Message is not available",礼物留言不可用,module,Magento_GiftMessage
 "Could not add gift message to shopping cart",不能向购物车添加的礼物留言,module,Magento_GiftMessage
 "There is no item with provided id in the cart","没有提供 id 为购物车中的项目",module,Magento_GiftMessage
-"There is no product with provided  itemId: %1 in the cart","没有与提供 itemId 的产品: %1 购物车中",module,Magento_GiftMessage
-"There is no item with provided id in the order","没有提供 id 的顺序的项目",module,Magento_GiftMessage
+"There is no product with provided  itemId: %1 in the cart",没有提供项目id的产品:购物车中的%1,module,Magento_GiftMessage
+"There is no item with provided id in the order",在订单中没有提供id的项目,module,Magento_GiftMessage
 "There is no item with provided id in the order or gift message isn't allowed","没有提供 id 的顺序的项目或礼物留言不被允许",module,Magento_GiftMessage
 "Could not add gift message to order: ""%1""","不能添加到订单的礼物留言:""%1""",module,Magento_GiftMessage
 "There is no order with provided id or gift message isn't allowed","没有提供 id 的顺序或礼物留言不被允许",module,Magento_GiftMessage
@@ -2557,9 +2557,9 @@ From,从,module,Magento_GiftMessage
 To,至,module,Magento_GiftMessage
 Message,信息,module,Magento_GiftMessage
 Cancel,保存,module,Magento_GiftMessage
-"Gift Options",请将此框留空，如果你不想留下礼物消息的整个订单。,module,Magento_GiftMessage
+"Gift Options",礼物选项,module,Magento_GiftMessage
 "Gift Message",礼品消息,module,Magento_GiftMessage
-"Do you have any gift items in your order?",您在您的订单有任何礼品吗?,module,Magento_GiftMessage
+"Do you have any gift items in your order?",您的订单有什么礼物吗?,module,Magento_GiftMessage
 "Add gift options",添加礼物选项,module,Magento_GiftMessage
 "Gift Options for the Entire Order",整个订单的礼物选项,module,Magento_GiftMessage
 "Leave this box blank if you don't want to leave a gift message for the entire order.",将此框保留为空，如果你不想离开整个订单的礼物留言。,module,Magento_GiftMessage
@@ -2713,10 +2713,10 @@ Never,永不,module,Magento_Indexer
 "Index Management",索引管理,module,Magento_Indexer
 "Please select indexers.",请选择索引器。,module,Magento_Indexer
 "%1 indexer(s) are in ""Update by Schedule"" mode.","%1 indexer(s) 是在""更新的时间表""模式。",module,Magento_Indexer
-"We couldn't change indexer(s)' mode because of an error.","我们不能改变 indexer(s)' 由于错误的模式。",module,Magento_Indexer
+"We couldn't change indexer(s)' mode because of an error.",我们不能改变索引器(s)因为错误而导致的模式。,module,Magento_Indexer
 "%1 indexer(s) are in ""Update on Save"" mode.","%1 indexer(s) 是在""存储更新""模式。",module,Magento_Indexer
 "One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","一个或多个 <a href=""%1""> 索引器无效</a>。请确保你的 <a href=""%2""target=""_blank""> Magento cron 作业</a> 正在运行。",module,Magento_Indexer
-"State for the same indexer",国家为同一索引器的,module,Magento_Indexer
+"State for the same indexer",同一索引器的状态,module,Magento_Indexer
 "State for the same view",同一视图的状态,module,Magento_Indexer
 "Some Exception Message",一些异常消息,module,Magento_Indexer
 "Test Phrase",测试短语,module,Magento_Indexer
@@ -2731,7 +2731,7 @@ General,基本的,module,Magento_Integration
 Name,名字,module,Magento_Integration
 Email,邮箱,module,Magento_Integration
 "Callback URL","回调 URL",module,Magento_Integration
-"Enter URL where Oauth credentials can be sent when using Oauth for token exchange. We strongly recommend using https://.","输入 URL 使用 Oauth 令牌交换时，可以发送位置 Oauth 凭据。我们强烈建议使用 https://。",module,Magento_Integration
+"Enter URL where Oauth credentials can be sent when using Oauth for token exchange. We strongly recommend using https://.","输入 URL 使用 Oauth 解析器代号交换时，可以发送位置 Oauth 凭据。我们强烈建议使用 https://。",module,Magento_Integration
 "Identity link URL","标识链接 URL",module,Magento_Integration
 "URL to redirect user to link their 3rd party account with this Magento integration credentials.","URL 重定向用户链接第三方账号与此 Magento 一体化凭据。",module,Magento_Integration
 "Integration Details",集成详细资料,module,Magento_Integration
@@ -2739,8 +2739,8 @@ Email,邮箱,module,Magento_Integration
 "Integration Tokens for Extensions",扩展的集成令牌,module,Magento_Integration
 "Consumer Key",消费者的关键,module,Magento_Integration
 "Consumer Secret",消费者的秘密,module,Magento_Integration
-"Access Token",访问令牌,module,Magento_Integration
-"Access Token Secret",访问令牌密钥,module,Magento_Integration
+"Access Token",访问解析器代号,module,Magento_Integration
+"Access Token Secret",访问解析器代号密钥,module,Magento_Integration
 "Uninstall the extension to remove this integration",卸载要删除这种集成的扩展,module,Magento_Integration
 Remove,删除,module,Magento_Integration
 View,查看,module,Magento_Integration
@@ -2750,22 +2750,22 @@ Reauthorize,批准,module,Magento_Integration
 "Uninstall the extension to remove integration '%1'.","卸载要删除 '%1' 的集成的扩展。",module,Magento_Integration
 "This integration no longer exists.",这种集成不再存在。,module,Magento_Integration
 "The integration '%1' has been deleted.","'%1' 一体化已被删除。",module,Magento_Integration
-"Integration ID is not specified or is invalid.","集成 ID 没有指定或无效。",module,Magento_Integration
-"Internal error. Check exception log for details.",内部错误。检查异常错误日志的详细信息。,module,Magento_Integration
+"Integration ID is not specified or is invalid.",未指定集成ID或无效。,module,Magento_Integration
+"Internal error. Check exception log for details.",内部错误。检查异常日志以获得详细信息。,module,Magento_Integration
 "View ""%1"" Integration","视图""%1""集成",module,Magento_Integration
-"Edit ""%1"" Integration","编辑""%1""一体化",module,Magento_Integration
-"Warning! Integrations not using HTTPS are insecure and potentially expose private or personally identifiable information","警告!不使用 HTTPS 的集成是不安全和潜在公开私人或个人身份的信息",module,Magento_Integration
+"Edit ""%1"" Integration","编辑""%1""集成",module,Magento_Integration
+"Warning! Integrations not using HTTPS are insecure and potentially expose private or personally identifiable information",警告!不使用HTTPS的集成是不安全的，可能会暴露私人或个人可识别的信息,module,Magento_Integration
 "The integration '%1' has been saved.","'%1' 一体化已被保存。",module,Magento_Integration
-"The integration was not saved.",未保存的一体化。,module,Magento_Integration
-"The integration '%1' has been re-authorized.","'%1' 一体化已成为重新授权。",module,Magento_Integration
-"The integration '%1' has been activated.","'%1' 一体化已被激活。",module,Magento_Integration
-"Integration '%1' has been sent for re-authorization.","一体化 '%1' 已发送的重新授权。",module,Magento_Integration
-"Integration '%1' has been sent for activation.","一体化 '%1' 已发送的激活。",module,Magento_Integration
-"You did not sign in correctly or your account is temporarily disabled.",登录不正确或者您的账号已禁用。,module,Magento_Integration
+"The integration was not saved.",集成没有被保存。,module,Magento_Integration
+"The integration '%1' has been re-authorized.",集成'%1'已经被重新授权。,module,Magento_Integration
+"The integration '%1' has been activated.",集成'%1'已经被激活。,module,Magento_Integration
+"Integration '%1' has been sent for re-authorization.",集成'%1'已经被重新授权。,module,Magento_Integration
+"Integration '%1' has been sent for activation.",集成'%1'已经被发送到激活状态。,module,Magento_Integration
+"You did not sign in correctly or your account is temporarily disabled.",您没有正确地登录，或者您的帐号被暂时关闭了。,module,Magento_Integration
 "This user has no tokens.",此用户已没有标记。,module,Magento_Integration
 "The tokens could not be revoked.",标记不会被吊销。,module,Magento_Integration
-"Sorry, something went wrong granting permissions. You can find out more in the exceptions log.",对不起，出了错授予权限。你可以找出更多的异常日志。,module,Magento_Integration
-"Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.",删除角色和权限时出了错。你可以找出更多的异常日志。,module,Magento_Integration
+"Sorry, something went wrong granting permissions. You can find out more in the exceptions log.",对不起，授予权限的问题出了问题。您可以在异常日志中找到更多。,module,Magento_Integration
+"Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.",在删除角色和权限时出现了问题。您可以在异常日志中找到更多。,module,Magento_Integration
 "This customer has no tokens.",该客户有没有标记。,module,Magento_Integration
 Inactive,未激活,module,Magento_Integration
 Active,活动,module,Magento_Integration
@@ -2774,34 +2774,34 @@ Active,活动,module,Magento_Integration
 "Invalid Callback URL","无效的回调 URL",module,Magento_Integration
 "Invalid Rejected Callback URL","无效的被拒绝的回调 URL",module,Magento_Integration
 "Incorrect timestamp value in the oauth_timestamp parameter","Oauth_timestamp 参数中不正确的时间戳值",module,Magento_Integration
-"The nonce is already being used by the consumer with ID %1","Nonce 已经正在利用消费者与 ID %1",module,Magento_Integration
+"The nonce is already being used by the consumer with ID %1",nonce已经被ID%1的消费者使用了,module,Magento_Integration
 "An error occurred validating the nonce","验证 nonce 时发生错误",module,Magento_Integration
 "Cannot convert to access token due to token is not request type",不能转换为访问令牌由于令牌不是请求类型,module,Magento_Integration
 "Consumer key has expired",消费者密钥已过期,module,Magento_Integration
-"Cannot create request token because consumer token is not a verifier token",不能创建请求令牌，因为消费者标记是不一个验证程序,module,Magento_Integration
-"Request token is not associated with the specified consumer",请求令牌是不相关的指定的使用者,module,Magento_Integration
-"Token is already being used",令牌已被使用,module,Magento_Integration
-"Cannot get access token because consumer token is not a request token",无法获取访问令牌，因为消费者令牌不是请求的标记,module,Magento_Integration
-"Token is not associated with the specified consumer",令牌是不相关的指定的使用者,module,Magento_Integration
+"Cannot create request token because consumer token is not a verifier token",不能创建请求解析器代号，因为消费者标记是不一个验证程序,module,Magento_Integration
+"Request token is not associated with the specified consumer",请求解析器代号是不相关的指定的使用者,module,Magento_Integration
+"Token is already being used",解析器代号已被使用,module,Magento_Integration
+"Cannot get access token because consumer token is not a request token",无法获取访问解析器代号，因为消费者解析器代号不是请求的解析器代号,module,Magento_Integration
+"Token is not associated with the specified consumer",解析器代号是不相关的指定的使用者,module,Magento_Integration
 "Token is not an access token",标记不是访问令牌,module,Magento_Integration
 "Access token has been revoked",访问令牌已被吊销,module,Magento_Integration
-"Consumer key is not the correct length",消费者的关键是不正确的长度,module,Magento_Integration
-"A consumer having the specified key does not exist",不存在具有指定的键的消费者,module,Magento_Integration
+"Consumer key is not the correct length",消费者密钥不是正确的长度,module,Magento_Integration
+"A consumer having the specified key does not exist",具有指定键的用户不存在。,module,Magento_Integration
 "Verifier is invalid",验证程序无效,module,Magento_Integration
 "Verifier is not the correct length",验证程序是不正确的长度,module,Magento_Integration
 "Token verifier and verifier token do not match",令牌验证和验证令牌不匹配,module,Magento_Integration
-"A consumer with the ID %1 does not exist","具有 ID %1 的使用者并不存在",module,Magento_Integration
+"A consumer with the ID %1 does not exist",ID%1的消费者不存在,module,Magento_Integration
 "Token is not the correct length",令牌是不正确的长度,module,Magento_Integration
 "Specified token does not exist",不存在指定的标记,module,Magento_Integration
-"A token with consumer ID %1 does not exist","不存在一个令牌与消费者 ID %1",module,Magento_Integration
+"A token with consumer ID %1 does not exist",一个带有消费者ID%1的解析器代号不存在,module,Magento_Integration
 "Unexpected error. Unable to create oAuth consumer account.","发生意外的错误。无法创建 oAuth 消费者帐户。",module,Magento_Integration
 "Unexpected error. Unable to load oAuth consumer account.","发生意外的错误。无法加载 oAuth 消费者帐户。",module,Magento_Integration
-"A consumer with ID %1 does not exist","具有 ID %1 的使用者并不存在",module,Magento_Integration
-"Unable to post data to consumer due to an unexpected error",无法将数据发布到消费者由于意外错误,module,Magento_Integration
+"A consumer with ID %1 does not exist",ID%1的消费者不存在,module,Magento_Integration
+"Unable to post data to consumer due to an unexpected error",由于无法预料的错误，无法将数据发送给消费者,module,Magento_Integration
 "Consumer with ID '%1' does not exist.","不存在 id 为 '%1' 的消费者。",module,Magento_Integration
 "Invalid token to except",无效的令牌来除外,module,Magento_Integration
-"A token with consumer ID 0 does not exist","与消费者 ID 0 不存在的令牌",module,Magento_Integration
-"The integration you selected asks you to approve access to the following:",您选择的集成要求您确认获得下列:,module,Magento_Integration
+"A token with consumer ID 0 does not exist",一个带有消费者ID%1的解析器代号不存在,module,Magento_Integration
+"The integration you selected asks you to approve access to the following:",您选择的集成要求您批准访问以下内容：,module,Magento_Integration
 "No permissions requested",没有要求的权限,module,Magento_Integration
 "Are you sure ?",您是否确定？,module,Magento_Integration
 "Please setup or sign in into your 3rd party account to complete setup of this integration.",请安装或登录到您的第三方帐户来完成这种集成的安装程序。,module,Magento_Integration
@@ -2821,7 +2821,7 @@ Position,位置,module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block",在分层的导航块的属性位置。,module,Magento_LayeredNavigation
 item,项目,module,Magento_LayeredNavigation
 items,项目,module,Magento_LayeredNavigation
-"Now Shopping by","放置在<span class=""no-link"">%created_at</span>",module,Magento_LayeredNavigation
+"Now Shopping by",现在购物用,module,Magento_LayeredNavigation
 Previous,上一个,module,Magento_LayeredNavigation
 Remove,删除,module,Magento_LayeredNavigation
 "Remove This Item",删除该内容,module,Magento_LayeredNavigation
@@ -2844,7 +2844,7 @@ Partners,合作伙伴,module,Magento_Marketplace
 Synchronize,同步,module,Magento_MediaStorage
 "Synchronizing %1 to %2","同步到 %2 %1",module,Magento_MediaStorage
 Synchronizing...,正在同步...,module,Magento_MediaStorage
-"The timeout limit for response from synchronize process was reached.",从响应同步进程已达到超时限制。,module,Magento_MediaStorage
+"The timeout limit for response from synchronize process was reached.",达到了同步进程响应的超时限制。,module,Magento_MediaStorage
 "File %1 does not exist","%1 文件不存在",module,Magento_MediaStorage
 "File %1 is not readable","%1 文件是不可读",module,Magento_MediaStorage
 "File System",文件系统,module,Magento_MediaStorage
@@ -2852,18 +2852,18 @@ Database,数据库,module,Magento_MediaStorage
 "database ""%1""","数据库""%1""",module,Magento_MediaStorage
 "Parent directory does not exist: %1","父目录不存在: %1",module,Magento_MediaStorage
 "File system",文件系统,module,Magento_MediaStorage
-"Unable to save file ""%1"" at ""%2""","无法保存文件""%1""在""%2""",module,Magento_MediaStorage
+"Unable to save file ""%1"" at ""%2""",无法在“%2”中保存文件“%1”,module,Magento_MediaStorage
 "Wrong file info format",错误的文件信息格式,module,Magento_MediaStorage
 "Path ""%value%"" is protected and cannot be used.","路径""%value%""受保护，不能用。",module,Magento_MediaStorage
 "Path ""%value%"" is not available and cannot be used.","路径""%value%""不可用，不能用。",module,Magento_MediaStorage
 "Path \"%value%\" may not include parent directory traversal (\"../\", \"..\\\").","路径 \"%value%\"可能不包含父目录遍历 (\"../\", \"..\\\").",module,Magento_MediaStorage
-"Please set available and/or protected paths list(s) before validation.",请设置前验证可用和/或受保护的路径列表。,module,Magento_MediaStorage
+"Please set available and/or protected paths list(s) before validation.",请在验证前设置可用和/或保护路径列表(s)。,module,Magento_MediaStorage
 "File with an extension ""%value%"" is protected and cannot be uploaded","""%value%""扩展名的文件受到保护，不能上传",module,Magento_MediaStorage
 "Unable to create directory: %1","无法创建目录: %1",module,Magento_MediaStorage
 "Unable to save file: %1","无法保存文件: %1",module,Magento_MediaStorage
-"To see product price, add this item to your cart. You can always remove it later.",若要查看产品价格，向您的购物车添加此项。你总是可以稍后移除它。,module,Magento_Msrp
+"To see product price, add this item to your cart. You can always remove it later.",若要查看产品价格，请将此项添加到购物车中。您可以以后再删除它。,module,Magento_Msrp
 "See price before order confirmation.",确认订单前显示价格。,module,Magento_Msrp
-"On Gesture",在手势上,module,Magento_Msrp
+"On Gesture",手势,module,Magento_Msrp
 "In Cart",购物车中,module,Magento_Msrp
 "Before Order Confirmation",在订单确认之前,module,Magento_Msrp
 "Use config",用户配置,module,Magento_Msrp
@@ -2878,7 +2878,7 @@ Price,价格,module,Magento_Msrp
 "Billing Information - %1",计费信息-%1,module,Magento_Multishipping
 "Review Order - %1",复核订单-%1,module,Magento_Multishipping
 Total,总额,module,Magento_Multishipping
-"Total for this address",共为此地址的,module,Magento_Multishipping
+"Total for this address",该地址总计,module,Magento_Multishipping
 "Shipping Methods",送货方式,module,Magento_Multishipping
 "Edit Address",更改账单地址,module,Magento_Multishipping
 "Edit Billing Address",编辑帐单地址,module,Magento_Multishipping
@@ -2891,7 +2891,7 @@ Total,总额,module,Magento_Multishipping
 "Order place error",顺序位置误差,module,Magento_Multishipping
 "Maximum qty allowed for Shipping to multiple addresses is %1","允许发货到多个地址的最大数量是 %1",module,Magento_Multishipping
 "Please check shipping address information.",请检查送货地址信息。,module,Magento_Multishipping
-"Please check billing address information.",请检查送货地址信息。,module,Magento_Multishipping
+"Please check billing address information.",请检查帐单邮寄地址信息。,module,Magento_Multishipping
 "Please select shipping methods for all addresses.",请选择所有地址的配送方式。,module,Magento_Multishipping
 "A payment method is not defined.",未定义的付款方法。,module,Magento_Multishipping
 "The requested payment method is not available for multishipping.","Multishipping 的请求的付款方法不可用。",module,Magento_Multishipping
@@ -2902,7 +2902,7 @@ Total,总额,module,Magento_Multishipping
 "Select Addresses",选择地址,module,Magento_Multishipping
 "Shipping Information",运输方式,module,Magento_Multishipping
 "Billing Information",订单总览,module,Magento_Multishipping
-"Place Order",对不起，暂无报价可供此订单现在。,module,Magento_Multishipping
+"Place Order",下单,module,Magento_Multishipping
 "Order Success",订单成功,module,Magento_Multishipping
 "Default Billing",默认账单,module,Magento_Multishipping
 "Default Shipping",默认发货,module,Magento_Multishipping
@@ -2944,13 +2944,13 @@ Subtotal,小计,module,Magento_Multishipping
 Items,产品,module,Magento_Multishipping
 "Grand Total:",总计:,module,Magento_Multishipping
 "Submitting order information...",提交订单信息。。。,module,Magento_Multishipping
-"Sorry, no quotes are available for this order right now.",对不起，没有引号现在可用于此订单。,module,Magento_Multishipping
+"Sorry, no quotes are available for this order right now.",抱歉，这个订单目前没有报价,module,Magento_Multishipping
 "Continue to Billing Information",继续到帐单信息,module,Magento_Multishipping
 "Back to Select Addresses",返回选择地址,module,Magento_Multishipping
 "Thank you for your purchase!",感谢您的购买！,module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.",谢谢您的订单。我们会通过电子邮件发送您订单的详细信息和跟踪信息。,module,Magento_Multishipping
 "Continue Shopping",继续购物,module,Magento_Multishipping
-"No New Relic Application ID configured, cannot continue with Cron Event reporting","没有New Relic应用程序 ID 配置，无法继续通过计划事件报告",module,Magento_NewRelicReporting
+"No New Relic Application ID configured, cannot continue with Cron Event reporting","没有新的遗留应用程序 ID 配置，无法继续通过计划事件报告",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","新的遗物一体化要求 newrelic php5 代理，不安装。有关安装代理的详细信息是可用 <a target=""_blank""href=""%1""> 在这里</a>。",module,Magento_NewRelicReporting
 "Delete Selected Problems",删除选定的问题,module,Magento_Newsletter
@@ -2960,7 +2960,7 @@ Reset,重置,module,Magento_Newsletter
 "Preview Template",预览模板,module,Magento_Newsletter
 "Save Newsletter",保存通讯,module,Magento_Newsletter
 "Save and Resume",保存和恢复,module,Magento_Newsletter
-"View Newsletter",查看新闻稿,module,Magento_Newsletter
+"View Newsletter",查看通讯,module,Magento_Newsletter
 "Edit Newsletter",编辑通讯,module,Magento_Newsletter
 "Queue Information",队列信息,module,Magento_Newsletter
 "Queue Date Start",队列开始日期,module,Magento_Newsletter
@@ -2973,10 +2973,10 @@ Message,信息,module,Magento_Newsletter
 Start,开始,module,Magento_Newsletter
 Pause,暂停,module,Magento_Newsletter
 "Do you really want to cancel the queue?",你真的想要取消队列吗?,module,Magento_Newsletter
-Cancel,保存,module,Magento_Newsletter
-Resume,简历,module,Magento_Newsletter
+Cancel,取消,module,Magento_Newsletter
+Resume,恢复,module,Magento_Newsletter
 Preview,预览,module,Magento_Newsletter
-"Add New Template",模板类型,module,Magento_Newsletter
+"Add New Template",添加新模板,module,Magento_Newsletter
 "Newsletter Templates",邮件列表订阅者,module,Magento_Newsletter
 "Convert to Plain Text",转换为纯文本,module,Magento_Newsletter
 "Return HTML Version","返回 HTML 版本",module,Magento_Newsletter
@@ -2998,7 +2998,7 @@ Sender,发送方,module,Magento_Newsletter
 "Template Type",模板类型,module,Magento_Newsletter
 Action,操作,module,Magento_Newsletter
 "Queue Newsletter",队列通讯,module,Magento_Newsletter
-"We unsubscribed the people you identified.",我们取消订阅你确定的人。,module,Magento_Newsletter
+"We unsubscribed the people you identified.",我们取消了你所确认的人的订阅。,module,Magento_Newsletter
 "The problems you identified have been deleted.",你发现的问题已被删除。,module,Magento_Newsletter
 "Newsletter Problems Report",通讯问题报告,module,Magento_Newsletter
 "Newsletter Problem Reports",通讯问题报告,module,Magento_Newsletter
@@ -3023,7 +3023,7 @@ Subscribers,订阅用户,module,Magento_Newsletter
 "Something went wrong while saving your subscription.",保存订阅时出了错。,module,Magento_Newsletter
 "We saved the subscription.",我们保存订阅。,module,Magento_Newsletter
 "We removed the subscription.",我们删除订阅。,module,Magento_Newsletter
-"Your subscription has been confirmed.",您的订阅已被证实。,module,Magento_Newsletter
+"Your subscription has been confirmed.",你的订阅已经得到确认。,module,Magento_Newsletter
 "This is an invalid subscription confirmation code.",这是一个无效的订阅确认码。,module,Magento_Newsletter
 "This is an invalid subscription ID.","这是一个无效的订阅 id。",module,Magento_Newsletter
 "This email address is already assigned to another user.",此电子邮件地址已经分配给另一个用户。,module,Magento_Newsletter
@@ -3044,6 +3044,7 @@ Paused,已暂停,module,Magento_Newsletter
 "You selected an invalid queue.",您选择了一个无效的队列。,module,Magento_Newsletter
 "We cannot mark as received subscriber.",我们不能标记为已订阅。,module,Magento_Newsletter
 "Duplicate template code",复制模板代码,module,Magento_Newsletter
+"Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","点击此链接以取消订阅 <! — — 这个标签是取消订阅链接--> <a href=""{{var subscriber.getUnsubscriptionLink()}}""> {{var subscriber.getUnsubscriptionLink()}}</a>",module,Magento_Newsletter
 "Choose Store View:",选择商店界面:,module,Magento_Newsletter
 "Newsletter Message Preview",新闻快递邮件预览,module,Magento_Newsletter
 "Add to Queue",添加到队列,module,Magento_Newsletter
@@ -3053,17 +3054,17 @@ Paused,已暂停,module,Magento_Newsletter
 "Sign Up for Our Newsletter:",注册我们的时事通讯:,module,Magento_Newsletter
 "Enter your email address",输入您的电子邮件地址,module,Magento_Newsletter
 Subscribe,订阅,module,Magento_Newsletter
-"Make Check payable to:","请检查支付给 ︰",module,Magento_OfflinePayments
+"Make Check payable to:",支票抬头：,module,Magento_OfflinePayments
 "Send Check to:",所有商品自动生成发票,module,Magento_OfflinePayments
 "Purchase Order Number",采购订单编号,module,Magento_OfflinePayments
-"Make Check payable to: %1","使支票付给: %1",module,Magento_OfflinePayments
+"Make Check payable to: %1",支票抬头：1%,module,Magento_OfflinePayments
 "Purchase Order Number: %1","采购订单编号: %1",module,Magento_OfflinePayments
 "Make Check payable to",对支付检查,module,Magento_OfflinePayments
 "Send Check to",支票寄到,module,Magento_OfflinePayments
 Country,国家,module,Magento_OfflineShipping
 Region/State,地区/国家,module,Magento_OfflineShipping
 "Zip/Postal Code",邮编,module,Magento_OfflineShipping
-"Shipping Price",包括虚拟产品的价格计算,module,Magento_OfflineShipping
+"Shipping Price",运费,module,Magento_OfflineShipping
 "Export CSV","导出 CSV",module,Magento_OfflineShipping
 "Store Pickup",存储拾取,module,Magento_OfflineShipping
 "Weight vs. Destination",重量与目的地,module,Magento_OfflineShipping
@@ -3080,17 +3081,17 @@ None,无,module,Magento_OfflineShipping
 "Please correct Table Rates File Format.",请更正表费率文件格式。,module,Magento_OfflineShipping
 "Something went wrong while importing table rates.",导入表费率时出了错。,module,Magento_OfflineShipping
 "We couldn't import this file because of these errors: %1","我们不能因为这些错误导入此文件: %1",module,Magento_OfflineShipping
-"Please correct Table Rates format in the Row #%1.","请正确的表费率格式行 #%1。",module,Magento_OfflineShipping
-"Please correct Country ""%1"" in the Row #%2.","请更正国家""%1""在行 #%2。",module,Magento_OfflineShipping
+"Please correct Table Rates format in the Row #%1.",请在行%1中纠正表速率格式。,module,Magento_OfflineShipping
+"Please correct Country ""%1"" in the Row #%2.",请在行%2中更正国家“%1”。,module,Magento_OfflineShipping
 "Please correct Region/State ""%1"" in the Row #%2.","请更正区域/国家""%1""在行 #%2。",module,Magento_OfflineShipping
-"Please correct %1 ""%2"" in the Row #%3.","请更正 %1""%2""在行 #%3。",module,Magento_OfflineShipping
-"Please correct Shipping Price ""%1"" in the Row #%2.","请更正送货价格""%1""在行 #%2。",module,Magento_OfflineShipping
+"Please correct %1 ""%2"" in the Row #%3.",请在行%3中更正%1“%2”。,module,Magento_OfflineShipping
+"Please correct Shipping Price ""%1"" in the Row #%2.",请在行%2中正确地改正运费“%1”。,module,Magento_OfflineShipping
 "Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","重复行 #%1 (国家""%2""，区域/国家""%3""Zip""%4""和值""%5"")",module,Magento_OfflineShipping
 "Free Shipping",免费送货,module,Magento_OfflineShipping
 No,否,module,Magento_OfflineShipping
 "For matching items only",只匹配项,module,Magento_OfflineShipping
 "For shipment with matching items",为匹配项的装运,module,Magento_OfflineShipping
-"Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","Ttl 值""%1""不是有效的。请只使用数字等于或大于零。",module,Magento_PageCache
+"Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","TTL值“% 1”无效。请只使用等于或大于零的数字。",module,Magento_PageCache
 "Built-in Application (Not Recommended for Production Use)","内置的应用程序 (不推荐在生产环境中使用)",module,Magento_PageCache
 "Varnish Caching",清漆缓存,module,Magento_PageCache
 "We cannot retrieve the payment method model object.",我们无法检索的付款方法模型对象。,module,Magento_Payment
@@ -3156,7 +3157,7 @@ Cancel,取消,module,Magento_Paypal
 Order,订单,module,Magento_Paypal
 Purchased,已购买,module,Magento_Paypal
 "Bill-to Name",收件人姓名,module,Magento_Paypal
-"Ship-to Name",Ship-to名称,module,Magento_Paypal
+"Ship-to Name",寄件人姓名,module,Magento_Paypal
 "Order Total",订单金额,module,Magento_Paypal
 "Purchase Point",购买点,module,Magento_Paypal
 "Billing Agreement View",计费协议视图,module,Magento_Paypal
@@ -3175,11 +3176,11 @@ Close,关闭,module,Magento_Paypal
 "View Demo",查看演示,module,Magento_Paypal
 "See terms",请参阅条款,module,Magento_Paypal
 "You will be redirected to the PayPal website.","您将被重定向到 PayPal 网站。",module,Magento_Paypal
-"You will be redirected to the PayPal website when you place an order.","您将被重定向到 PayPal 网站当您下订单。",module,Magento_Paypal
+"You will be redirected to the PayPal website when you place an order.",当你下订单时，你将被重定向到PayPal网站。,module,Magento_Paypal
 "Incl. Tax",含。税,module,Magento_Paypal
 "Billing Information",订单总览,module,Magento_Paypal
 "Shipping Information",运输方式,module,Magento_Paypal
-"Would you like to sign a billing agreement to streamline further purchases with PayPal?",你想签账单的协议，以进一步精简与贝宝购买吗?,module,Magento_Paypal
+"Would you like to sign a billing agreement to streamline further purchases with PayPal?",你愿意签署一份账单协议以简化与PayPal的交易吗?,module,Magento_Paypal
 "Invalid block type",无效的模块类型,module,Magento_Paypal
 "Please specify the correct billing agreement ID and try again.","请指定正确的账单协议 ID，然后重试。",module,Magento_Paypal
 "You canceled the billing agreement.",你取消账单协议。,module,Magento_Paypal
@@ -3189,7 +3190,7 @@ Close,关闭,module,Magento_Paypal
 Reports,报告,module,Magento_Paypal
 Sales,销售,module,Magento_Paypal
 "View Transaction",查看交易记录,module,Magento_Paypal
-"We found nothing to fetch because of an empty configuration.",我们发现什么取空的配置。,module,Magento_Paypal
+"We found nothing to fetch because of an empty configuration.",由于一个空的配置，我们没有找到任何东西。,module,Magento_Paypal
 "We fetched %1 report rows from ""%2@%3.""","我们提取 %1 报告行从""%2@%3""。",module,Magento_Paypal
 "The billing agreement ""%1"" has been canceled.","""%1""账单协议已被取消。",module,Magento_Paypal
 "The billing agreement ""%1"" has been created.","已创建账单协议""%1""。",module,Magento_Paypal
@@ -3212,9 +3213,9 @@ Sales,销售,module,Magento_Paypal
 "Your payment has been declined. Please try again.",你的付款已经被拒绝，请重试,module,Magento_Paypal
 "Requested payment method does not match with order.",请求的付款方法与订单不符。,module,Magento_Paypal
 "We can't contact the PayPal gateway.","我们无法联系 PayPal 网关。",module,Magento_Paypal
-"Something went wrong while processing your order.",在处理您的订单时，出了错。,module,Magento_Paypal
-"PayPal gateway has rejected request. %1","支付宝网关拒绝了请求。% 1",module,Magento_Paypal
-"The PayPal gateway rejected the request. %1","支付宝网关拒绝了请求。% 1",module,Magento_Paypal
+"Something went wrong while processing your order.",在处理您的订单时，出现错误。,module,Magento_Paypal
+"PayPal gateway has rejected request. %1",贝宝网关已拒绝请求。%1,module,Magento_Paypal
+"The PayPal gateway rejected the request. %1",贝宝网关拒绝了请求。%1,module,Magento_Paypal
 "I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.",我很抱歉-但我们也不能够处理您的付款。请尝试另一种付款方式或与我们联系，以便我们可以协助你。,module,Magento_Paypal
 "I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.",我很抱歉-但我们不能够完成您的交易。请与我们联系，以便我们可以协助你。,module,Magento_Paypal
 "The payment method code is not set.",未设置付款方法代码。,module,Magento_Paypal
@@ -3248,48 +3249,48 @@ Never,永不,module,Magento_Paypal
 "IPN (Instant Payment Notification) Only","IPN (即时付款通知) 只",module,Magento_Paypal
 "API Signature","API 签名",module,Magento_Paypal
 "API Certificate","API 证书",module,Magento_Paypal
-"The ordering amount of %1 is pending approval on the payment gateway.","%1 订购量有待核准支付网关。",module,Magento_Paypal
+"The ordering amount of %1 is pending approval on the payment gateway.","% 1的订购量正在支付网关上等待批准。",module,Magento_Paypal
 "Ordered amount of %1","%1 的订购的量",module,Magento_Paypal
 "We'll authorize the amount of %1 as soon as the payment gateway approves it.","我们将授权 %1 的量，尽快支付网关批准它。",module,Magento_Paypal
 "The authorized amount is %1.","授权的金额是 %1。",module,Magento_Paypal
 "The maximum number of child authorizations is reached.",达到了子授权的最大数目。,module,Magento_Paypal
 "PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.",支付宝不能处理订单与一零平衡。要完成您的购买，请通过标准结帐过程。,module,Magento_Paypal
 "A payer is not identified.",不确定的付款人。,module,Magento_Paypal
-"Cannot get secure form URL from PayPal","无法从 PayPal 安全窗体的 URL",module,Magento_Paypal
+"Cannot get secure form URL from PayPal",无法从PayPal获得安全的表单URL,module,Magento_Paypal
 "Last Transaction ID","最后的交易 ID",module,Magento_Paypal
 "This customer didn't include a confirmed address.",这位顾客没有包括确认过的地址。,module,Magento_Paypal
-"The payment is authorized but not settled.",付款是授权，但不是能解决。,module,Magento_Paypal
+"The payment is authorized but not settled.",付款已获授权但尚未结算。,module,Magento_Paypal
 "The payment eCheck is not cleared.",支付电子支票是不会被清除。,module,Magento_Paypal
 "The merchant holds a non-U.S. account and doesn't have a withdrawal mechanism.",商人持有非美国帐户，并没有退出机制。,module,Magento_Paypal
 "The payment currency doesn't match any of the merchant's balances currency.",付款币种不匹配任何商人的余额的货币。,module,Magento_Paypal
-"The payment is pending while it is being reviewed by PayPal for risk.",该付款正在等待，而它正在审查通过支付宝的风险。,module,Magento_Paypal
-"The payment is pending because it was made to an email address that is not yet registered or confirmed.",该付款正在等待，因为它是由一个电子邮件地址，尚未登记或确认。,module,Magento_Paypal
-"The merchant account is not yet verified.",商人帐户尚未证明。,module,Magento_Paypal
-"The payment was made via credit card. In order to receive funds merchant must upgrade account to Business or Premier status.",通过信用卡付款。为了得到资金商人必须升级帐户到业务或总理的地位。,module,Magento_Paypal
-"Sorry, but something went wrong. Please contact PayPal customer service.","对不起，但东西走错了。请联系 PayPal 客户服务。",module,Magento_Paypal
-"A reversal has occurred on this transaction due to a chargeback by your customer.",由于您的客户计费的这笔交易发生了逆转。,module,Magento_Paypal
+"The payment is pending while it is being reviewed by PayPal for risk.",这款支付正在等待贝宝(PayPal)进行风险评估。,module,Magento_Paypal
+"The payment is pending because it was made to an email address that is not yet registered or confirmed.",付款还在等待，因为它被发送到一个尚未注册或确认的电子邮件地址。,module,Magento_Paypal
+"The merchant account is not yet verified.",这个商业帐户尚未被证实。,module,Magento_Paypal
+"The payment was made via credit card. In order to receive funds merchant must upgrade account to Business or Premier status.",付款是通过信用卡支付的。为了获得资金，商家必须将帐户升级到商业或总理地位。,module,Magento_Paypal
+"Sorry, but something went wrong. Please contact PayPal customer service.",对不起，但出了点问题。请与贝宝客户服务联系。,module,Magento_Paypal
+"A reversal has occurred on this transaction due to a chargeback by your customer.",由于客户的退款，此交易发生了逆转。,module,Magento_Paypal
 "A reversal has occurred on this transaction due to your customer triggering a money-back guarantee.",由于触发退款保证您客户的这笔交易发生了逆转。,module,Magento_Paypal
-"A reversal has occurred on this transaction due to a complaint about the transaction from your customer.",从您的客户交易投诉此交易发生了逆转。,module,Magento_Paypal
+"A reversal has occurred on this transaction due to a complaint about the transaction from your customer.",由于客户对交易的投诉，这宗交易发生了逆转。,module,Magento_Paypal
 "A reversal has occurred on this transaction because you have given the customer a refund.",因为你给客户退款这笔交易上出现逆转。,module,Magento_Paypal
 "Reversal of an adjustment.",逆转的调整。,module,Magento_Paypal
-"Transaction reversal due to fraud detected by PayPal administrators.",由于支付宝管理人员检测到的欺诈交易。,module,Magento_Paypal
-"Transaction reversal by PayPal administrators.",通过支付宝管理员的交易撤销。,module,Magento_Paypal
-"Reimbursement for a chargeback.",报销费用分摊。,module,Magento_Paypal
+"Transaction reversal due to fraud detected by PayPal administrators.",PayPal管理员发现的欺诈行为导致交易逆转。,module,Magento_Paypal
+"Transaction reversal by PayPal administrators.",通过PayPal管理员的交易撤销。,module,Magento_Paypal
+"Reimbursement for a chargeback.",退款补偿。,module,Magento_Paypal
 "Settlement of a chargeback.",存储容量使用计费结算。,module,Magento_Paypal
-"A reversal has occurred on this transaction because of a customer dispute suspecting unauthorized spoof.",这笔交易因怀疑未经授权的欺骗客户纠纷发生了逆转。,module,Magento_Paypal
+"A reversal has occurred on this transaction because of a customer dispute suspecting unauthorized spoof.",由于客户争议怀疑未经授权的欺骗，此交易发生了逆转。,module,Magento_Paypal
 "Buyer claims that he did not receive goods or service.",买方声称，他没有收到货物或服务。,module,Magento_Paypal
-"Buyer claims that the goods or service received differ from merchant’s description of the goods or service.",收到货物或服务的买方索赔不同从商人的货物或服务的描述。,module,Magento_Paypal
+"Buyer claims that the goods or service received differ from merchant’s description of the goods or service.",买方声称所收到的货物或服务与商人对货物或服务的描述不同。,module,Magento_Paypal
 "Buyer claims that he/she did not authorize transaction.",买方声称他/她并没有授权交易。,module,Magento_Paypal
 "A case that has been resolved and close requires a reimbursement.",已解决和关闭某一案件需要偿还。,module,Magento_Paypal
-"Buyer claims that a possible duplicate payment was made to the merchant.",买方索赔可能重复付款向商人。,module,Magento_Paypal
-"Buyer claims that the received merchandise is unsatisfactory, defective, or damaged.",买方声称收到的商品是不令人满意，有缺陷或损坏。,module,Magento_Paypal
+"Buyer claims that a possible duplicate payment was made to the merchant.",买方声称对商人可能重复付款。,module,Magento_Paypal
+"Buyer claims that the received merchandise is unsatisfactory, defective, or damaged.",买方声称收到的商品是不令人满意的，有缺陷或损坏。,module,Magento_Paypal
 "Unknown reason. Please contact PayPal customer service.","未知的原因。请联系 PayPal 客户服务。",module,Magento_Paypal
 "Payer ID","付款人 ID",module,Magento_Paypal
 "Payer Email",付款人的电子邮件,module,Magento_Paypal
 "Payer Status",付款人地位,module,Magento_Paypal
 "Payer Address ID","付款人地址 ID",module,Magento_Paypal
 "Payer Address Status",付款人地址状态,module,Magento_Paypal
-"Merchant Protection Eligibility",商船保护资格,module,Magento_Paypal
+"Merchant Protection Eligibility",商人保护资格,module,Magento_Paypal
 "Triggered Fraud Filters",触发的欺诈筛选器,module,Magento_Paypal
 "Last Correlation ID","上一个相关 ID",module,Magento_Paypal
 "Address Verification System Response",地址验证系统响应,module,Magento_Paypal
@@ -3309,13 +3310,13 @@ Dispute,争端,module,Magento_Paypal
 "Exact Match.",精确匹配,module,Magento_Paypal
 "Exact Match. Address and Postal Code. International",精确匹配。地址和邮政编码。国际,module,Magento_Paypal
 "Exact Match. Address and Postal Code. UK-specific",精确匹配。地址和邮政编码。英国特定,module,Magento_Paypal
-"N/A. Not allowed for MOTO (Internet/Phone) transactions","N/A。对于 MOTO (网络电话) 的交易，不允许",module,Magento_Paypal
+"N/A. Not allowed for MOTO (Internet/Phone) transactions","N / A。不允许使用MOTO(互联网/电话)交易",module,Magento_Paypal
 "N/A. Global Unavailable","N/A。 全球不可用",module,Magento_Paypal
 "N/A. International Unavailable",N/A.国际不可用,module,Magento_Paypal
 "Matched five-digit ZIP only (no Address)","匹配五位数邮编 (没有地址)",module,Magento_Paypal
 "Matched Postal Code only (no Address)","只匹配的邮政编码 (没有地址)",module,Magento_Paypal
 "N/A. Retry","重试 n/A。",module,Magento_Paypal
-"N/A. Service not Supported",不支持服务不适用。,module,Magento_Paypal
+"N/A. Service not Supported","N / A。服务不支持",module,Magento_Paypal
 "N/A. Unavailable",N/A.不可用,module,Magento_Paypal
 "Matched whole nine-didgit ZIP (no Address)","匹配整个九位数邮编 (没有地址)",module,Magento_Paypal
 "Yes. Matched Address and five-didgit ZIP",是的。匹配的地址和五位数邮编,module,Magento_Paypal
@@ -3323,16 +3324,16 @@ Dispute,争端,module,Magento_Paypal
 "None of the address information matched",没有匹配的地址信息,module,Magento_Paypal
 "Part of the address information matched",匹配的地址信息的一部分,module,Magento_Paypal
 "N/A. The merchant did not provide AVS information","N/A。商人没有提供 AVS 信息",module,Magento_Paypal
-"N/A. Address not checked, or acquirer had no response. Service not available",N/A.讲话不签，或收购者有没有反应。服务不可用,module,Magento_Paypal
+"N/A. Address not checked, or acquirer had no response. Service not available",N/A.未检查的地址，或收单者没有响应。服务不可用,module,Magento_Paypal
 "Matched (CVV2CSC)","匹配的 (CVV2CSC)",module,Magento_Paypal
 "No match",没有匹配,module,Magento_Paypal
 "N/A. Not processed",N/A。不处理,module,Magento_Paypal
-"N/A. Service not supported",不支持服务不适用。,module,Magento_Paypal
+"N/A. Service not supported","N / A。服务不支持",module,Magento_Paypal
 "N/A. Service not available","N/A 服务不可用",module,Magento_Paypal
 "N/A. No response",N/A。没有响应,module,Magento_Paypal
 "Matched (CVV2)","匹配的 (CVV2)",module,Magento_Paypal
 "N/A. The merchant has not implemented CVV2 code handling","N/A。商人没有执行 CVV2 代码处理",module,Magento_Paypal
-"N/A. Merchant has indicated that CVV2 is not present on card","N/A。 商人已表示 CVV2 不是卡上",module,Magento_Paypal
+"N/A. Merchant has indicated that CVV2 is not present on card","N / A。商人表示，CVV2不在卡片上",module,Magento_Paypal
 CPF,中央公积金,module,Magento_Paypal
 "Note: %1","注: %1",module,Magento_Paypal
 "IPN ""%1"". Case type ""%2"". Case ID ""%3"" %4","IPN""%1""。案例类型""%2""。用例 ID""%3""%4",module,Magento_Paypal
@@ -3347,10 +3348,10 @@ CPF,中央公积金,module,Magento_Paypal
 "Transaction has been declined",交易记录已被拒绝,module,Magento_Paypal
 "Error processing payment, please try again later.",错误处理付款，请稍后再试。,module,Magento_Paypal
 "We cannot send the new order email.",我们不能发送新的订单邮件。,module,Magento_Paypal
-"You cannot void a verification transaction.",你不能验证交易记录无效。,module,Magento_Paypal
+"You cannot void a verification transaction.",您不能取消验证事务。,module,Magento_Paypal
 "You need an authorization transaction to void.",你需要到无效授权交易。,module,Magento_Paypal
 "We can't issue a refund transaction because there is no capture transaction.",我们不能发出退款交易，因为没有捕捉交易。,module,Magento_Paypal
-"We cannot create a target file for reading reports.",我们不能为创建一个目标文件阅读报告。,module,Magento_Paypal
+"We cannot create a target file for reading reports.",我们不能为读取报告创建目标文件。,module,Magento_Paypal
 "Report Date",报告日期,module,Magento_Paypal
 "Merchant Account",商人帐户,module,Magento_Paypal
 "Transaction ID",交易ID,module,Magento_Paypal
@@ -3399,12 +3400,12 @@ Funding,资金,module,Magento_Paypal
 "General (Dividend)","一般 (红利)",module,Magento_Paypal
 "General (Funds Transfer from PayPal Account to Another)","一般 (资金转移从 PayPal Account 到另一个)",module,Magento_Paypal
 "General (Purchase with a credit card)","一般 (用信用卡购买)",module,Magento_Paypal
-"General Adjustment without businessrelated event","一般调整没有 businessrelated 的事件",module,Magento_Paypal
+"General Adjustment without businessrelated event",一般性调整，无业务相关事项,module,Magento_Paypal
 "General Currency Conversion",一般货币换算,module,Magento_Paypal
 "General Redemption",一般赎回,module,Magento_Paypal
-"General Withdrawal from PayPal Account","PayPal 帐户一般的撤军",module,Magento_Paypal
-"General. Product no longer supported",一般。不再支持的产品,module,Magento_Paypal
-"General: Use of PayPal account for purchasing as well as receiving payments","一般: 使用贝宝帐户的采购，并且接收付款",module,Magento_Paypal
+"General Withdrawal from PayPal Account","一般情况: 撤出 PayPal 帐户",module,Magento_Paypal
+"General. Product no longer supported",一般情况。不再支持的产品,module,Magento_Paypal
+"General: Use of PayPal account for purchasing as well as receiving payments","一般情况: 使用贝宝帐户的采购，并且接收付款",module,Magento_Paypal
 "General: Withdrawal from PayPal Account","一般情况: 撤出 PayPal 帐户",module,Magento_Paypal
 "General: Withdrawal to Non-Bank Entity","一般情况: 撤回到非银行实体",module,Magento_Paypal
 "General: adjustment of a type not belonging to the other T12xx categories","一般情况: 调整不属于其他 T12xx 类别类型的",module,Magento_Paypal
@@ -3419,8 +3420,8 @@ Funding,资金,module,Magento_Paypal
 "Hidden Virtual PayPal Debit Card Transaction",隐藏虚拟支付宝借记卡交易,module,Magento_Paypal
 "Hold for Dispute Investigation",为纠纷调查举行,module,Magento_Paypal
 Incentive,激励,module,Magento_Paypal
-"Mass Pay Payment",大体积付付款,module,Magento_Paypal
-"Merchant Referral Bonus",商人的推荐奖金,module,Magento_Paypal
+"Mass Pay Payment",批量付款,module,Magento_Paypal
+"Merchant Referral Bonus",商家推荐奖金,module,Magento_Paypal
 "Mobile Payment (made via a mobile phone)","移动支付 (手机)",module,Magento_Paypal
 "Negative Balance",负平衡,module,Magento_Paypal
 "Open Authorization",打开授权,module,Magento_Paypal
@@ -3528,7 +3529,7 @@ Continue,继续,module,Magento_Paypal
 "Not you?",不是你吗？,module,Magento_Persistent
 "Your shopping cart has been updated with new prices.",您的购物车已被新的价格更新。,module,Magento_Persistent
 "Welcome, %1!",欢迎您，%1!,module,Magento_Persistent
-"We cannot load the configuration from file %1.","我们不能从文件 %1 加载配置。",module,Magento_Persistent
+"We cannot load the configuration from file %1.","我们无法加载配置文件% 1。",module,Magento_Persistent
 "Method ""%1"" is not defined in ""%2""","在""%2""未定义的方法""%1""",module,Magento_Persistent
 "To check out, please sign in using your email address.",要签出，请登录使用您的电子邮件地址。,module,Magento_Persistent
 "Remember Me",记住我,module,Magento_Persistent
@@ -3546,12 +3547,12 @@ Continue,继续,module,Magento_Paypal
 "The product was not found.",找不到产品。,module,Magento_ProductAlert
 "You will no longer receive stock alerts.",你不会再收到库存变化的提醒。,module,Magento_ProductAlert
 "Invalid block type: %1","无效的块类型: %1",module,Magento_ProductAlert
-"Price change alert! We wanted you to know that prices have changed for these products:",价格变化警报!我们想让你知道价格换了这些产品:,module,Magento_ProductAlert
+"Price change alert! We wanted you to know that prices have changed for these products:",价格变动警报！我们想让你知道这些产品的价格已经发生了变化：,module,Magento_ProductAlert
 Price:,价格:,module,Magento_ProductAlert
 "Click here to stop alerts for this product.",单击此处停止这种产品的警报。,module,Magento_ProductAlert
 "Unsubscribe from all price alerts",退订所有价格提醒,module,Magento_ProductAlert
-"In stock alert! We wanted you to know that these products are now available:",在股票的警报!我们想让你知道这些产品现已可用:,module,Magento_ProductAlert
-"Unsubscribe from all stock alerts",退订所有股票警报,module,Magento_ProductAlert
+"In stock alert! We wanted you to know that these products are now available:",库存警报!我们想让你知道这些产品现在都可以买到:,module,Magento_ProductAlert
+"Unsubscribe from all stock alerts",取消所有库存警报的订阅,module,Magento_ProductAlert
 Url,网址,module,Magento_ProductVideo
 Title,标题,module,Magento_ProductVideo
 Description,描述,module,Magento_ProductVideo
@@ -3559,27 +3560,36 @@ Description,描述,module,Magento_ProductVideo
 "Get Video Information",获取视频信息,module,Magento_ProductVideo
 "Hide from Product Page",从产品页面隐藏,module,Magento_ProductVideo
 Role,职能,module,Magento_ProductVideo
+"YouTube and Vimeo supported.","YouTube 和 Vimeo 支持。",module,Magento_ProductVideo
+"Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","支持的 Vimeo。 < br / > 要添加 YouTube 视频，请 <a href=""%1""> 输入 YouTube API 密钥</a> 第一次。",module,Magento_ProductVideo
+"Could not get preview image information. Please check your connection and try again.",不能预览图像信息。请检查您的连接，然后重试。,module,Magento_ProductVideo
 "Click here to add videos.",请单击此处添加视频。,module,Magento_ProductVideo
 "New Video",新视频,module,Magento_ProductVideo
 "Add Video",添加视频,module,Magento_ProductVideo
 "Add video",添加视频,module,Magento_ProductVideo
 "Click here or drag and drop to add images.",制造基地,module,Magento_ProductVideo
+"Delete video",删除视频,module,Magento_ProductVideo
 "Delete image",删除图像,module,Magento_ProductVideo
 "Make Base",设为原始,module,Magento_ProductVideo
 Hidden,从产品页隐藏,module,Magento_ProductVideo
 "Alt Text","Alt 文本",module,Magento_ProductVideo
 Title:,标题：,module,Magento_ProductVideo
+Uploaded:,已上传,module,Magento_ProductVideo
+Uploader:,上传：,module,Magento_ProductVideo
+Duration:,持续时间︰,module,Magento_ProductVideo
 "Unable to save address. Please, check input data.",无法保存地址。请检查输入的数据。,module,Magento_Quote
 "Cart %1 doesn't contain products",车%1不包含产品,module,Magento_Quote
 "Could not apply coupon code","无法设置送货方式。 %1",module,Magento_Quote
 "Coupon code is not valid",优惠券代码无效,module,Magento_Quote
 "Could not delete coupon code",无法删除优惠券代码,module,Magento_Quote
-"Shipping address is not set",运营商有这样的方法没有发现：%1%2,module,Magento_Quote
+"Shipping address is not set",未设置发货地址,module,Magento_Quote
 "The requested Payment Method is not available.",付款方法不可用。,module,Magento_Quote
 "We found an invalid request for adding product to quote.",我们发现一个无效的请求添加产品报价。,module,Magento_Quote
 "This is the wrong quote item id to update configuration.","这是要更新配置的错误报价项目 id。",module,Magento_Quote
 "This shipping method is not available. To use this shipping method, please contact us.",这种运输方法不可用。若要使用此航运的方法，请联系我们。,module,Magento_Quote
 "The address model is not defined.",未定义地址模型。,module,Magento_Quote
+"The address total model should be extended from
+                    \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.","地址总模型应该从 \Magento\Quote\Model\Quote\Address\Total\AbstractTotal 扩展。",module,Magento_Quote
 "Grand Total",总额,module,Magento_Quote
 "Shipping & Handling (%1)","航运及处理 (%1)",module,Magento_Quote
 "Shipping & Handling",运费和手续费,module,Magento_Quote
@@ -3591,7 +3601,7 @@ Subtotal,小计,module,Magento_Quote
 "Some of the products below do not have all the required options.",一些下面的产品并没有所需的选项。,module,Magento_Quote
 "Something went wrong during the item options declaration.",项目选项声明期间，出了错。,module,Magento_Quote
 "We found an item options declaration error.",我们发现了一个项目选项声明错误。,module,Magento_Quote
-"Some of the selected options are not currently available.",选定的项选项中有一些不当前可用。,module,Magento_Quote
+"Some of the selected options are not currently available.",某些选定的选项当前不可用。,module,Magento_Quote
 "Selected option(s) or their combination is not currently available.",所选的选项或它们的组合不是当前可用的。,module,Magento_Quote
 "Some item options or their combination are not currently available.",一些项目选项或它们的组合不是当前可用的。,module,Magento_Quote
 "Cart %1 doesn't contain item  %2","购物车 %1 不包含商品 %2",module,Magento_Quote
@@ -3602,7 +3612,7 @@ Subtotal,小计,module,Magento_Quote
 "Invalid address id %1","无效地址 id %1",module,Magento_Quote
 "Cannot create quote",不能创建报价单,module,Magento_Quote
 "Cannot assign customer to the given cart. The cart belongs to different store.",无法将客户分配给给定的购物车。购物车属于不同的商店,module,Magento_Quote
-"Cannot assign customer to the given cart. The cart is not anonymous.",不能将客户分配给给定的车。购物车不是匿名的。,module,Magento_Quote
+"Cannot assign customer to the given cart. The cart is not anonymous.",不能将客户分配给给定的购物车。购物车不是匿名的。,module,Magento_Quote
 "Cannot assign customer to the given cart. Customer already has active cart.",无法将客户分配给给定的购物车。顾客已经有活动的车。,module,Magento_Quote
 "Cannot place order.",不能下订单。,module,Magento_Quote
 "This item price or quantity is not valid for checkout.",这个项目的价格或数量是无效的。,module,Magento_Quote
@@ -3625,7 +3635,7 @@ Tax,税,module,Magento_Quote
 Filter,过滤器,module,Magento_Reports
 "Date Used",使用日期,module,Magento_Reports
 Day,天,module,Magento_Reports
-Month,年,module,Magento_Reports
+Month,月,module,Magento_Reports
 Year,年,module,Magento_Reports
 Period,期间,module,Magento_Reports
 From,从,module,Magento_Reports
@@ -3642,7 +3652,6 @@ Downloads,下载附件,module,Magento_Reports
 Product,产品,module,Magento_Reports
 Link,链接,module,Magento_Reports
 Purchases,购买,module,Magento_Reports
-CSV,"Excel XML",module,Magento_Reports
 "Excel XML","XML Excel",module,Magento_Reports
 Unlimited,无限,module,Magento_Reports
 "Low stock",低库存,module,Magento_Reports
@@ -3678,7 +3687,7 @@ Orders,订单,module,Magento_Reports
 "Total Invoiced",总开票额,module,Magento_Reports
 "Paid Invoices",已付的发票,module,Magento_Reports
 "Unpaid Invoices",未付的发票,module,Magento_Reports
-"Total Refunded Report",共退还报告,module,Magento_Reports
+"Total Refunded Report",总退款报告,module,Magento_Reports
 "Refunded Orders",退还的订单,module,Magento_Reports
 "Total Refunded",退款总计,module,Magento_Reports
 "Online Refunds",在线退款,module,Magento_Reports
@@ -3703,7 +3712,7 @@ Carrier/Method,载体的方法,module,Magento_Reports
 "Order Taxes Report Grouped by Tax Rate",订单税报表按税率,module,Magento_Reports
 Rate,费率,module,Magento_Reports
 "Tax Amount",税额,module,Magento_Reports
-"Abandoned carts",被遗弃的车,module,Magento_Reports
+"Abandoned carts",购物车丢弃的产品,module,Magento_Reports
 Email,邮箱,module,Magento_Reports
 Products,产品展示,module,Magento_Reports
 Quantity,数量,module,Magento_Reports
@@ -3717,7 +3726,7 @@ Customers,客户,module,Magento_Reports
 "Products in carts",在车中的产品,module,Magento_Reports
 Carts,购物车,module,Magento_Reports
 Name,名字,module,Magento_Reports
-"Wish Lists",愿望单,module,Magento_Reports
+"Wish Lists",愿望清单,module,Magento_Reports
 "Wish List Purchase",愿望清单购买,module,Magento_Reports
 "Wish List vs. Regular Order","愿望清单 vs 常规顺序",module,Magento_Reports
 "Times Deleted",删除的次数,module,Magento_Reports
@@ -3731,9 +3740,9 @@ Reports,报告,module,Magento_Reports
 "Low Stock",低库存,module,Magento_Reports
 "Low Stock Report",低库存报告,module,Magento_Reports
 "Ordered Products Report",订购的产品报告,module,Magento_Reports
-"Products Most Viewed Report",产品最查看的报告,module,Magento_Reports
+"Products Most Viewed Report",产品最受关注的报告,module,Magento_Reports
 "Product Views Report",产品意见报告,module,Magento_Reports
-"An error occurred while showing the product views report. Please review the log and try again.",显示产品意见报告时出错。请查看日志并再试一次。,module,Magento_Reports
+"An error occurred while showing the product views report. Please review the log and try again.",显示产品视图报告时出错。请检查日志，然后再试一次。,module,Magento_Reports
 Review,产品评价,module,Magento_Reports
 Reviews,点评,module,Magento_Reports
 "Customers Report",客户报告,module,Magento_Reports
@@ -3764,12 +3773,13 @@ Statistics,统计数据,module,Magento_Reports
 "Order Taxes Report Grouped by Tax Rates",订单税报表按税率,module,Magento_Reports
 "Total Invoiced VS Paid Report","总开票 VS 支付报告",module,Magento_Reports
 "Promotion Coupons Usage Report",促销优惠券使用报告,module,Magento_Reports
-Bestsellers,无法刷新全部统计,module,Magento_Reports
-"Most Viewed Products Report",最查看的产品报告,module,Magento_Reports
-"An error occurred while showing the product views report. Please review the log and try again.",显示产品意见报告时出错。请查看日志并再试一次。,module,Magento_Reports
+Bestsellers,畅销品,module,Magento_Reports
+"Most Viewed Products Report",浏览最多的产品报告,module,Magento_Reports
+"An error occurred while showing the product views report. Please review the log and try again.",显示产品视图报告时出错。请检查日志，然后再试一次。,module,Magento_Reports
 Error,错误,module,Magento_Reports
 "Show By",通过显示,module,Magento_Reports
 "Select Date",选择日期,module,Magento_Reports
+"Customers that have Wish List: %1","有愿望清单的客户:% 1",module,Magento_Reports
 "Number of Wish Lists: %1","愿望清单的数量: %1",module,Magento_Reports
 "Number of items bought from a Wish List: %1","从一个愿望清单购买的商品数量: %1",module,Magento_Reports
 "Number of times Wish Lists have been shared (emailed): %1","次数已共享的愿望列表 (通过电子邮件发送): %1",module,Magento_Reports
@@ -3796,7 +3806,7 @@ Nickname,昵称,module,Magento_Review
 "Summary of Review",审查的摘要,module,Magento_Review
 Review,产品评价,module,Magento_Review
 Previous,上一个,module,Magento_Review
-"Save and Previous",保存和以前,module,Magento_Review
+"Save and Previous",保存和上一步,module,Magento_Review
 "Save and Next",保存和下一步,module,Magento_Review
 Next,下一个,module,Magento_Review
 "Delete Review",删除审查,module,Magento_Review
@@ -3851,23 +3861,23 @@ Websites,网站,module,Magento_Review
 "Reviews %1","点评 %1",module,Magento_Review
 Reviews,点评,module,Magento_Review
 "The review has been deleted.",审查已被删除。,module,Magento_Review
-"Something went wrong  deleting this review.",出了错删去这一审查。,module,Magento_Review
+"Something went wrong  deleting this review.",删除这篇评论是错误的。,module,Magento_Review
 "Customer Reviews",客户评论,module,Magento_Review
 "Edit Review",编辑审阅,module,Magento_Review
 "We can't retrieve the product ID.","我们无法检索产品 id。",module,Magento_Review
-"Please select review(s).",请选择请稍后再试。,module,Magento_Review
+"Please select review(s).",请选择审核(s)。,module,Magento_Review
 "A total of %1 record(s) have been deleted.","已经删除 %1的记录",module,Magento_Review
-"Something went wrong while deleting these records.",在删除这些记录时，出了错。,module,Magento_Review
+"Something went wrong while deleting these records.",删除这些记录时出现错误。,module,Magento_Review
 "A total of %1 record(s) have been updated.","已经更新 %1的记录",module,Magento_Review
-"Something went wrong while updating these review(s).",在更新这些请稍后再试时出了错。,module,Magento_Review
+"Something went wrong while updating these review(s).",在更新这些评论时出现了一些问题。,module,Magento_Review
 "You saved the review.",你保存的审查。,module,Magento_Review
 "Something went wrong while saving this review.",保存此审查时出了错。,module,Magento_Review
-"The review was removed by another user or does not exist.",检讨由另一个用户删除或不存在。,module,Magento_Review
+"The review was removed by another user or does not exist.",评审被另一个用户删除或不存在。,module,Magento_Review
 "You deleted the rating.",你删除的评级。,module,Magento_Review
 Ratings,评级,module,Magento_Review
 "You saved the rating.",你保存的评级。,module,Magento_Review
 "My Product Reviews",我的产品评论,module,Magento_Review
-"You submitted your review for moderation.",您提交你审查为适度。,module,Magento_Review
+"You submitted your review for moderation.",你提交了你的审核报告。,module,Magento_Review
 "We can't post your review right now.",我们现在不能发表您的评论。,module,Magento_Review
 "Storage key was not set",未设置存储键,module,Magento_Review
 Approved,已批准,module,Magento_Review
@@ -3875,7 +3885,7 @@ Pending,待付款,module,Magento_Review
 "Not Approved",未获批准,module,Magento_Review
 "Please enter a review summary.",请输入回顾性总结。,module,Magento_Review
 "Please enter a nickname.",请输入昵称。,module,Magento_Review
-"Please enter a review.",请输入一次审查。,module,Magento_Review
+"Please enter a review.",请输入评论内容。,module,Magento_Review
 "Please specify a rating title for a store, or we'll just use the default value.",请指定一个评级标题为一家商店，或者我们只是将使用默认值。,module,Magento_Review
 "Assigned Options",指派的选项,module,Magento_Review
 "Option Title:",新选项,module,Magento_Review
@@ -3910,8 +3920,8 @@ Summary,用户中心,module,Magento_Review
 "Back to Product Reviews",回到产品评论,module,Magento_Review
 "Page not found.",找不到网页。,module,Magento_Rss
 Feed,"RSS 订阅源",module,Magento_Rss
-"Miscellaneous Feeds",杂项的饲料,module,Magento_Rss
-"Get Feed",得到饲料,module,Magento_Rss
+"Miscellaneous Feeds",杂项提要,module,Magento_Rss
+"Get Feed",得到提要,module,Magento_Rss
 Apply,应用,module,Magento_Rule
 "Please choose a valid discount amount.","没有关于实体类型“% 1”的相关信息",module,Magento_Rule
 "End Date must follow Start Date.",结束日期必须晚于开始日期。,module,Magento_Rule
@@ -3965,6 +3975,7 @@ Apply,应用,module,Magento_SalesRule
 "Discard subsequent rules",放弃后续规则,module,Magento_SalesRule
 Yes,是,module,Magento_SalesRule
 No,否,module,Magento_SalesRule
+"Apply the rule only to cart items matching the following conditions (leave blank for all items).",仅将规则应用于与下列条件匹配的购物车项目（对所有项目留空）。,module,Magento_SalesRule
 "Apply To",应用给,module,Magento_SalesRule
 Conditions,条件,module,Magento_SalesRule
 "Apply the rule only if the following conditions are met (leave blank for all products).","仅在满足以下条件时应用规则 (留空所有产品)。",module,Magento_SalesRule
@@ -4089,7 +4100,7 @@ is,非,module,Magento_SalesRule
 "Some coupons are invalid.",一些优惠券是无效的。,module,Magento_SalesRule
 "Item totals are not set for the rule.",项目总计不会设定规则。,module,Magento_SalesRule
 "%1 Cart Price Rules based on ""%2"" attribute have been disabled.","%1 购物车价格规则，基于""%2""属性已被禁用。",module,Magento_SalesRule
-"Entity Sequence profile not added to meta active profile",实体序列配置文件不会添加到元活动配置文件,module,Magento_SalesSequence
+"Entity Sequence profile not added to meta active profile",未添加到元活动概要文件中的实体序列配置文件,module,Magento_SalesSequence
 "Not enough arguments",没有足够的参数,module,Magento_SalesSequence
 "Credit Memos",贷项通知单,module,Magento_Sales
 Orders,订单,module,Magento_Sales
@@ -4123,9 +4134,9 @@ Message,信息,module,Magento_Sales
 "Create New Order for New Customer",为新客户创建新订单,module,Magento_Sales
 "Items Ordered",已下单的商品,module,Magento_Sales
 "This product is disabled.",本产品已下架。,module,Magento_Sales
-"Buy %1 for price %2","购买价格 %2 %1",module,Magento_Sales
+"Buy %1 for price %2","购买% 1的价格% 2",module,Magento_Sales
 "Item ordered qty",订购数量,module,Magento_Sales
-"%1 with %2 discount each","%1 与 %2 折扣每个",module,Magento_Sales
+"%1 with %2 discount each","% 1与% 2折",module,Magento_Sales
 "%1 for %2","%2 的 %1",module,Magento_Sales
 "* - Enter custom price including tax",*-输入自定义价格（含税）,module,Magento_Sales
 "* - Enter custom price excluding tax",*-输入自定义价格（不含税）,module,Magento_Sales
@@ -4210,9 +4221,10 @@ Capture,捕获,module,Magento_Sales
 "Total Due",应付款总额,module,Magento_Sales
 Edit,编辑,module,Magento_Sales
 "Are you sure you want to send an order email to customer?",你确定你想要向客户发送订单的电子邮件?,module,Magento_Sales
+"This will create an offline refund. To create an online refund, open an invoice and create credit memo for it. Do you want to continue?","这将创建离线的退款。'' 若要创建在线退款，打开发票并为其创建贷方通知单。你想要继续吗?",module,Magento_Sales
 "Are you sure you want to void the payment?",你确定你想要使付款无效?,module,Magento_Sales
 Hold,保留,module,Magento_Sales
-hold,举行,module,Magento_Sales
+hold,保留,module,Magento_Sales
 Unhold,恢复,module,Magento_Sales
 unhold,恢复,module,Magento_Sales
 "Are you sure you want to accept this payment?",你确定你想要接受这种付款?,module,Magento_Sales
@@ -4225,6 +4237,7 @@ Invoice,发货,module,Magento_Sales
 Ship,无可用发货信息,module,Magento_Sales
 Reorder,获取,module,Magento_Sales
 "Order # %1 %2 | %3","订单 # %1 %2 |%3",module,Magento_Sales
+"This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","此订单包含 (%1) 项目，因此不能通过管理界面进行编辑。如果你想要继续编辑，(%2) 项目将被删除，订单将被取消，将放置一个新的秩序。",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.",是否确定？此订单将被取消，将会创建一个新订单。,module,Magento_Sales
 "Save Gift Message",保存礼物留言,module,Magento_Sales
 "Order Credit Memos",订单贷项通知单,module,Magento_Sales
@@ -4234,7 +4247,7 @@ Reorder,获取,module,Magento_Sales
 "Shipment #%1 comment added","添加的装运 #%1 备注",module,Magento_Sales
 "Invoice #%1 created","发票 #%1 创建成功",module,Magento_Sales
 "Invoice #%1 comment added","添加发票 #%1 备注",module,Magento_Sales
-"Tracking number %1 for %2 assigned","跟踪为 %2 分配编号 %1",module,Magento_Sales
+"Tracking number %1 for %2 assigned","分配% 2的跟踪号% 1",module,Magento_Sales
 "Comments History",评论历史,module,Magento_Sales
 "Order History",订单历史记录,module,Magento_Sales
 Information,信息,module,Magento_Sales
@@ -4293,7 +4306,7 @@ Sales,销售,module,Magento_Sales
 "Order saving error: %1","订单保存错误: %1",module,Magento_Sales
 "Cannot add new comment.",不能添加新的注释。,module,Magento_Sales
 "The credit memo has been canceled.",贷项通知单已被取消。,module,Magento_Sales
-"Credit memo has not been canceled.",贷项通知单已不被取消。,module,Magento_Sales
+"Credit memo has not been canceled.",贷项通知单未被取消。,module,Magento_Sales
 "New Memo for #%1","新备忘录为 #%1",module,Magento_Sales
 "New Memo",新备忘录,module,Magento_Sales
 "The credit memo's total must be positive.",贷项通知单的总数必须为正数。,module,Magento_Sales
@@ -4310,8 +4323,8 @@ Sales,销售,module,Magento_Sales
 "Edit Order",编辑订单,module,Magento_Sales
 "You sent the order email.",你发送订单的电子邮件。,module,Magento_Sales
 "We can't send the email order right now.",我们现在无法发送电子邮件订购。,module,Magento_Sales
-"You have not put the order on hold.",你还没有把未付款的订单挂起,module,Magento_Sales
-"You put the order on hold.",未付款的订单挂起,module,Magento_Sales
+"You have not put the order on hold.",你没有把订单搁置。,module,Magento_Sales
+"You put the order on hold.",你把订单搁置。,module,Magento_Sales
 "You canceled the invoice.",您取消了发票。,module,Magento_Sales
 "Invoice canceling error",取消错误的发票,module,Magento_Sales
 "The invoice has been captured.",发票已被抓获。,module,Magento_Sales
@@ -4320,6 +4333,7 @@ Sales,销售,module,Magento_Sales
 "You can't create an invoice without products.",您不能创建产品的发票。,module,Magento_Sales
 "New Invoice",新发票,module,Magento_Sales
 "We can't save the invoice right now.",我们现在不能保存该发票。,module,Magento_Sales
+"The invoice and the shipment  have been created. The shipping label cannot be created now.",创建了发票和装运。现在无法创建发货标签。,module,Magento_Sales
 "You created the invoice and shipment.",您创建的发票和装运。,module,Magento_Sales
 "The invoice has been created.",已创建发票。,module,Magento_Sales
 "We can't send the invoice email right now.",我们现在无法发送发票电子邮件。,module,Magento_Sales
@@ -4330,31 +4344,31 @@ Sales,销售,module,Magento_Sales
 "%1 order(s) cannot be canceled.","%1 订单不能取消。",module,Magento_Sales
 "You cannot cancel the order(s).",你不能取消订单。,module,Magento_Sales
 "We canceled %1 order(s).","我们取消了 %1 订单。",module,Magento_Sales
-"%1 order(s) were not put on hold.","%1 （未付款的）订单没有被挂起。",module,Magento_Sales
+"%1 order(s) were not put on hold.","% 1订单（s）没有被搁置。",module,Magento_Sales
 "No order(s) were put on hold.",没有订单被暂时挂起。,module,Magento_Sales
-"You have put %1 order(s) on hold.","你已经挂起 %1 （未付款的）订单。",module,Magento_Sales
-"%1 order(s) were not released from on hold status.","%1 订单从挂起状态恢复。",module,Magento_Sales
-"No order(s) were released from on hold status.",没有订单从挂起状态获释。,module,Magento_Sales
-"%1 order(s) have been released from on hold status.","%1 订单已经从挂起状态被恢复。",module,Magento_Sales
+"You have put %1 order(s) on hold.","你已经搁置 %1 订单。",module,Magento_Sales
+"%1 order(s) were not released from on hold status.","%1 订单从搁置状态恢复。",module,Magento_Sales
+"No order(s) were released from on hold status.",没有订单从搁置状态被恢复。,module,Magento_Sales
+"%1 order(s) have been released from on hold status.","%1 订单已经从搁置状态被恢复。",module,Magento_Sales
 "There are no printable documents related to selected orders.",没有可打印的文档与所选订单相关。,module,Magento_Sales
 "The payment has been accepted.",付款已被接受。,module,Magento_Sales
 "The payment has been denied.",付款已被拒绝。,module,Magento_Sales
 "Transaction has been approved.",事务已被批准。,module,Magento_Sales
-"Transaction has been voided/declined.",事务已被作废有所下降。,module,Magento_Sales
-"There is no update for the transaction.",有是没有交易记录的更新。,module,Magento_Sales
+"Transaction has been voided/declined.",事务已被作废/拒绝。,module,Magento_Sales
+"There is no update for the transaction.",该事务没有更新。,module,Magento_Sales
 "We can't update the payment right now.",我们不能更新现在的付款。,module,Magento_Sales
 "You assigned the order status.",你分配的订单状态。,module,Magento_Sales
 "Something went wrong while assigning the order status.",在分配订单状态时出了错。,module,Magento_Sales
 "We can't find this order status.",我们找不到此订单状态。,module,Magento_Sales
 "Create New Order Status",创建新的订单状态,module,Magento_Sales
-"We found another order status with the same order status code.",我们发现另一个订单状态与同一订单状态代码。,module,Magento_Sales
+"We found another order status with the same order status code.",我们在相同的订单状态代码中找到了另一个订单状态。,module,Magento_Sales
 "You saved the order status.",订单状态已保存,module,Magento_Sales
 "We can't add the order status right now.",我们现在不能添加订单状态。,module,Magento_Sales
 "You have unassigned the order status.",你有未分配的订单状态。,module,Magento_Sales
-"Something went wrong while unassigning the order.",同时取消分配顺序，出了错。,module,Magento_Sales
+"Something went wrong while unassigning the order.",在未分配订单时出现了一些问题。,module,Magento_Sales
 "Can't unhold order.",不能恢复秩序。,module,Magento_Sales
-"You released the order from holding status.",你发布的顺序从控股地位。,module,Magento_Sales
-"The order was not on hold.",命令不是搁置。,module,Magento_Sales
+"You released the order from holding status.",你从持有状态释放了订单。,module,Magento_Sales
+"The order was not on hold.",命令未被搁置。,module,Magento_Sales
 "Exception occurred during order load",在顺序加载过程中出现异常,module,Magento_Sales
 "Something went wrong while saving the gift message.",保存礼物留言时出了错。,module,Magento_Sales
 "You saved the gift card message.",你保存礼物卡留言。,module,Magento_Sales
@@ -4373,16 +4387,17 @@ Home,首页,module,Magento_Sales
 "Please specify order items.",请指定订单项。,module,Magento_Sales
 "Please specify a shipping method.",请指定一个装运方法。,module,Magento_Sales
 "Please specify a payment method.",请指定付款方式,module,Magento_Sales
-"This payment method is not available.",此付款方式不是可用的。,module,Magento_Sales
+"This payment method is not available.",此付款方式是不可用的。,module,Magento_Sales
 "Validation is failed.",验证失败。,module,Magento_Sales
-"You did not email your customer. Please check your email settings.",你不没有电子邮件，您的客户。请检查您的电子邮件设置。,module,Magento_Sales
+"You did not email your customer. Please check your email settings.",你没有给你的客户发电子邮件。请检查您的电子邮件设置。,module,Magento_Sales
+"Path ""%1"" is not part of allowed directory ""%2""","路径“% 1”并不是允许目录“% 2”的一部分",module,Magento_Sales
 "Identifying Fields required",确定所需字段,module,Magento_Sales
 "Id required","所需的 id",module,Magento_Sales
 "A hold action is not available.",保持操作不可用。,module,Magento_Sales
 "You cannot remove the hold.",您不能删除挂起。,module,Magento_Sales
 "We cannot cancel this order.",我们不能取消此订单。,module,Magento_Sales
 Guest,访客,module,Magento_Sales
-"Please enter the first name.",请输入姓氏。,module,Magento_Sales
+"Please enter the first name.",请输入名字。,module,Magento_Sales
 "Please enter the last name.",请输入姓氏。,module,Magento_Sales
 "Please enter the street.",请输入国家。,module,Magento_Sales
 "Please enter the city.",请输入城市。,module,Magento_Sales
@@ -4415,31 +4430,31 @@ Partial,部分,module,Magento_Sales
 Mixed,混合,module,Magento_Sales
 "Registered a Void notification.",注册无效的通知。,module,Magento_Sales
 "If the invoice was created offline, try creating an offline credit memo.",如果创建了一种脱机的发票，请尝试创建脱机贷项通知单。,module,Magento_Sales
-"We refunded %1 online.","我们退还您在线 %1。",module,Magento_Sales
-"We refunded %1 offline.","我们退还您 %1 脱机。",module,Magento_Sales
+"We refunded %1 online.","我们在线退款% 1。",module,Magento_Sales
+"We refunded %1 offline.","我们离线退还% 1。",module,Magento_Sales
 "IPN ""Refunded"". Refund issued by merchant. Registered notification about refunded amount of %1. Transaction ID: ""%2"". Credit Memo has not been created. Please create offline Credit Memo.","IPN""退还""。由商人发出退款。登记通知关于 %1 的退款金额。交易记录 ID:""%2""。尚未创建贷项通知单。请创建脱机贷项通知单。",module,Magento_Sales
 "The credit memo has been created automatically.",贷项通知单已自动创建。,module,Magento_Sales
 "Registered notification about refunded amount of %1.","登记通知关于 %1 的退款金额。",module,Magento_Sales
-"Canceled order online",取消的订单在线,module,Magento_Sales
-"Canceled order offline",取消的订单脱机,module,Magento_Sales
+"Canceled order online",在线取消的订单,module,Magento_Sales
+"Canceled order offline",离线取消的订单,module,Magento_Sales
 "Approved the payment online.",通过在线支付。,module,Magento_Sales
-"There is no need to approve this payment.",那里是没有需要批准这笔付款。,module,Magento_Sales
+"There is no need to approve this payment.",没有必要批准这笔付款。,module,Magento_Sales
 "Denied the payment online",否认在线支付,module,Magento_Sales
 "Registered update about approved payment.",关于核准付款的注册的更新。,module,Magento_Sales
 "Registered update about denied payment.",关于被拒绝付款的注册的更新。,module,Magento_Sales
-"There is no update for the payment.",有是没有为更新付款。,module,Magento_Sales
-"Voided authorization.",空心的授权。,module,Magento_Sales
+"There is no update for the payment.",付款没有更新。,module,Magento_Sales
+"Voided authorization.",废弃的授权,module,Magento_Sales
 "Amount: %1.","金额: %1。",module,Magento_Sales
 "Transaction ID: ""%1""","交易记录 ID:""%1""",module,Magento_Sales
 "The payment method you requested is not available.",付款不允许存储对象。,module,Magento_Sales
 "The payment disallows storing objects.",付款不允许存储对象。,module,Magento_Sales
-"The transaction ""%1"" cannot be captured yet.","""%1""交易不能尚未抓获。",module,Magento_Sales
-"We will authorize %1 after the payment is approved at the payment gateway.","付款被批准在支付网关后，我们将授权 %1。",module,Magento_Sales
+"The transaction ""%1"" cannot be captured yet.","事务“% 1”还无法捕获。",module,Magento_Sales
+"We will authorize %1 after the payment is approved at the payment gateway.","在支付网关批准付款后，我们将授权% 1。",module,Magento_Sales
 "Order is suspended as its authorizing amount %1 is suspected to be fraudulent.","秩序被暂停其授权金额 %1 怀疑有欺诈性。",module,Magento_Sales
 "Authorized amount of %1","预授权的金额的 %1",module,Magento_Sales
-"An amount of %1 will be captured after being approved at the payment gateway.","%1 金额将被俘后被批准在支付网关。",module,Magento_Sales
+"An amount of %1 will be captured after being approved at the payment gateway.","在支付网关批准后，% 1将被捕获。",module,Magento_Sales
 "Captured amount of %1 online","捕获的量的 %1 在线",module,Magento_Sales
-"The order amount of %1 is pending approval on the payment gateway.","订单金额的 %1 正在等待批准的支付网关。",module,Magento_Sales
+"The order amount of %1 is pending approval on the payment gateway.","% 1的订单金额正在支付网关上等待批准。",module,Magento_Sales
 "Ordered amount of %1","%1 的订购的量",module,Magento_Sales
 "Registered notification about captured amount of %1.","登记通知关于 %1 的捕获量。",module,Magento_Sales
 "Order is suspended as its capture amount %1 is suspected to be fraudulent.","秩序被暂停其捕获量 %1 怀疑有欺诈性。",module,Magento_Sales
@@ -4471,7 +4486,7 @@ Tax,税,module,Magento_Sales
 "The order object is not specified.","未指定 order 对象。",module,Magento_Sales
 "The source object is not specified.",未指定的源对象。,module,Magento_Sales
 "An item object is not specified.","未指定一个 item 对象。",module,Magento_Sales
-"A PDF object is not specified.","不指定 PDF 对象。",module,Magento_Sales
+"A PDF object is not specified.","未指定 PDF 对象。",module,Magento_Sales
 "A PDF page object is not specified.","未指定 PDF 页面对象。",module,Magento_Sales
 "Excl. Tax",不包括消费税,module,Magento_Sales
 "Incl. Tax",含。税,module,Magento_Sales
@@ -4524,7 +4539,7 @@ Processing,处理,module,Magento_Sales
 "On Hold",等待审核,module,Magento_Sales
 Complete,完成,module,Magento_Sales
 Closed,已关闭,module,Magento_Sales
-"Suspected Fraud",涉嫌的欺诈,module,Magento_Sales
+"Suspected Fraud",疑似欺诈行为,module,Magento_Sales
 "Payment Review",付款的审查,module,Magento_Sales
 New,新建,module,Magento_Sales
 "test message",测试消息,module,Magento_Sales
@@ -4574,7 +4589,7 @@ Subtotal:,小计：,module,Magento_Sales
 "Customer's Activities",客户活动,module,Magento_Sales
 Refresh,刷新,module,Magento_Sales
 Item,产品,module,Magento_Sales
-"Add To Order",无项目,module,Magento_Sales
+"Add To Order",添加到订单,module,Magento_Sales
 "Configure and Add to Order",配置和添加到订单,module,Magento_Sales
 "No items",没有项目,module,Magento_Sales
 "Append Comments",添加评论,module,Magento_Sales
@@ -4614,15 +4629,15 @@ Message:,消息：,module,Magento_Sales
 "Create Shipment",创建装运,module,Magento_Sales
 "Invoice and shipment types do not match for some items on this order. You can create a shipment only after creating the invoice.",发票和装运类型不匹配此订单上的某些商品。您可以创建仅在创建发票后的装运。,module,Magento_Sales
 %1,1%,module,Magento_Sales
-"Qty to Invoice",对发票数量,module,Magento_Sales
+"Qty to Invoice",开票数量,module,Magento_Sales
 "Invoice History",发票历史,module,Magento_Sales
 "Invoice Comments",发票的评论,module,Magento_Sales
 "Invoice Totals",发票合计,module,Magento_Sales
 Amount,数量,module,Magento_Sales
 "Capture Online",捕获在线,module,Magento_Sales
-"Capture Offline",捕获脱机,module,Magento_Sales
+"Capture Offline",捕获离线,module,Magento_Sales
 "Not Capture",不捕获,module,Magento_Sales
-"The invoice will be created offline without the payment gateway.",发票将创建脱机没有支付网关。,module,Magento_Sales
+"The invoice will be created offline without the payment gateway.",发票将在没有支付网关的情况下离线创建。,module,Magento_Sales
 "Email Copy of Invoice",发票的电子邮件副本,module,Magento_Sales
 "Items Invoiced",商品开票,module,Magento_Sales
 "Total Tax",总税款,module,Magento_Sales
@@ -4633,7 +4648,7 @@ Comment,评论,module,Magento_Sales
 "Notification Not Applicable",通知不适用,module,Magento_Sales
 "Order & Account Information",订单与帐户信息,module,Magento_Sales
 "The order confirmation email was sent",订单确认电子邮件已发送,module,Magento_Sales
-"The order confirmation email is not sent",不发送订单确认电子邮件,module,Magento_Sales
+"The order confirmation email is not sent",订单确认电子邮件未发送,module,Magento_Sales
 "Order Date",订单日期,module,Magento_Sales
 "Order Date (%1)","订单日期 (%1)",module,Magento_Sales
 "Purchased From",从购买,module,Magento_Sales
@@ -4864,7 +4879,7 @@ message,信息,module,Magento_Shipping
 Ship,无可用发货信息,module,Magento_Shipping
 "Shipment Total",出货总数,module,Magento_Shipping
 "Shipment Comments",发货备注,module,Magento_Shipping
-"Comment Text",数字,module,Magento_Shipping
+"Comment Text",注释文本,module,Magento_Shipping
 "Shipment Options",装运选项,module,Magento_Shipping
 "Create Shipping Label",创建发货标签,module,Magento_Shipping
 "Append Comments",添加评论,module,Magento_Shipping
@@ -4936,7 +4951,7 @@ Path,路径,module,Magento_Sitemap
 Generate,生成,module,Magento_Sitemap
 "XML Sitemap","XML 网站地图",module,Magento_Sitemap
 "Add Sitemap",添加网站地图,module,Magento_Sitemap
-Catalog,目录重写,module,Magento_Sitemap
+Catalog,目录,module,Magento_Sitemap
 "You deleted the sitemap.",你删除的站点地图。,module,Magento_Sitemap
 "We can't find a sitemap to delete.",我们找不到要删除一个网站地图。,module,Magento_Sitemap
 "This sitemap no longer exists.",这个网站地图不再存在。,module,Magento_Sitemap
@@ -4950,14 +4965,14 @@ Catalog,目录重写,module,Magento_Sitemap
 Always,总是,module,Magento_Sitemap
 Hourly,每小时,module,Magento_Sitemap
 Daily,每天,module,Magento_Sitemap
-Weekly,每月,module,Magento_Sitemap
+Weekly,每周,module,Magento_Sitemap
 Monthly,每月,module,Magento_Sitemap
 Yearly,每年,module,Magento_Sitemap
 Never,永不,module,Magento_Sitemap
 "File handler unreachable",文件处理程序无法访问,module,Magento_Sitemap
 "Please define a correct path.",请定义正确的路径。,module,Magento_Sitemap
 "Please create the specified folder ""%1"" before saving the sitemap.","请保存站点地图之前创建指定的文件夹""%1""。",module,Magento_Sitemap
-"Please make sure that ""%1"" is writable by the web-server.","请确保""%1""是由 web 服务器可写。",module,Magento_Sitemap
+"Please make sure that ""%1"" is writable by the web-server.","请确保“% 1”是由web服务器写入的。",module,Magento_Sitemap
 "Please use only letters (a-z or A-Z), numbers (0-9) or underscores (_) in the filename. No spaces or other characters are allowed.","请在文件名中使用唯一的字母 (a 到 z 或 A 到 Z)，数字 (0-9) 或下划线 (_)。允许不能有空格或其他字符。",module,Magento_Sitemap
 None,无,module,Magento_Sitemap
 "Base Only",基地只有,module,Magento_Sitemap
@@ -4970,7 +4985,9 @@ All,全部,module,Magento_Sitemap
 "Invalid scope object",无效的范围对象,module,Magento_Store
 "Store with the same code",使用相同的代码存储,module,Magento_Store
 "Website with the same code",使用相同代码的网站,module,Magento_Store
+"Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","网站代码可能只包含字母 (a-z)，数字 (0-9) 或下划线 (_)，第一个字符必须是字母。",module,Magento_Store
 "Name is required",名称是必需的,module,Magento_Store
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","存储代码可能只包含字母(a - z)、数字(0 - 9)或下划线(_)，第一个字符必须是字母。",module,Magento_Store
 "Store is inactive",存储处于非活动状态,module,Magento_Store
 "Default store is inactive",默认存储处于非活动状态,module,Magento_Store
 "All Store Views",所有商店界面,module,Magento_Store
@@ -4979,7 +4996,7 @@ Admin,管理员,module,Magento_Store
 "More than one default website is defined",定义了多个默认网站,module,Magento_Store
 "Default website is not defined",未定义默认网站,module,Magento_Store
 "Your Language:",您的语言：,module,Magento_Store
-"Your Language",您的语言：,module,Magento_Store
+"Your Language",你的语言,module,Magento_Store
 Language,语言,module,Magento_Store
 "Select Store",选择存储,module,Magento_Store
 "Swatch Helper: not valid parameter for product instantiation",Swatch,module,Magento_Swatches
@@ -5051,7 +5068,7 @@ Name,名字,module,Magento_Tax
 "Product Tax Class",产品税类,module,Magento_Tax
 "Tax Rate",税率,module,Magento_Tax
 Priority,优先级,module,Magento_Tax
-"Tax rates at the same priority are added, others are compounded.",加税税率相同的优先级，别人更加恶化。,module,Magento_Tax
+"Tax rates at the same priority are added, others are compounded.",同样优先考虑的税率也增加了，其他的也增加了。,module,Magento_Tax
 "Calculate Off Subtotal Only",只计算小计的折扣,module,Magento_Tax
 "Sort Order",排序,module,Magento_Tax
 "Do you really want to delete this tax class?",你真的想要删除此税类吗?,module,Magento_Tax
@@ -5074,7 +5091,7 @@ Tax,税,module,Magento_Tax
 "We can't save this rate right now.",我们无法保存这个速度现在。,module,Magento_Tax
 "You deleted the tax rate.",你删除的税率。,module,Magento_Tax
 "We can't delete this rate because of an incorrect rate ID.","我们不能删除此率由于不正确率 id。",module,Magento_Tax
-"Something went wrong deleting this rate.",出了错删去这一比率。,module,Magento_Tax
+"Something went wrong deleting this rate.",删除这个速率出错了。,module,Magento_Tax
 "Edit Tax Rate",编辑税率,module,Magento_Tax
 "You saved the tax rate.",你保存的税率。,module,Magento_Tax
 "Tax Rules",税务规则,module,Magento_Tax
@@ -5094,8 +5111,9 @@ Tax,税,module,Magento_Tax
 "Maximum zip code length is 9.","最大的 zip 代码长度为 9。",module,Magento_Tax
 "Use digits only for the zip code.","仅为 zip 代码使用数字。",module,Magento_Tax
 "Range To should be equal or greater than Range From.",范围应等于或大于好范围从。,module,Magento_Tax
-"The tax rate cannot be removed. It exists in a tax rule.",不能删除的税率。它存在于一个税收规则。,module,Magento_Tax
+"The tax rate cannot be removed. It exists in a tax rule.",不能取消税率。它存在于税收规则中。,module,Magento_Tax
 "This class no longer exists.",此类不再存在。,module,Magento_Tax
+"You cannot delete this tax class because it is used in Tax Rules. You have to delete the rules it is used in first.",不能删除此税类，因为它在税务规则中使用。你必须删除首先使用它的规则。,module,Magento_Tax
 "You cannot delete this tax class because it is used in existing %1(s).","因为它在现有的 %1(s) 中使用，无法删除此税类。",module,Magento_Tax
 "Custom price if available",如果可用的自定义价格,module,Magento_Tax
 "Original price only",原价只有,module,Magento_Tax
@@ -5104,7 +5122,7 @@ Tax,税,module,Magento_Tax
 "Shipping Origin",航运起源,module,Magento_Tax
 "No (price without tax)","没有 (不含税的价格)",module,Magento_Tax
 "Yes (only price with tax)","是 (仅价格含税)",module,Magento_Tax
-"Both (without and with tax)",(没有和税),module,Magento_Tax
+"Both (without and with tax)",(不加税),module,Magento_Tax
 "Invalid attribute %1","无效属性 %1",module,Magento_Tax
 Code,代码,module,Magento_Tax
 "Invalid type supplied",提供的类型无效,module,Magento_Tax
@@ -5189,7 +5207,7 @@ Theme,网站模板,module,Magento_Theme
 "Create Folder",创建文件夹,module,Magento_Theme
 "Delete Folder",删除文件夹,module,Magento_Theme
 "Delete File",删除文件,module,Magento_Theme
-"Insert File",我们不能删除根目录%1现在。,module,Magento_Theme
+"Insert File",插入文件,module,Magento_Theme
 "New Folder Name:",新文件夹的名称:,module,Magento_Theme
 "Are you sure you want to delete this folder?",确实要删除此文件夹吗?,module,Magento_Theme
 "Are you sure you want to delete this file?",是否确实要删除此文件?,module,Magento_Theme
@@ -5213,13 +5231,13 @@ label,标签,module,Magento_Theme
 "-- Please Select --","-- 请选择 --",module,Magento_Theme
 "The start date can't follow the end date.",开始日期不能遵循的结束日期。,module,Magento_Theme
 "The date range for this design change overlaps another design change for the specified store.",此设计更改的日期范围重叠另一设计更改为指定的商店。,module,Magento_Theme
-Copy,您阅读的当前页,module,Magento_Theme
+Copy,复制,module,Magento_Theme
 "Theme id should be set","应设置主题 id",module,Magento_Theme
 "Circular-reference in theme inheritance detected for ""%1""","在主题继承为""%1""检测到循环引用",module,Magento_Theme
 "The CSS file must be less than %1M.","CSS 文件必须小于 %1M。",module,Magento_Theme
 "The JS file must be less than %1M.","JS 文件必须小于 %1M。",module,Magento_Theme
 "We can't upload the file right now.",我们现在不能上传文件。,module,Magento_Theme
-"Use only standard alphanumeric, dashes and underscores.","使用只有标准的字母数字、 破折号和下划线。",module,Magento_Theme
+"Use only standard alphanumeric, dashes and underscores.",只使用标准的字母数字、破折号和下划线。,module,Magento_Theme
 "We found a directory with the same name.",我们发现一个具有相同名称的目录。,module,Magento_Theme
 "We cannot find a directory with this name.",我们找不到具有此名称的目录。,module,Magento_Theme
 "We can't delete root directory %1 right now.","我们现在不能删除根目录 %1。",module,Magento_Theme
@@ -5229,18 +5247,18 @@ Message,信息,module,Magento_Theme
 "Test Label",测试标签,module,Magento_Theme
 Phrase,短语,module,Magento_Theme
 exception,例外,module,Magento_Theme
-"We found no files.",我们发现，没有文件。,module,Magento_Theme
+"We found no files.",我们没有发现任何文件。,module,Magento_Theme
 "Browse Files",浏览文件,module,Magento_Theme
 Remove,删除,module,Magento_Theme
 "Help Us Keep Magento Healthy","帮助我们保持 Magento 健康",module,Magento_Theme
 "Report All Bugs","报告所有 Bug",module,Magento_Theme
 "Toggle Nav",切换导航,module,Magento_Theme
-"JavaScript seems to be disabled in your browser.","JavaScript 似乎在您的浏览器中禁用。",module,Magento_Theme
-"For the best experience on our site, be sure to turn on Javascript in your browser.","在我们的网站上获得最佳体验，请务必打开 Javascript 在您的浏览器。",module,Magento_Theme
-"Local Storage seems to be disabled in your browser.",本地存储似乎在您的浏览器中禁用。,module,Magento_Theme
-"For the best experience on our site, be sure to turn on Local Storage in your browser.",在我们的网站上获得最佳体验，请务必打开本地存储在您的浏览器。,module,Magento_Theme
+"JavaScript seems to be disabled in your browser.","JavaScript 似乎在您的浏览器中被禁用。",module,Magento_Theme
+"For the best experience on our site, be sure to turn on Javascript in your browser.",为了您在我们网站能获得最好的体验，建议在浏览器中打开Javascript。,module,Magento_Theme
+"Local Storage seems to be disabled in your browser.",本地存储似乎在您的浏览器中被禁用。,module,Magento_Theme
+"For the best experience on our site, be sure to turn on Local Storage in your browser.",为了您在我们网站能获得最好的体验，建议在您的浏览器中打开本地储存。,module,Magento_Theme
 "This is demo store. No orders will be fulfilled.",这是演示店铺。没有订单将会完成。,module,Magento_Theme
-"Items %1 to %2 of %3 total","项目 %1 到 %2 %3 总",module,Magento_Theme
+"Items %1 to %2 of %3 total","项目% 1到% 2 % 3总数",module,Magento_Theme
 "%1 Item","%1 项目",module,Magento_Theme
 "%1 Item(s)","%1 项目 (s)",module,Magento_Theme
 Page,页面,module,Magento_Theme
@@ -5249,7 +5267,7 @@ Previous,上一个,module,Magento_Theme
 Next,下一个,module,Magento_Theme
 Show,显示,module,Magento_Theme
 "per page",每页,module,Magento_Theme
-"About the calendar",分类,module,Magento_Theme
+"About the calendar",关于日历,module,Magento_Theme
 Close,关闭,module,Magento_Theme
 "Go Today",今天去,module,Magento_Theme
 Time,时间,module,Magento_Theme
@@ -5261,8 +5279,9 @@ Minute,分钟,module,Magento_Theme
 "The configuration parameter ""formElement"" is a required for ""%1"" field.","""formElement""的配置参数为""%1""字段必需的。",module,Magento_Ui
 "Remove %1",删除%1,module,Magento_Ui
 "Add New %1","新增 %1",module,Magento_Ui
+"New %1","新 %1",module,Magento_Ui
 "Please select item(s).",请选择项目。,module,Magento_Ui
-"Unsupported bookmark action.",不支持的书签行动。,module,Magento_Ui
+"Unsupported bookmark action.",不支持书签操作。,module,Magento_Ui
 "Initialization error component, check the spelling of the name or the correctness of the call.",初始化组件时出错，请检查名称的拼写或调用的正确性。,module,Magento_Ui
 "Bookmark with id ""%1"" does not exist.","Id 为""%1""的书签不存在。",module,Magento_Ui
 "Initialization error component, check the spelling of the name or the correctness of the call.",初始化组件时出错，请检查名称的拼写或调用的正确性。,module,Magento_Ui
@@ -5276,29 +5295,29 @@ Cancel,保存,module,Magento_Ui
 "UPS Worldwide Expedited","UPS 全球加快",module,Magento_Ups
 "UPS Standard","UPS 标准",module,Magento_Ups
 "UPS Three-Day Select","UPS 三天选择",module,Magento_Ups
-"UPS Next Day Air Saver","UPS 下一步天空气保护程序",module,Magento_Ups
+"UPS Next Day Air Saver","UPS 第二天的空气保护装置",module,Magento_Ups
 "UPS Next Day Air Early A.M.","UPS 次日清晨的空气",module,Magento_Ups
-"UPS Worldwide Express Plus","UPS 全球快递加号",module,Magento_Ups
+"UPS Worldwide Express Plus","UPS 全球快递+",module,Magento_Ups
 "UPS Second Day Air A.M.","UPS 第二天的空气: 00",module,Magento_Ups
 "UPS Saver","UPS 保护程序",module,Magento_Ups
 "UPS Worldwide Saver","UPS 全球保护程序",module,Magento_Ups
 "UPS Express","UPS 快递",module,Magento_Ups
 "UPS Expedited","UPS 加急",module,Magento_Ups
 "UPS Express Early A.M.","UPS 快递清晨",module,Magento_Ups
-"UPS Worldwide Express PlusSM","UPS 全球快递加号",module,Magento_Ups
+"UPS Worldwide Express PlusSM","UPS 全球快递+",module,Magento_Ups
 "UPS Today Standard","UPS 今天标准",module,Magento_Ups
 "UPS Today Dedicated Courrier",UPS今天专用运输,module,Magento_Ups
 "UPS Today Intercity","UPS 今天城际",module,Magento_Ups
 "UPS Today Express","今天 UPS 快递",module,Magento_Ups
 "UPS Today Express Saver","今天 UPS 快递保护程序",module,Magento_Ups
 "UPS Express Plus","UPS 快递加上",module,Magento_Ups
-"Next Day Air Early AM",第二天空气清晨,module,Magento_Ups
-"Next Day Air Early AM Letter",下一天空气早上午封信,module,Magento_Ups
+"Next Day Air Early AM",第二天凌晨空气,module,Magento_Ups
+"Next Day Air Early AM Letter",第二天航空早信,module,Magento_Ups
 "Next Day Air",次日的空气,module,Magento_Ups
-"Next Day Air Letter",下一天封航空信,module,Magento_Ups
-"Next Day Air Intra (Puerto Rico)","下一天空气内 (波多黎各)",module,Magento_Ups
-"Next Day Air Saver",下一天空气保护程序,module,Magento_Ups
-"Next Day Air Saver Letter",下一天空气保护信,module,Magento_Ups
+"Next Day Air Letter",第二天航空信,module,Magento_Ups
+"Next Day Air Intra (Puerto Rico)",第二天空气内（波多黎各）,module,Magento_Ups
+"Next Day Air Saver",第二天空气保护,module,Magento_Ups
+"Next Day Air Saver Letter",第二天的节气信,module,Magento_Ups
 "2nd Day Air AM","第二天的空气 AM",module,Magento_Ups
 "2nd Day Air AM Letter","第二天空气 AM 信",module,Magento_Ups
 "2nd Day Air",第二天的空气,module,Magento_Ups
@@ -5327,7 +5346,7 @@ Pallet,托盘,module,Magento_Ups
 "Large Express Box",大快递箱,module,Magento_Ups
 Residential,住宅,module,Magento_Ups
 Commercial,商业,module,Magento_Ups
-Pounds,公斤,module,Magento_Ups
+Pounds,英镑,module,Magento_Ups
 Kilograms,公斤,module,Magento_Ups
 "Sorry, something went wrong. Please try again or contact us and we'll try to help.",对不起，出了一些错。请再试一次或联系我们，我们会尽力帮助。,module,Magento_Ups
 "Cannot retrieve shipping rates",无法检索运费,module,Magento_Ups
@@ -5441,7 +5460,7 @@ Role,职能,module,Magento_User
 "User Information",用户信息,module,Magento_User
 "User Info",用户信息,module,Magento_User
 "User Role",用户角色,module,Magento_User
-"Please correct the password reset token.",请正确的密码重置标记。,module,Magento_User
+"Please correct the password reset token.",请输入有效的密码重置标记。,module,Magento_User
 "Please specify the correct account and try again.",请指定正确的帐户，然后重试。,module,Magento_User
 "Your password reset link has expired.",您的密码重置链接已过期。,module,Magento_User
 "We'll email you a link to reset your password.",我们马上给您发一个链接来重置您的密码。,module,Magento_User
@@ -5476,13 +5495,13 @@ Forced,强迫,module,Magento_User
 "You did not sign in correctly or your account is temporarily disabled.",登录不正确或者您的账号已禁用。,module,Magento_User
 "You need more permissions to access this.",用户名,module,Magento_User
 "User Name is a required field.",用户名称是必填的字段。,module,Magento_User
-"First Name is a required field.",第一个名称是必填的字段。,module,Magento_User
+"First Name is a required field.",用户名称是必填的字段。,module,Magento_User
 "Last Name is a required field.",姓氏是必填的字段。,module,Magento_User
 "Please enter a valid email.",请输入有效的邮箱地址,module,Magento_User
 "Password is required field.",密码是必填的字段。,module,Magento_User
 "Your password must be at least %1 characters.","您的密码必须至少 %1 字符。",module,Magento_User
 "Your password must include both numeric and alphabetic characters.",您的密码必须包含数字和字母的字符。,module,Magento_User
-"Your password confirmation must match your password.",您确认密码必须匹配您的密码。,module,Magento_User
+"Your password confirmation must match your password.",您的密码确认必须与您的密码相匹配。,module,Magento_User
 "It's time to change your password.",是时候改变你的密码了。,module,Magento_User
 "Your password has expired; please contact your administrator.",您的密码已过期;请联系您的管理员联系。,module,Magento_User
 "Password Help",密码帮助,module,Magento_User
@@ -5508,6 +5527,7 @@ Resources,资源,module,Magento_User
 "Priority Mail",优先邮件,module,Magento_Usps
 "Priority Mail Express Hold For Pickup",优先邮件快递舱为皮卡的,module,Magento_Usps
 "Priority Mail Express",优先邮件快递,module,Magento_Usps
+"Retail Ground",零售地面,module,Magento_Usps
 "Media Mail",媒体的邮件,module,Magento_Usps
 "Library Mail",图书馆邮件,module,Magento_Usps
 "Priority Mail Express Flat Rate Envelope",优先邮件快递的扁平率信封,module,Magento_Usps
@@ -5617,7 +5637,7 @@ Yes,是,module,Magento_Variable
 "Validation has failed.",验证已失败。,module,Magento_Variable
 %1,1%,module,Magento_Variable
 "Insert Variable...",插入变量。。。,module,Magento_Variable
-"Operation allowed only in HTTPS",网络服务配置,module,Magento_Webapi
+"Operation allowed only in HTTPS","只有在 HTTPS 允许执行此操作",module,Magento_Webapi
 "Cannot perform GET operation with store code 'all'","不能使用存储代码 'all '来执行 GET 操作",module,Magento_Webapi
 "Request does not match any route.",请求与任何路由不匹配。,module,Magento_Webapi
 "Authentication header format is invalid.",身份验证标头格式无效。,module,Magento_Webapi
@@ -5636,12 +5656,13 @@ Message,信息,module,Magento_Webapi
 "We found a duplicate of website, country and state fields for a fixed product tax","我们发现重复的网站、 国家和国家领域为固定的产品税",module,Magento_Weee
 "Including FPT only","只包括 FPT",module,Magento_Weee
 "Including FPT and FPT description","包括 FPT 和 FPT 描述",module,Magento_Weee
+"Excluding FPT. Including FPT description and final price","不包括 FPT。包括 FPT 描述和最终价格",module,Magento_Weee
 "Excluding FPT","不包括 FPT",module,Magento_Weee
 "Fixed Product Tax",固定的产品税,module,Magento_Weee
 "Excl. Tax",不包括消费税,module,Magento_Weee
 Total,总额,module,Magento_Weee
 "Incl. Tax",含。税,module,Magento_Weee
-"Total Incl. Tax",总含税,module,Magento_Weee
+"Total Incl. Tax",含税总价,module,Magento_Weee
 Website,网站,module,Magento_Weee
 Country/State,国家/州,module,Magento_Weee
 Tax,税,module,Magento_Weee
@@ -5667,6 +5688,7 @@ Widget,部件,module,Magento_Widget
 "Storefront Properties",前台属性,module,Magento_Widget
 Type,类型,module,Magento_Widget
 "Design Package/Theme",设计包的主题,module,Magento_Widget
+"Widget Title",小部件标题,module,Magento_Widget
 "Assign to Store Views",将分配给存储视图,module,Magento_Widget
 "Sort Order",排序,module,Magento_Widget
 "Sort Order of widget instances in the same container",小部件实例与同一容器中的排序顺序,module,Magento_Widget
@@ -5681,12 +5703,16 @@ Products,产品展示,module,Magento_Widget
 "Specified Page",指定的页,module,Magento_Widget
 "Add Layout Update",添加布局更新,module,Magento_Widget
 "Remove Layout Update",删除布局更新,module,Magento_Widget
+"Widget Options",小部件按钮,module,Magento_Widget
 Settings,设置,module,Magento_Widget
 "Design Theme",设计网站模板,module,Magento_Widget
 Continue,继续,module,Magento_Widget
+"Please specify a Widget Type.",请指定部件类型。,module,Magento_Widget
 CMS,CMS页面链接内联摸板,module,Magento_Widget
 "Please specify a correct widget.",请指定正确的部件。,module,Magento_Widget
 "The widget instance has been deleted.",小部件实例已被删除。,module,Magento_Widget
+"New Widget",新的小部件,module,Magento_Widget
+Widgets,小部件,module,Magento_Widget
 "The widget instance has been saved.",小部件实例已被保存。,module,Magento_Widget
 name,名字,module,Magento_Widget
 description,描述,module,Magento_Widget
@@ -5701,7 +5727,7 @@ All,全部,module,Magento_Widget
 Apply,应用,module,Magento_Widget
 Page,页面,module,Magento_Widget
 "Wish List",收藏夹,module,Magento_Wishlist
-"Wish List Sharing",产品详情与评论,module,Magento_Wishlist
+"Wish List Sharing",愿望清单分享,module,Magento_Wishlist
 "My Wish List",我的愿望清单,module,Magento_Wishlist
 "Page not found.",找不到网页。,module,Magento_Wishlist
 "We can't specify a product.",我们不能指定产品。,module,Magento_Wishlist
@@ -5713,7 +5739,7 @@ Page,页面,module,Magento_Widget
 "We can't load the Wish List item right now.",我们现在无法加载的愿望列表项。,module,Magento_Wishlist
 "We can't configure the product right now.",我们现在不能配置该产品。,module,Magento_Wishlist
 "The requested cart item doesn't exist.",不存在请求的车项目。,module,Magento_Wishlist
-"%1 has been moved to your wish list.","%1 已进入你的愿望清单。",module,Magento_Wishlist
+"%1 has been moved to your wish list.","%1 已进入你的收藏夹。",module,Magento_Wishlist
 "We can't move the item to the wish list.",我们不能将项目移至愿望清单。,module,Magento_Wishlist
 "We can't delete the item from Wish List right now because of an error: %1.","我们不能删除该项目从愿望清单现在由于出错: %1。",module,Magento_Wishlist
 "We can't delete the item from the Wish List right now.",我们现在不能从愿望列表中删除该项目。,module,Magento_Wishlist
@@ -5781,11 +5807,11 @@ Back,后退,module,Magento_Wishlist
 "* Required Fields",*必要字段,module,Magento_Wishlist
 "Sharing Information",该产品缺货,module,Magento_Wishlist
 "Email addresses, separated by commas",以逗号分隔的电子邮件地址,module,Magento_Wishlist
-"Check here to link an RSS feed to your Wish List.","在这里请检查链接的 RSS 饲料你愿望清单。",module,Magento_Wishlist
+"Check here to link an RSS feed to your Wish List.",查看这里，链接RSS提要到你的愿望列表。,module,Magento_Wishlist
 "Last Added Items",最后添加的项,module,Magento_Wishlist
 "Remove This Item",删除该内容,module,Magento_Wishlist
-"Go to Wish List",去希望列表,module,Magento_Wishlist
-"You have no items in your wish list.",你有愿望列表中没有的项目。,module,Magento_Wishlist
+"Go to Wish List",移动到愿望清单,module,Magento_Wishlist
+"You have no items in your wish list.",你的愿望清单上没有项目。,module,Magento_Wishlist
 "Are you sure you want to remove this product from your Wish List?",你确定你想要从你的愿望列表中删除此产品?,module,Magento_Wishlist
 "Now Shopping by",现在购物用,theme,frontend/Magento/luma
 Previous,上一个,theme,frontend/Magento/luma
@@ -5812,7 +5838,7 @@ Total:,总数:,module,Magento_Checkout
 "%name,",%名称，,module,Magento_Customer
 "Welcome to %store_name.","欢迎来到 %store_name。",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","如果要登录到我们的网站，请使用这些凭据，在签出期间或在 <a href=""%customer_url""> 我的帐户</a> 页面:",module,Magento_Customer
-Email:,Email：,module,Magento_Customer
+Email:,邮箱：,module,Magento_Customer
 Password:,密码:,module,Magento_Customer
 "Password you set when creating account",在创建帐户时设置的密码,module,Magento_Customer
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","忘记了您的帐户密码?点击 <a href=""%reset_url""> 这里</a> 重置它。",module,Magento_Customer
@@ -5825,7 +5851,7 @@ Password:,密码:,module,Magento_Customer
 "Confirm Your Account",确认您的帐户,module,Magento_Customer
 "Thank you for confirming your %store_name account.","谢谢你确认您的 %store_name 帐户。",module,Magento_Customer
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","要登录到我们的站点并设置密码，请单击 <a href=""%create_password_url""> 链接</a>:",module,Magento_Customer
-"There was recently a request to change the password for your account.",最近被更改为您的帐户密码的请求。,module,Magento_Customer
+"There was recently a request to change the password for your account.",最近有一个请求要更改您的帐户密码。,module,Magento_Customer
 "If you requested this change, set a new password here:",如果您要求此更改，在这里设置一个新密码:,module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.",如果你并没有提出这一请求，您可以忽略这封电子邮件，您的密码将保持不变。,module,Magento_Customer
 "The password for your account has been successfully changed.",您的帐户的密码更改成功。,module,Magento_Customer
@@ -5839,21 +5865,21 @@ Password:,密码:,module,Magento_Customer
 "Product alerts cron warnings","产品警报 cron 警告",module,Magento_ProductAlert
 "%name,",%名称，,module,Magento_ProductAlert
 "%name,",%名称，,module,Magento_Sales
-"Thank you for your order from %store_name.","谢谢您的订单从 %store_name。",module,Magento_Sales
+"Thank you for your order from %store_name.","谢谢您从% store_name中订购的订单。",module,Magento_Sales
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","通过 <a href=""%account_url""> 登录到您的帐户</a>，可以检查您的订单状态。",module,Magento_Sales
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","如果您有关于您的订单的问题，你可以通过电子邮件发送我们在 <a href=""mailto:%store_email""> %store_email</a>",module,Magento_Sales
 "or call us at <a href=""tel:%store_phone"">%store_phone</a>","或拨打我们的 <a href=""tel:%store_phone""> %store_phone</a>",module,Magento_Sales
 "Our hours are <span class=""no-link"">%store_hours</span>.","我们的时间是 <span class=""no-link"">%store_hours</span>。",module,Magento_Sales
-"Your Credit Memo #%creditmemo_id for Order #%order_id","你信用秩序 #%order_id 的备注 #%creditmemo_id",module,Magento_Sales
+"Your Credit Memo #%creditmemo_id for Order #%order_id","您的信用备忘录# % creditmemo_id为Order % order_id",module,Magento_Sales
 "Billing Info",付费信息,module,Magento_Sales
 "Shipping Info",航运信息,module,Magento_Sales
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","你订单 #%increment_id 已更新的状态为 <strong>%order_status</strong>。",module,Magento_Sales
 "Your Invoice #%invoice_id for Order #%order_id","为订单 #%order_id 你发票 #%invoice_id",module,Magento_Sales
 "%customer_name,",%customer_name，,module,Magento_Sales
-"Once your package ships we will send you a tracking number.",一旦你包船我们将向您发送一个跟踪号码。,module,Magento_Sales
+"Once your package ships we will send you a tracking number.",一旦你的包裹发货，我们会给你一个追踪号码。,module,Magento_Sales
 "Your Order <span class=""no-link"">#%increment_id</span>","您的订单 <span class=""no-link""> #%increment_id</span>",module,Magento_Sales
 "Placed on <span class=""no-link"">%created_at</span>","放在 <span class=""no-link"">%created_at</span>",module,Magento_Sales
-"Once your package ships we will send an email with a link to track your order.",一旦你的包船我们将发送一封电子邮件的链接来跟踪您的订单。,module,Magento_Sales
+"Once your package ships we will send an email with a link to track your order.",一旦你的包裹发货我们将发送一封电子邮件的链接来跟踪您的订单。,module,Magento_Sales
 "Your shipping confirmation is below. Thank you again for your business.",下面是您发货确认信息。再次感谢您为您的业务。,module,Magento_Sales
 "Your Shipment #%shipment_id for Order #%order_id","为订单 #%order_id 你装运 #%shipment_id",module,Magento_Sales
 "%name,",%名称，,module,Magento_SendFriend
@@ -5864,8 +5890,8 @@ Password:,密码:,module,Magento_Customer
 "The password for your account has been successfully changed.",您的帐户的密码更改成功。,module,Magento_User
 "If you did not request this change, please contact us.",如果你没有请求进行此更改，请联系我们。,module,Magento_User
 "Thank you,",谢谢,module,Magento_User
-"There was recently a request to change the password for your account.",最近被更改为您的帐户密码的请求。,module,Magento_User
-"If you requested this change, reset your password here:",如果您要求此更改，重置您的密码在这里:,module,Magento_User
+"There was recently a request to change the password for your account.",最近有一个请求要更改您的帐户密码,module,Magento_User
+"If you requested this change, reset your password here:",如果您请求更改，请在此处重新设置密码:,module,Magento_User
 "If you did not make this request, you can ignore this email and your password will remain the same.",如果你并没有提出这一请求，您可以忽略这封电子邮件，您的密码将保持不变。,module,Magento_User
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name 想要与你分享从 %store_name 这个愿望清单:",module,Magento_Wishlist
 "Message from %customer_name:","来自 %customer_name 的消息:",module,Magento_Wishlist
@@ -5931,7 +5957,7 @@ Submit,提交,module,Magento_Catalog
 "Incl. Tax",含。税,module,Magento_ConfigurableProduct
 "Select Associated Product",选择关联的产品,module,Magento_ConfigurableProduct
 Done,完成,module,Magento_ConfigurableProduct
-"For better results, add attributes and attribute values to your products.",更好的结果，将添加到您的产品的属性和属性值。,module,Magento_ConfigurableProduct
+"For better results, add attributes and attribute values to your products.",为了获得更好的结果，将属性和属性值添加到您的产品中。,module,Magento_ConfigurableProduct
 "An attribute has been removed. This attribute will no longer appear in your configurations.",属性已被删除。此属性将不再显示在您的配置。,module,Magento_ConfigurableProduct
 "Select options for all attributes or remove unused attributes.",为所有属性选择选项或删除未使用的属性。,module,Magento_ConfigurableProduct
 "Please, fill correct values",请填写正确的值,module,Magento_ConfigurableProduct
@@ -5953,12 +5979,19 @@ Done,完成,module,Magento_Integration
 "Please choose a payment method.",请选择支付方式,module,Magento_Multishipping
 "Sorry, something went wrong.",对不起，出错了。,module,Magento_Paypal
 "Sorry, something went wrong. Please try again later.","对不起， 出错了，请稍候再试",module,Magento_Paypal
+"Video Error",视频错误,module,Magento_ProductVideo
+"Unknown video type",未知的视频类型,module,Magento_ProductVideo
+"Invalid video url","视频 url 无效",module,Magento_ProductVideo
+"Youtube API key is invalid","Youtube API 密钥无效",module,Magento_ProductVideo
+"Video not found",找不到视频,module,Magento_ProductVideo
 Save,保存,module,Magento_ProductVideo
 Cancel,保存,module,Magento_ProductVideo
 Delete,删除,module,Magento_ProductVideo
+"Edit Video",编辑视频,module,Magento_ProductVideo
 "Images and Videos",图像和视频,module,Magento_ProductVideo
 "This won't take long . . .","这不会需要很长时间。 。 。",module,Magento_Rule
 "Add Products",添加产品,module,Magento_Sales
+"You have item changes",你有项目变更,module,Magento_Sales
 Ok,OK,module,Magento_Sales
 "We could not detect a size.",我们未能检测到的大小。,module,Magento_Theme
 "Go to Details Page",转到详细信息页,module,Magento_Ui
@@ -5967,10 +6000,10 @@ Ok,OK,module,Magento_Sales
 "Please enter {0} words or less.","请输入 {0} 单词或更少。",module,Magento_Ui
 "Please enter at least {0} words.","请输入至少 {0} 字。",module,Magento_Ui
 "Please enter between {0} and {1} words.","请输入介于 {0} 和 {1} 的词。",module,Magento_Ui
-"Letters or punctuation only please",字母或标点符号只能取悦,module,Magento_Ui
-"Letters, numbers, spaces or underscores only please","字母、 数字、 空格或请只强调",module,Magento_Ui
+"Letters or punctuation only please",只有字母或标点符号,module,Magento_Ui
+"Letters, numbers, spaces or underscores only please",只有字母、数字、空格或下划线,module,Magento_Ui
 "Letters only please",请只信,module,Magento_Ui
-"No white space please",没有白空间请,module,Magento_Ui
+"No white space please",没有空格,module,Magento_Ui
 "Your ZIP-code must be in the range 902xx-xxxx to 905-xx-xxxx","您的邮政编码必须在范围 902xx-xxxx 到 905-xx-xxxx",module,Magento_Ui
 "A positive or negative non-decimal number please",一个积极或消极的非十进制数请,module,Magento_Ui
 "The specified vehicle identification number (VIN) is invalid.","指定的车辆识别码 (VIN) 是无效的。",module,Magento_Ui
@@ -5980,7 +6013,7 @@ Ok,OK,module,Magento_Sales
 "Please enter a valid time, between 00:00 am and 12:00 pm","请输入一个有效的时间，00:00 至 12:0 下午",module,Magento_Ui
 "Please specify a valid phone number",请指定一个有效的电话号码,module,Magento_Ui
 "Please specify a valid mobile number",请指定一个有效的手机号码,module,Magento_Ui
-"Please enter at least {0} characters","请输入至少 3 个字符。",module,Magento_Ui
+"Please enter at least {0} characters","请输入至少 {0} 字符",module,Magento_Ui
 "Please enter a valid credit card number.",请输入有效的信用卡号码。,module,Magento_Ui
 "Please enter a valid IP v4 address.","请输入一个有效的 IP v4 地址。",module,Magento_Ui
 "Please enter a valid IP v6 address.","请输入一个有效的 IP v4 地址。",module,Magento_Ui
@@ -6108,7 +6141,7 @@ Debug,调试,module,Magento_Backend
 Timezone,时区,module,Magento_Backend
 Locale,区域,module,Magento_Backend
 "First Day of Week",每周的第一天,module,Magento_Backend
-"Weekend Days",周末天,module,Magento_Backend
+"Weekend Days",周末,module,Magento_Backend
 "Store Name",店铺名称,module,Magento_Backend
 "Store Phone Number",店铺电话号码,module,Magento_Backend
 "Store Hours of Operation",商店营业时间,module,Magento_Backend
@@ -6238,7 +6271,7 @@ Debug,调试,module,Magento_Braintree
 "3D Secure Verification","3D 安全验证",module,Magento_Braintree
 "Edit My Credit Cards",编辑我的信用卡,module,Magento_Braintree
 CAPTCHA,验证码,module,Magento_Captcha
-"Enable CAPTCHA in Admin",启用验证码在管理员,module,Magento_Captcha
+"Enable CAPTCHA in Admin",启用验证码中的管理,module,Magento_Captcha
 Font,字体,module,Magento_Captcha
 Forms,表单,module,Magento_Captcha
 "Displaying Mode",显示模式,module,Magento_Captcha
@@ -6246,7 +6279,7 @@ Forms,表单,module,Magento_Captcha
 "If 0 is specified, CAPTCHA on the Login form will be always available.","如果指定 0，则登录窗体上的验证码将始终可用。",module,Magento_Captcha
 "CAPTCHA Timeout (minutes)","验证码超时 (分钟)",module,Magento_Captcha
 "Number of Symbols",符号数,module,Magento_Captcha
-"Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","请在最指定 8 符号。允许 (例如 3-5) 范围",module,Magento_Captcha
+"Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","请最多指定8个符号。允许范围(例如3 - 5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA",在验证码中使用的符号,module,Magento_Captcha
 "Case Sensitive",区分大小写,module,Magento_Captcha
 "Enable CAPTCHA on Storefront",启用在店面上的验证码,module,Magento_Captcha
@@ -6254,8 +6287,8 @@ Forms,表单,module,Magento_Captcha
 Inventory,库存,module,Magento_CatalogInventory
 "Stock Options",股票期权,module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed",减少库存时订单,module,Magento_CatalogInventory
-"Set Items' Status to be In Stock When Order is Cancelled",设置项目的状态，要在库存当订单被取消,module,Magento_CatalogInventory
-"Display Out of Stock Products",显示库存产品的出,module,Magento_CatalogInventory
+"Set Items' Status to be In Stock When Order is Cancelled",当订单取消时，将物品的状态设置为库存状态。,module,Magento_CatalogInventory
+"Display Out of Stock Products",显示库存产品,module,Magento_CatalogInventory
 "Products will still be shown by direct product URLs.","产品仍将通过直接产品 Url 所示。",module,Magento_CatalogInventory
 "Only X left Threshold","只留下阈值的 X",module,Magento_CatalogInventory
 "Display products availability in stock on Storefront.",在股市上店面中显示产品的可用性。,module,Magento_CatalogInventory
@@ -6263,14 +6296,14 @@ Inventory,库存,module,Magento_CatalogInventory
 "Manage Stock",数量增加,module,Magento_CatalogInventory
 Backorders,延期交货,module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart",购物车中允许的最大数量,module,Magento_CatalogInventory
-"Out-of-Stock Threshold",股份制阈值,module,Magento_CatalogInventory
+"Out-of-Stock Threshold",缺货的阈值,module,Magento_CatalogInventory
 "Minimum Qty Allowed in Shopping Cart",购物车中允许的最小数量,module,Magento_CatalogInventory
-"Notify for Quantity Below",对于下面的数量通知,module,Magento_CatalogInventory
+"Notify for Quantity Below",数量通知如下,module,Magento_CatalogInventory
 "Automatically Return Credit Memo Item to Stock",自动返回到股票的信用备忘项目,module,Magento_CatalogInventory
 "Enable Qty Increments",启用数量增量,module,Magento_CatalogInventory
 "Qty Increments",数量的增量,module,Magento_CatalogInventory
 Stock,股票,module,Magento_CatalogInventory
-"Index stock",股票指数,module,Magento_CatalogInventory
+"Index stock",有货,module,Magento_CatalogInventory
 Quantity,数量,module,Magento_CatalogInventory
 "Catalog Rule Product",目录规则产品,module,Magento_CatalogRule
 "Indexed rule/product association",索引产品/规则关联,module,Magento_CatalogRule
@@ -6289,17 +6322,17 @@ End,结束,module,Magento_CatalogRule
 "You need to refresh the cache.",您需要刷新缓存。,module,Magento_CatalogUrlRewrite
 "Product URL Suffix","产品 URL 后缀",module,Magento_CatalogUrlRewrite
 "Use Categories Path for Product URLs","产品 Url 的使用类别路径",module,Magento_CatalogUrlRewrite
-"Create Permanent Redirect for URLs if URL Key Changed","创建永久重定向的 url 如果更改了 URL 密钥",module,Magento_CatalogUrlRewrite
+"Create Permanent Redirect for URLs if URL Key Changed",如果URL键发生改变，创建URL的永久重定向,module,Magento_CatalogUrlRewrite
 "Catalog Products List",产品网格模板,module,Magento_CatalogWidget
 "List of Products",产品列表,module,Magento_CatalogWidget
 Title,标题,module,Magento_CatalogWidget
-"Display Page Control",如果没有设置，默认为86400。为了实是更新，请清空HTML块缓存输出,module,Magento_CatalogWidget
+"Display Page Control",显示页面控制,module,Magento_CatalogWidget
 "Number of Products per Page",每页显示的产品数量,module,Magento_CatalogWidget
 "Number of Products to Display",显示产品的数量,module,Magento_CatalogWidget
 Template,模板,module,Magento_CatalogWidget
 "Products Grid Template",产品网格模板,module,Magento_CatalogWidget
 "Cache Lifetime (Seconds)","缓存有效期 (秒)",module,Magento_CatalogWidget
-"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","由 86400 默认情况下，如果不是设置。若要立即刷新，请清除块 HTML 输出缓存。",module,Magento_CatalogWidget
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.",默认情况下是86400，如果不设置的话，立即刷新，清除阻塞HTML输出缓存。,module,Magento_CatalogWidget
 Conditions,条件,module,Magento_CatalogWidget
 Small,小,module,Magento_Catalog
 Main,主要,module,Magento_Catalog
@@ -6378,19 +6411,19 @@ Template,模板,module,Magento_Catalog
 "New Products Names Only Template",新产品名称唯一模板,module,Magento_Catalog
 "New Products Images Only Template",新产品图像只有模板,module,Magento_Catalog
 "Cache Lifetime (Seconds)","缓存生存期 (秒)",module,Magento_Catalog
-"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","由 86400 默认情况下，如果不是设置。若要立即刷新，请清除块 HTML 输出缓存。",module,Magento_Catalog
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.",默认情况下是86400，如果不设置的话，立即刷新，清除阻塞HTML输出缓存。,module,Magento_Catalog
 "Catalog Product Link",目录产品链接,module,Magento_Catalog
 "Link to a Specified Product",链接到指定的产品,module,Magento_Catalog
 "Select Product...",选择产品...,module,Magento_Catalog
 "Anchor Custom Text",自定义文本锚点,module,Magento_Catalog
-"If empty, we'll use the product name here.",如果为空，我们将在这里使用的产品名称。,module,Magento_Catalog
+"If empty, we'll use the product name here.",如果为空，我们将在这里使用产品名称。,module,Magento_Catalog
 "Anchor Custom Title",自定义标题锚点,module,Magento_Catalog
 "Product Link Block Template",产品链接块模板,module,Magento_Catalog
 "Product Link Inline Template",产品链接内联模板,module,Magento_Catalog
 "Catalog Category Link",目录类别链接,module,Magento_Catalog
 "Link to a Specified Category",链接到一个指定的类别,module,Magento_Catalog
 "Select Category...",选择类别...,module,Magento_Catalog
-"If empty, we'll use the category name here.",如果为空，我们将在这里使用的类别名称。,module,Magento_Catalog
+"If empty, we'll use the category name here.",如果为空，我们将在这里使用类别名称。,module,Magento_Catalog
 "Category Link Block Template",分类链接块模板,module,Magento_Catalog
 "Category Link Inline Template",类别链接内联模板,module,Magento_Catalog
 Set,设置名称,module,Magento_Catalog
@@ -6495,7 +6528,7 @@ Contacts,联系人,module,Magento_Contact
 "Send Emails To",发送电子邮件到,module,Magento_Contact
 "Email Sender",电子邮件发件人,module,Magento_Contact
 "Email Template",邮件模板,module,Magento_Contact
-"Email template chosen based on theme fallback when ""Default"" option is selected.",电子邮件模板选择基于主题的回退时，选择“默认”选项。,module,Magento_Contact
+"Email template chosen based on theme fallback when ""Default"" option is selected.",选择基于主题回退的电子邮件模板，当“默认”选项被选中。,module,Magento_Contact
 "Default Cookie Settings","默认的 Cookie 设置",module,Magento_Cookie
 "Cookie Lifetime","Cookie 的有效期",module,Magento_Cookie
 "Cookie Path","Cookie 路径",module,Magento_Cookie
@@ -6504,12 +6537,12 @@ Contacts,联系人,module,Magento_Contact
 "Cookie Restriction Mode","Cookie 限制模式",module,Magento_Cookie
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (计划任务)-所有的时间都是在几分钟内",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","为正确的 Url 生成期间 cron 运行请确认网络 > 安全和不安全基准网址显式设置。",module,Magento_Cron
-"Generate Schedules Every",生成时间表每,module,Magento_Cron
-"Schedule Ahead for",为未来计划,module,Magento_Cron
-"Missed if Not Run Within",错过了如果不在运行,module,Magento_Cron
+"Generate Schedules Every",生成时间表,module,Magento_Cron
+"Schedule Ahead for",提前计划,module,Magento_Cron
+"Missed if Not Run Within",如果不在内部运行，就会错过,module,Magento_Cron
 "History Cleanup Every",历史记录清除每个,module,Magento_Cron
-"Success History Lifetime",成功的历史一生,module,Magento_Cron
-"Failure History Lifetime",失败历史一生,module,Magento_Cron
+"Success History Lifetime",成功的历史寿命,module,Magento_Cron
+"Failure History Lifetime",失败的历史寿命,module,Magento_Cron
 "Use Separate Process",使用单独的进程,module,Magento_Cron
 CSV,"Excel XML",module,Magento_CustomerImportExport
 "Excel XML","XML Excel",module,Magento_CustomerImportExport
@@ -6548,7 +6581,7 @@ CSV,"Excel XML",module,Magento_CustomerImportExport
 "Number of Lines in a Street Address",街道地址中的行数,module,Magento_Customer
 "Leave empty for default (2). Valid range: 1-4","留空为默认 (2)。有效范围: 1-4",module,Magento_Customer
 "Show Prefix",显示前缀,module,Magento_Customer
-"The title that goes before name (Mr., Mrs., etc.)","标题名称 (先生、 太太等) 的前奏",module,Magento_Customer
+"The title that goes before name (Mr., Mrs., etc.)","名字(Mr .，Mrs .，等等)的标题。",module,Magento_Customer
 "Prefix Dropdown Options",前缀下拉选项,module,Magento_Customer
 "Show Middle Name (initial)","显示中间名 (初始)",module,Magento_Customer
 "Always optional.",始终是可选的。,module,Magento_Customer
@@ -6560,7 +6593,7 @@ CSV,"Excel XML",module,Magento_CustomerImportExport
 "Show Gender",显示性别,module,Magento_Customer
 "Login Options",登录选项,module,Magento_Customer
 "Redirect Customer to Account Dashboard after Logging in",登录后将客户重定向到仪表板帐户,module,Magento_Customer
-"Customer will stay on the current page if ""No"" is selected.","客户将停留在当前页面上，如果选择""否""。",module,Magento_Customer
+"Customer will stay on the current page if ""No"" is selected.",如果选择“否”，客户将停留在当前页上。,module,Magento_Customer
 "Address Templates",地址模板,module,Magento_Customer
 "Online Customers Options",在线客户选项,module,Magento_Customer
 "Online Minutes Interval",在线分钟间隔,module,Magento_Customer
@@ -6615,10 +6648,10 @@ Password,密码,module,Magento_Dhl
 "Content Type",内容类型,module,Magento_Dhl
 "Calculate Handling Fee",显示不适用的方法,module,Magento_Dhl
 "Handling Applied",处理的应用,module,Magento_Dhl
-"""Per Order"" allows a single handling fee for the entire order. ""Per Package"" allows an individual handling fee for each package.","""每个订单""允许为整个订单的单手续费。""每个包""允许单独的处理费用为每个包。",module,Magento_Dhl
+"""Per Order"" allows a single handling fee for the entire order. ""Per Package"" allows an individual handling fee for each package.",“每订单”允许一个单一的手续费整个订单。每包）允许每个包装的个人手续费。,module,Magento_Dhl
 "Handling Fee",处理费,module,Magento_Dhl
 "Divide Order Weight",划分的排序权重,module,Magento_Dhl
-"Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg.","选择此选项以允许 DHL 优化通过拆分订单，如果它超过 70 公斤的运费。",module,Magento_Dhl
+"Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg.",选择这个允许DHL通过超过70公斤的订单来优化运输费用。,module,Magento_Dhl
 "Weight Unit",重量单位,module,Magento_Dhl
 Size,尺寸,module,Magento_Dhl
 "Allowed Methods",允许的方法,module,Magento_Dhl
@@ -6641,7 +6674,7 @@ Enabled,启动,module,Magento_Directory
 "Error Email Recipient",错误邮件模板,module,Magento_Directory
 "Error Email Sender",错误的电子邮件发件人,module,Magento_Directory
 "Error Email Template",错误的电子邮件模板,module,Magento_Directory
-"Email template chosen based on theme fallback when ""Default"" option is selected.",电子邮件模板选择基于主题的回退时，选择“默认”选项。,module,Magento_Directory
+"Email template chosen based on theme fallback when ""Default"" option is selected.",选择基于主题回退的电子邮件模板，当“默认”选项被选中。,module,Magento_Directory
 Frequency,频率,module,Magento_Directory
 Service,服务,module,Magento_Directory
 "Start Time",平率,module,Magento_Directory
@@ -6682,7 +6715,7 @@ FedEx,联邦快递,module,Magento_Fedex
 "Enabled for Checkout",免费送货金额门槛,module,Magento_Fedex
 Title,标题,module,Magento_Fedex
 "Account ID","帐户 ID",module,Magento_Fedex
-"Please make sure to use only digits here. No dashes are allowed.",请务必使用只有数字在这里。允许没有虚线。,module,Magento_Fedex
+"Please make sure to use only digits here. No dashes are allowed.",请务必只在这里使用数字。不允许有破折号。,module,Magento_Fedex
 "Meter Number",米数,module,Magento_Fedex
 Key,密钥,module,Magento_Fedex
 Password,密码,module,Magento_Fedex
@@ -6693,14 +6726,14 @@ Password,密码,module,Magento_Fedex
 Packaging,包装,module,Magento_Fedex
 Dropoff,摘下,module,Magento_Fedex
 "Weight Unit",重量单位,module,Magento_Fedex
-"Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)","最大包装重量 (最大支持船的重量，请咨询您航运承运人)",module,Magento_Fedex
+"Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)",最大包装重量（请参阅您的航运承运人最大支持重量）,module,Magento_Fedex
 "Calculate Handling Fee",显示不适用的方法,module,Magento_Fedex
 "Handling Applied",处理的应用,module,Magento_Fedex
 "Handling Fee",处理费,module,Magento_Fedex
 "Residential Delivery",住宅交付,module,Magento_Fedex
 "Allowed Methods",允许的方法,module,Magento_Fedex
 "Hub ID","集线器 ID",module,Magento_Fedex
-"The field is applicable if the Smart Post method is selected.","该字段是适用的如果选择了智能的 Post 方法。",module,Magento_Fedex
+"The field is applicable if the Smart Post method is selected.",如果选择了智能POST方法，则该字段是适用的。,module,Magento_Fedex
 "Free Method",免费的方法,module,Magento_Fedex
 "Free Shipping Amount Threshold",免运费金额门槛,module,Magento_Fedex
 "Displayed Error Message",显示的错误消息,module,Magento_Fedex
@@ -6710,7 +6743,7 @@ Debug,调试,module,Magento_Fedex
 "Show Method if Not Applicable","Show 方法如果不适用",module,Magento_Fedex
 "Sort Order",排序,module,Magento_Fedex
 "Allow Gift Messages on Order Level",允许订单的礼物留言,module,Magento_GiftMessage
-"Allow Gift Messages for Order Items",允许用于订单物料的礼物留言,module,Magento_GiftMessage
+"Allow Gift Messages for Order Items",允许订购物品的礼品信息,module,Magento_GiftMessage
 Enable,启用,module,Magento_GoogleAdwords
 "Conversion ID","转换 ID",module,Magento_GoogleAdwords
 "Conversion Language",转换语言,module,Magento_GoogleAdwords
@@ -6756,11 +6789,11 @@ Status,状态,module,Magento_Integration
 "Display Price Interval as One Price",作为一个价格显示价格区间,module,Magento_LayeredNavigation
 "This setting will be applied when all prices in the specific price interval are equal.",当所有的价格在特定的价格区间相等时，将应用此设置。,module,Magento_LayeredNavigation
 "Interval Division Limit",区间划分限制,module,Magento_LayeredNavigation
-"Please specify the number of products, that will not be divided into subintervals.",请指定产品，不会分成子区间的数量。,module,Magento_LayeredNavigation
+"Please specify the number of products, that will not be divided into subintervals.",请指定产品的数量，将不分区间。,module,Magento_LayeredNavigation
 "Storage Configuration for Media",媒体存储配置。,module,Magento_MediaStorage
 "Media Storage",多媒体储存,module,Magento_MediaStorage
 "Select Media Database",选择媒体数据库,module,Magento_MediaStorage
-"After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","选择一个新的媒体存储位置后, 按同步按钮，将所有媒体都传送到该位置。媒体将不可用在新位置同步过程完成之前。",module,Magento_MediaStorage
+"After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.",选择一个新的媒体存储位置后，按同步按钮将所有媒体传输到该位置。在同步过程完成之前，新位置的媒体将不可用。,module,Magento_MediaStorage
 "Environment Update Time",环境更新时间,module,Magento_MediaStorage
 "Minimum Advertised Price",最低的广告价格,module,Magento_Msrp
 "Enable MAP",启用映射,module,Magento_Msrp
@@ -6881,14 +6914,14 @@ Import,导入,module,Magento_OfflineShipping
 "Payment Methods",付款方式,module,Magento_Payment
 "Merchant Location",商家位置,module,Magento_Paypal
 "Merchant Country",商户国家,module,Magento_Paypal
-"If not specified, Default Country from General Config will be used",如果未指定，将使用默认的国家，从一般配置,module,Magento_Paypal
+"If not specified, Default Country from General Config will be used",如果未指定，将使用来自通用配置的默认国家,module,Magento_Paypal
 "Choose a secure bundled payment solution for your business.",选择安全捆绑的支付解决方案为您的业务。,module,Magento_Paypal
 "Payments Pro and Express Checkout","付款 Pro 和快递签出",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","基本设置-PayPal 付款临",module,Magento_Paypal
 "PayPal Payment Gateways",贝宝支付网关,module,Magento_Paypal
 "Process payments using your own internet merchant account.",使用您自己的互联网商家帐户的处理付款。,module,Magento_Paypal
 "PayPal Express Checkout",贝宝快递签出,module,Magento_Paypal
-"Add another payment method to your existing solution or as a stand-alone option.",为现有的解决方案或作为一个独立的选项，将添加另一种付款方法。,module,Magento_Paypal
+"Add another payment method to your existing solution or as a stand-alone option.",将另一种付款方法添加到现有的解决方案或作为一个独立的选项。,module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.",接受支付完全可定制的结帐页面。,module,Magento_Paypal
 "PayPal Payment Solutions",贝宝付款解决方案,module,Magento_Paypal
 "Express Checkout",快速结帐,module,Magento_Paypal
@@ -6908,6 +6941,7 @@ Import,导入,module,Magento_OfflineShipping
 "Enable this Solution",启用此解决方案,module,Magento_Paypal
 "Enable PayPal Credit",启用贝宝信用,module,Magento_Paypal
 "Advertise PayPal Credit",广告贝宝信用,module,Magento_Paypal
+"Publisher ID","发布者 ID",module,Magento_Paypal
 "Required to display a banner",需要显示横幅,module,Magento_Paypal
 "Get Publisher ID from PayPal","发布者 ID 得到贝宝",module,Magento_Paypal
 "Home Page",主页,module,Magento_Paypal
@@ -6984,6 +7018,7 @@ User,用户,module,Magento_Paypal
 "PayPal recommends you set up an additional User on your account at manager.paypal.com, instead of entering your admin username and password here. This will enhance your security and prevent service interruptions if you later change your password. If you do not want to set up an additional User, you can re-enter your Merchant Login here.","PayPal 建议您设置其他用户在您的帐户在 manager.paypal.com，而不是输入您的管理员用户名和密码在这里。这将提高您的安全和防止服务中断，如果您以后更改您的密码。如果你不想要设置更多的用户，您可以重新输入您的商人在这里登录。",module,Magento_Paypal
 "Test Mode",测试模板,module,Magento_Paypal
 "Use Proxy",使用代理服务器,module,Magento_Paypal
+"Basic Settings - PayPal Payments Advanced",基本设置——PayPal支付高级,module,Magento_Paypal
 "It is recommended to set this value to ""Debit or Credit Card"" per store views.","建议将此值向""借记卡或信用卡""设置每一个商店界面。",module,Magento_Paypal
 "CVV Entry is Editable","CVV 条目是编辑",module,Magento_Paypal
 "Require CVV Entry","需要 CVV 条目",module,Magento_Paypal
@@ -7000,6 +7035,7 @@ User,用户,module,Magento_Paypal
 "Website Payments Pro Hosted Solution",网站付款专业托管的解决方案,module,Magento_Paypal
 "Accept payments with a PCI compliant checkout that keeps customers on your site.","接受 PCI 兼容结帐，可以让顾客在网站上的支付。",module,Magento_Paypal
 "Payments Pro Hosted Solution","付款 Pro 托管解决方案",module,Magento_Paypal
+"Basic Settings - PayPal Payments Pro Hosted Solution",基本设置——PayPal支付专业托管解决方案,module,Magento_Paypal
 "It is recommended to set this value to ""PayPal"" per store views.","它建议设置此值与""贝宝""每一个商店界面。",module,Magento_Paypal
 "Display Express Checkout in the Payment Information step",在付款信息步骤中显示快速结账,module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout",网站付款专业托管的解决方案和快速退房手续,module,Magento_Paypal
@@ -7029,8 +7065,8 @@ User,用户,module,Magento_Paypal
 "Allow Alert When Product Price Changes",当产品价格发生更改时，允许警报,module,Magento_ProductAlert
 "Allow Alert When Product Comes Back in Stock",当产品在股票回来时，允许警报,module,Magento_ProductAlert
 "Price Alert Email Template",价格预警电子邮件模板,module,Magento_ProductAlert
-"Email template chosen based on theme fallback when ""Default"" option is selected.",电子邮件模板选择基于主题的回退时，选择“默认”选项。,module,Magento_ProductAlert
-"Stock Alert Email Template",股票预警电子邮件模板,module,Magento_ProductAlert
+"Email template chosen based on theme fallback when ""Default"" option is selected.",选择基于主题回退的电子邮件模板，当“默认”选项被选中。,module,Magento_ProductAlert
+"Stock Alert Email Template",库存预警电子邮件模板,module,Magento_ProductAlert
 "Alert Email Sender",警报电子邮件发件人,module,Magento_ProductAlert
 "Product Alerts Run Settings",产品警报运行设置,module,Magento_ProductAlert
 Frequency,频率,module,Magento_ProductAlert
@@ -7040,6 +7076,11 @@ Frequency,频率,module,Magento_ProductAlert
 "Error Email Template",错误的电子邮件模板,module,Magento_ProductAlert
 "Sign up for price alert",报名参加价格提醒,module,Magento_ProductAlert
 "Sign up to be notified when this product is back in stock.",报名时这种产品是回来的股票要通知。,module,Magento_ProductAlert
+"Product Video",产品视频,module,Magento_ProductVideo
+"YouTube API Key","YouTube API 密钥",module,Magento_ProductVideo
+"Autostart base video","Autostart 基本视频",module,Magento_ProductVideo
+"Show related video",显示相关的视频,module,Magento_ProductVideo
+"Auto restart video",自动重新启动视频,module,Magento_ProductVideo
 "Recently Viewed/Compared Products",最近查看相比较的产品,module,Magento_Reports
 "Show for Current",显示为当前的,module,Magento_Reports
 "Default Recently Viewed Products Count",默认最近查看的产品计数,module,Magento_Reports
@@ -7111,9 +7152,9 @@ Enable,启用,module,Magento_Sales
 "Error to Show in Shopping Cart",显示购物车中的错误,module,Magento_Sales
 "Validate Each Address Separately in Multi-address Checkout",验证每个地址分别在多地址结帐,module,Magento_Sales
 "Multi-address Description Message",多地址描述消息,module,Magento_Sales
-"We'll use the default description above if you leave this empty.",如果你离开这空，我们可以使用上面的默认说明。,module,Magento_Sales
+"We'll use the default description above if you leave this empty.",如果您把这个空着，我们将使用上面的默认描述。,module,Magento_Sales
 "Multi-address Error to Show in Shopping Cart",多地址错误显示在购物车,module,Magento_Sales
-"We'll use the default error above if you leave this empty.",如果你离开这空，我们可以使用上面的默认错误。,module,Magento_Sales
+"We'll use the default error above if you leave this empty.",如果您把这个空着，我们将使用上面的默认错误。,module,Magento_Sales
 Dashboard,控制面板,module,Magento_Sales
 "Use Aggregated Data (beta)","使用聚合数据 (测试版)",module,Magento_Sales
 "Orders Cron Settings","订单 Cron 设置",module,Magento_Sales
@@ -7202,6 +7243,7 @@ Created,创建,module,Magento_Sales
 "Shipping and Handling",运费和手续费,module,Magento_Sales
 "PDF Invoices","PDF 发票",module,Magento_Sales
 "PDF Shipments","PDF 发货",module,Magento_Sales
+Refunds,退款,module,Magento_Sales
 "Search Engine",搜索引擎,module,Magento_Search
 CSV,"Excel XML",module,Magento_Search
 "Excel XML","XML Excel",module,Magento_Search
@@ -7308,6 +7350,10 @@ CSV,"Excel XML",module,Magento_TaxImportExport
 State/Region,国家/地区,module,Magento_Tax
 Rate,费率,module,Magento_Tax
 "Subtotal Only",只有小计,module,Magento_Tax
+"(Excl. Tax)",（不包括税）,module,Magento_Tax
+"(Incl. Tax)",含税,module,Magento_Tax
+"Order Total Excl. Tax","总计 (不包括税)",module,Magento_Tax
+"Order Total Incl. Tax","总计 (含税)",module,Magento_Tax
 "Order Total",订单金额,module,Magento_Tax
 "Your credit card will be charged for",您的信用卡将被收费,module,Magento_Tax
 Empty,"产品 %1",module,Magento_Theme
@@ -7321,7 +7367,7 @@ Empty,"产品 %1",module,Magento_Theme
 "Default Description",默认描述,module,Magento_Theme
 "Default Keywords",默认的关键字,module,Magento_Theme
 "Miscellaneous Scripts",杂项脚本,module,Magento_Theme
-"This will be included before head closing tag in page HTML.","这将会包括头在页面 HTML 标签之前。",module,Magento_Theme
+"This will be included before head closing tag in page HTML.",这将包括在页面HTML的头部关闭标签之前。,module,Magento_Theme
 "Display Demo Store Notice",显示演示店铺通知,module,Magento_Theme
 "Search Engine Robots",搜索引擎机器人,module,Magento_Theme
 "Default Robots",默认机器人,module,Magento_Theme
@@ -7368,8 +7414,8 @@ Container,货箱,module,Magento_Ups
 "Calculate Handling Fee",显示不适用的方法,module,Magento_Ups
 "Handling Applied",处理的应用,module,Magento_Ups
 "Handling Fee",处理费,module,Magento_Ups
-"Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)","最大包装重量 (最大支持船的重量，请咨询您航运承运人)",module,Magento_Ups
-"Minimum Package Weight (Please consult your shipping carrier for minimum supported shipping weight)","最大包装重量 (最大支持船的重量，请咨询您航运承运人)",module,Magento_Ups
+"Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)",最大包装重量（请参阅您的航运承运人最大支持重量）,module,Magento_Ups
+"Minimum Package Weight (Please consult your shipping carrier for minimum supported shipping weight)",最大包装重量（请参阅您的航运承运人最大支持重量）,module,Magento_Ups
 "Origin of the Shipment",这批货物的原产地,module,Magento_Ups
 Password,密码,module,Magento_Ups
 "Pickup Method",拾取方法,module,Magento_Ups
@@ -7393,7 +7439,7 @@ Debug,调试,module,Magento_Ups
 Action,操作,module,Magento_UrlRewrite
 Edit,编辑,module,Magento_UrlRewrite
 "Reset Password Template",重置密码模板,module,Magento_User
-"Email template chosen based on theme fallback when ""Default"" option is selected.",电子邮件模板选择基于主题的回退时，选择“默认”选项。,module,Magento_User
+"Email template chosen based on theme fallback when ""Default"" option is selected.",择基于主题回退的电子邮件模板，当“默认”选项被选中。,module,Magento_User
 "Maximum Login Failures to Lockout Account",最大登录失败到锁定帐户,module,Magento_User
 "We will disable this feature if the value is empty.",如果的值为空，我们将禁用此功能。,module,Magento_User
 "Lockout Time (minutes)","锁定时间 (分钟)",module,Magento_User
@@ -7420,7 +7466,7 @@ Length,长度,module,Magento_Usps
 Height,宽度,module,Magento_Usps
 Girth,长度,module,Magento_Usps
 Machinable,可加工,module,Magento_Usps
-"Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)","最大包装重量 (最大支持船的重量，请咨询您航运承运人)",module,Magento_Usps
+"Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)",最大包装重量（请参阅您的航运承运人最大支持重量）,module,Magento_Usps
 "Calculate Handling Fee",显示不适用的方法,module,Magento_Usps
 "Handling Applied",处理的应用,module,Magento_Usps
 "Handling Fee",处理费,module,Magento_Usps
@@ -7438,7 +7484,7 @@ Name,名字,module,Magento_Variable
 "Magento Web API","Magento API Web",module,Magento_Webapi
 "SOAP Settings","SOAP 设置",module,Magento_Webapi
 "Default Response Charset",默认响应字符集,module,Magento_Webapi
-"If empty, UTF-8 will be used.","如果为空，将使用 utf-8。",module,Magento_Webapi
+"If empty, UTF-8 will be used.","如果空的话，utf - 8将被使用。",module,Magento_Webapi
 "Web Services Configuration","Web 服务配置",module,Magento_Webapi
 "REST and SOAP configurations, generated WSDL file.","休息和 SOAP 配置，生成的 WSDL 文件。",module,Magento_Webapi
 "Fixed Product Taxes",固定的产品税,module,Magento_Weee
@@ -7462,6 +7508,7 @@ Name,名字,module,Magento_Variable
 Product,产品,module,Magento_Widget
 "Select Product...",选择产品...,module,Magento_Widget
 Conditions,条件,module,Magento_Widget
+"Widget ID","小部件 ID",module,Magento_Widget
 "Share Options",分享设置,module,Magento_Wishlist
 "Email Sender",电子邮件发件人,module,Magento_Wishlist
 "Email Template",邮件模板,module,Magento_Wishlist
