@@ -4866,14 +4866,25 @@ View/Edit,查看/编辑,module,Magento_Search
 "There are no search terms available.",没有搜索条件。,module,Magento_Search
 "Account Activity",帐户活动,module,Magento_Security
 "All other open sessions for this account were terminated.",此帐户所有其他打开的会话将被终止。,module,Magento_Security
+"We couldn't logout because of an error.",由于发生错误，我们不能注销。,module,Magento_Security
+"Someone logged into this account from another device or browser. Your current session is terminated.",有人从另一个设备或浏览器登录到此帐户。您当前的会话被终止。,module,Magento_Security
+"Your current session is terminated by another user of this account.",您当前的会话由该帐户的另一个用户终止。,module,Magento_Security
 "Your account is temporarily disabled.",您的帐户被暂时禁用。,module,Magento_Security
 "Your current session has been expired.",你当前的会话已过期。,module,Magento_Security
 "By IP and Email","通过 IP 和电子邮件",module,Magento_Security
 "By IP","通过 IP",module,Magento_Security
 "By Email",通过电子邮件,module,Magento_Security
 None,无,module,Magento_Security
+"Too many password reset requests. Please wait and try again or contact %1.","密码重置请求太多。请稍候再试，或与% 1联系。",module,Magento_Security
+"Incorrect Security Checker class. It has to implement SecurityCheckerInterface","不正确的安全检查器类。它已实施 SecurityCheckerInterface",module,Magento_Security
 "some error",一些错误,module,Magento_Security
+"This administrator account is open in more than one location. Note that other locations might be different browsers or sessions on the same computer.",此管理员帐户在多个位置打开。注意，其他位置可能是同一台计算机上的不同浏览器或会话。,module,Magento_Security
+"Concurrent session information:",并发会话信息：,module,Magento_Security
 "IP Address","IP 地址",module,Magento_Security
+"Time of session start",会话开始的时间,module,Magento_Security
+"Are you sure that you want to log out all other sessions?",你确定你想要注销所有其他会话？,module,Magento_Security
+"Log out all other sessions",所有其他会话注销,module,Magento_Security
+"This computer is using IP address %1.","这台计算机使用IP地址% 1。",module,Magento_Security
 "Page not found.",找不到网页。,module,Magento_SendFriend
 "You can't send messages more than %1 times an hour.",限制发送,module,Magento_SendFriend
 "The link to a friend was sent.",被送到一位朋友的链接。,module,Magento_SendFriend
@@ -4947,6 +4958,7 @@ Shipments,发货,module,Magento_Shipping
 "We can't delete tracking number.",我们不能删除跟踪号码。,module,Magento_Shipping
 "We can't load track with retrieving identifier right now.",我们不能加载跟踪记录与现在检索标识符。,module,Magento_Shipping
 "We can't save the shipment right now.",我们现在无法保存发货信息。,module,Magento_Shipping
+"""Shipment Document Validation Error(s):\n"" .",“装运文档验证错误”：“n”。,module,Magento_Shipping
 "The shipment has been created.",已创建装运。,module,Magento_Shipping
 "Cannot save shipment.",无法保存装运。,module,Magento_Shipping
 "The order no longer exists.",该订单不存在。,module,Magento_Shipping
@@ -5020,6 +5032,7 @@ Cancel,保存,module,Magento_Shipping
 Save,保存,module,Magento_Shipping
 "Add Package",添加软件包,module,Magento_Shipping
 "Add Selected Product(s) to Package",向包中添加所选的产品,module,Magento_Shipping
+"Add Products to Package",商品添加至目录？,module,Magento_Shipping
 "USPS domestic shipments don't use package types.",美国邮政国内发货不使用封装类型。,module,Magento_Shipping
 in,在,module,Magento_Shipping
 lb,磅,module,Magento_Shipping
@@ -5050,6 +5063,7 @@ Error:,错误：,module,Magento_Shipping
 "contact us",联系我们,module,Magento_Shipping
 Info:,信息:,module,Magento_Shipping
 Track:,追踪,module,Magento_Shipping
+". ':'",.':',module,Magento_Shipping
 "Delivered on:",发表:,module,Magento_Shipping
 "There is no tracking available for this shipment.",这批货尚没有跟踪。,module,Magento_Shipping
 "There is no tracking available.",没有跟踪是可用的。,module,Magento_Shipping
@@ -5128,13 +5142,18 @@ Language,语言,module,Magento_Store
 "Allows use fallback logic for replacing swatch image with product swatch or base image",允许使用回退逻辑色板图像替换产品色板或基地形象,module,Magento_Swatches
 "Visual Swatch",视觉的色板,module,Magento_Swatches
 "Text Swatch",文本色板,module,Magento_Swatches
+"Manage Swatch (Values of Your Attribute)","管理色板 （您的属性值）",module,Magento_Swatches
 "Is Default",为默认值,module,Magento_Swatches
 Swatch,色板,module,Magento_Swatches
 "Add Swatch",添加色板,module,Magento_Swatches
 "Sort Option",排序选项,module,Magento_Swatches
 Delete,删除,module,Magento_Swatches
+"The value of Admin must be unique.",管理员的值必须是唯一的。,module,Magento_Swatches
+"Choose a color",选择一种颜色,module,Magento_Swatches
+"Upload a file",上传文件,module,Magento_Swatches
 Clear,清空,module,Magento_Swatches
 "Step 2: Attribute Values","第 2 步: 属性值",module,Magento_Swatches
+"Select from the following attribute values for this product. Each unique combination of values creates a unique product SKU.",从以下属性值中选择该产品。每个独特的值组合都创建了一个独特的产品SKU。,module,Magento_Swatches
 "Sort Variations",排序变化,module,Magento_Swatches
 Options,选项,module,Magento_Swatches
 "Select All",选择全部,module,Magento_Swatches
@@ -6152,6 +6171,7 @@ Delete,删除,module,Magento_GiftMessage
 "%name,",%名称，,module,Magento_SendFriend
 "%sender_name wants to share this product with you:","%sender_name 想要与你分享这种产品:",module,Magento_SendFriend
 "Message from %sender_name:",消息来自%SENDER_NAME：,module,Magento_SendFriend
+"See our Shipping Policy",看到我们航运政策,module,Magento_Shipping
 "Sitemap generate Warnings",网站地图生成警告,module,Magento_Sitemap
 "Sitemap Generation Warnings",网站地图生成警告,module,Magento_Sitemap
 "%name,",%name，,module,Magento_Theme
@@ -6314,6 +6334,7 @@ Delete,删除,module,Magento_ProductVideo
 "Add Products",添加产品,module,Magento_Sales
 "You have item changes",你有项目变更,module,Magento_Sales
 Ok,OK,module,Magento_Sales
+"These changes affect all related products.",这些更改会影响所有相关的产品。,module,Magento_Swatches
 "We could not detect a size.",我们未能检测到的大小。,module,Magento_Theme
 "We don't recognize this file extension.",我们没有认识到这种文件扩展名。,module,Magento_Theme
 Add,添加,module,Magento_Ui
@@ -7840,6 +7861,13 @@ Synonyms,同义词,module,Magento_Search
 Website,网站,module,Magento_Search
 "Delete items",删除项目,module,Magento_Search
 "Are you sure you want to delete the selected synonym groups?",您确定要删除所选的同义词组吗?,module,Magento_Search
+"Admin Account Sharing",管理员帐户共享,module,Magento_Security
+"If set to Yes, you can log in from multiple computers into same account. Default setting No improves security.",如果设置为yes，则可以从多台计算机登录到同一帐户。默认设置没有提高安全性。,module,Magento_Security
+"Password Reset Protection Type",密码重置保护类型,module,Magento_Security
+"Max Number of Password Reset Requests",最大号的密码重置请求,module,Magento_Security
+"Limit the number of password reset request per hour. Use 0 to disable.","限制每小时密码重置请求的数量。使用 0 禁用。",module,Magento_Security
+"Min Time Between Password Reset Requests",最小时间之间密码重置请求,module,Magento_Security
+"Delay in minutes between password reset requests. Use 0 to disable.","延迟在分钟之间密码重置请求。使用 0 禁用。",module,Magento_Security
 "Email to a Friend",推荐给朋友,module,Magento_SendFriend
 "Email Templates",邮件模板,module,Magento_SendFriend
 Enabled,启动,module,Magento_SendFriend
@@ -7849,6 +7877,9 @@ Enabled,启动,module,Magento_SendFriend
 "Max Recipients",最大收件人,module,Magento_SendFriend
 "Max Products Sent in 1 Hour","在 1 小时内发送的最大产品",module,Magento_SendFriend
 "Limit Sending By",限制通过发送,module,Magento_SendFriend
+"Shipping Settings Section",运输方法部分,module,Magento_Shipping
+"Shipping Policy Parameters Section",航运政策参数部分,module,Magento_Shipping
+"Shipping Methods Section",运输方法部分,module,Magento_Shipping
 "Shipping Settings",传送设置,module,Magento_Shipping
 Origin,起源,module,Magento_Shipping
 Country,国家,module,Magento_Shipping
@@ -7898,6 +7929,11 @@ Layouts,布局,module,Magento_Store
 "Database DDL operations","数据库 DDL 操作",module,Magento_Store
 "Results of DDL queries, such as describing tables or indexes",DDL查询结果，如描述表或索引,module,Magento_Store
 "Swatches per Product",每个产品的色板,module,Magento_Swatches
+"Swatch Image",色板图像,module,Magento_Swatches
+Image,图片,module,Magento_Swatches
+"Allowed file types: jpeg, gif, png.","允许的文件类型： jpeg，gif，png。",module,Magento_Swatches
+"Image Opacity",图像不透明度,module,Magento_Swatches
+"Image Size",图像大小,module,Magento_Swatches
 CSV,"Excel XML",module,Magento_TaxImportExport
 "Excel XML","XML Excel",module,Magento_TaxImportExport
 Taxes,税收,module,Magento_Tax
@@ -8077,6 +8113,7 @@ Debug,调试,module,Magento_Usps
 "Variable ID","可变的 ID",module,Magento_Variable
 Name,名字,module,Magento_Variable
 "Web API Security","Web API 的安全",module,Magento_WebapiSecurity
+"Allow Anonymous Guest Access",允许匿名来宾访问,module,Magento_WebapiSecurity
 "Manage Customers",客户管理,module,Magento_Webapi
 "Create Customer",创建客户,module,Magento_Webapi
 "Edit Customer",编辑客户,module,Magento_Webapi
