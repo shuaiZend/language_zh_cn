@@ -1,3 +1,42 @@
+"Read Details",查看详情,module,Magento_AdminNotification
+"Mark as Read",标记为已读,module,Magento_AdminNotification
+"Are you sure?",您确定吗？,module,Magento_AdminNotification
+Remove,删除,module,Magento_AdminNotification
+"Messages Inbox",消息收件箱,module,Magento_AdminNotification
+"You have %1 new system messages","你有 %1 新系统消息",module,Magento_AdminNotification
+"You have %1 new system message","你有 %1 新系统消息",module,Magento_AdminNotification
+"Incoming Message",传入消息,module,Magento_AdminNotification
+close,关闭,module,Magento_AdminNotification
+Notifications,通知消息,module,Magento_AdminNotification
+"The message has been marked as Read.",邮件已标记为已读。,module,Magento_AdminNotification
+"We couldn't mark the notification as Read because of an error.",由于错误，我们不能将通知标记为读。,module,Magento_AdminNotification
+"Please select messages.",请选择邮件。,module,Magento_AdminNotification
+"A total of %1 record(s) have been marked as Read.","共有 %1 条记录已标记为已读。",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","共有 %1 条记录已被删除。",module,Magento_AdminNotification
+"We couldn't remove the messages because of an error.",由于发生错误，我们不能删除的消息。,module,Magento_AdminNotification
+"The message has been removed.",该消息已被删除。,module,Magento_AdminNotification
+"1 Hour","1 小时",module,Magento_AdminNotification
+"2 Hours","2 个小时",module,Magento_AdminNotification
+"6 Hours","6 个小时",module,Magento_AdminNotification
+"12 Hours","12 个小时",module,Magento_AdminNotification
+"24 Hours","24 小时",module,Magento_AdminNotification
+critical,危急,module,Magento_AdminNotification
+major,重大的,module,Magento_AdminNotification
+minor,次要,module,Magento_AdminNotification
+notice,通知,module,Magento_AdminNotification
+"Wrong message type",错误消息类型,module,Magento_AdminNotification
+"Wrong notification ID specified.","指定的错误通知 ID。",module,Magento_AdminNotification
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} 不建议在生产环境中使用申报基地不安全 '' URL / 基地安全网址。我们强烈建议您更改此值在你的 Magento '' <a href=""%1""> 配置</a>。",module,Magento_AdminNotification
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","请跳转至 <a href=""%1""> 缓存管理</a> 并刷新缓存类型。",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.",我们未能同步一个或多个媒体文件。请参阅日志文件中的详细信息。,module,Magento_AdminNotification
+"Synchronization of media storages has been completed.",媒体库同步已完成。,module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.",您的web服务器设置错误，允许对敏感文件进行未经授权的访问。请与您的主机供应商联系。,module,Magento_AdminNotification
+"System Messages:",系统消息:,module,Magento_AdminNotification
+"Critical System Messages",关键系统消息,module,Magento_AdminNotification
+"Major System Messages",主要系统消息,module,Magento_AdminNotification
+"System messages",系统消息,module,Magento_AdminNotification
+Close,关闭,module,Magento_AdminNotification
+"See All (","查看所有 (",module,Magento_AdminNotification
 "Please correct the data sent.",请更正发送的数据。,module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","实体型模式必须是一个实例 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","实体模类型型必须是实例 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
@@ -6396,6 +6435,15 @@ Attention,注意,module,Magento_Ui
 Close,关闭,module,Magento_Ui
 Ok,OK,module,Magento_Ui
 Cancel,取消,module,Magento_Vault
+"Show Toolbar",显示工具栏,module,Magento_AdminNotification
+"Show List",显示列表,module,Magento_AdminNotification
+"Use HTTPS to Get Feed","使用 HTTPS 来得到订阅源",module,Magento_AdminNotification
+"Update Frequency",更新频率,module,Magento_AdminNotification
+"Last Update",最近更新,module,Magento_AdminNotification
+Severity,严重程度,module,Magento_AdminNotification
+"Date Added",日期已添加,module,Magento_AdminNotification
+Message,信息,module,Magento_AdminNotification
+Actions,动作,module,Magento_AdminNotification
 "Authorize.net Direct Post","Authorize.net 直接付款",module,Magento_Authorizenet
 Enabled,启用,module,Magento_Authorizenet
 "Payment Action",支付行为,module,Magento_Authorizenet
