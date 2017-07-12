@@ -361,6 +361,7 @@ Country,国家,module,Magento_Braintree
 "Credit card type is not allowed for this payment method.",此付款方式不允许此信用卡类型。,module,Magento_Braintree
 "Selected payment type is not allowed for billing country.",计费国家不允许所选的付款类型。,module,Magento_Braintree
 "Please try again later",请稍后再试,module,Magento_Braintree
+"This refund is for a partial amount but the Transaction has not settled.",这笔退款额部分但已不结算交易记录。,module,Magento_Braintree
 "Please wait 24 hours before trying to issue a partial refund.","请在发出部分退款前先等待 24 小时。",module,Magento_Braintree
 "Some transactions are already settled or voided and cannot be voided.",有些交易已经解决或取消，不能作废。,module,Magento_Braintree
 "Invalid Customer ID provided","提供的客户 ID 无效",module,Magento_Braintree
