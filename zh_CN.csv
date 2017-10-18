@@ -1305,7 +1305,7 @@ Compare,比较,module,Magento_Catalog
 "Clear All",全部清除,module,Magento_Catalog
 Prev,上一页,module,Magento_Catalog
 Next,下一个,module,Magento_Catalog
-"We can't find products matching the selection.",我们找不到匹配选择的产品。,module,Magento_Catalog
+"We can't find products matching the selection.",我们找不到选择匹配的产品。,module,Magento_Catalog
 "Learn More",了解更多,module,Magento_Catalog
 "Add to Compare",添加并比较,module,Magento_Catalog
 "We found other products you might like!",我们发现你可能会喜欢其他产品!,module,Magento_Catalog
@@ -6145,10 +6145,12 @@ Password:,密码:,module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.",如果你并没有提出这一请求，您可以忽略这封电子邮件，您的密码将保持不变。,module,Magento_Customer
 "Your %store_name password has been changed","你 %store_name 密码已更改",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","我们收到的请求更改与您在 %store_name 的帐户关联的以下信息： 密码。",module,Magento_Customer
+"Checkout out as a new customer",作为新客户结帐,module,Magento_Customer
 "Creating an account has many benefits:",创建帐户有很多好处:,module,Magento_Customer
 "See order and shipping status",查看订单和发货状态,module,Magento_Customer
 "Track order history",跟踪订单历史记录,module,Magento_Customer
 "Check out faster",更快地查阅,module,Magento_Customer
+"Checkout out using your account",使用您的帐户结帐,module,Magento_Customer
 "Email Address",电子邮件地址,module,Magento_Customer
 "Currency Update Warnings",货币更新警告,module,Magento_Directory
 Footer,页脚,module,Magento_Email
@@ -7195,6 +7197,7 @@ CSV,"Excel XML",module,Magento_CustomerImportExport
 "Leave empty for default (15 minutes).","留空为默认值 (15 分钟)。",module,Magento_Customer
 "Customer Notification",客户通知,module,Magento_Customer
 "Assign a Customer Group",分配一个客户组,module,Magento_Customer
+"Are you sure to assign selected customers to new group?",是否确实要将选定的客户分配给新的组?,module,Magento_Customer
 "Customer Grid",客户网格,module,Magento_Customer
 "Rebuild Customer grid index",重新生成客户网格索引,module,Magento_Customer
 Group,分组,module,Magento_Customer
