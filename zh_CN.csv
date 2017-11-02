@@ -5929,7 +5929,7 @@ Password:,密码:,theme,frontend/Magento/luma
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","你订单 #%increment_id 已更新的状态为 <strong>%order_status</strong>。",theme,frontend/Magento/luma
 "Your Invoice #%invoice_id for Order #%order_id","为订单 #%order_id 你发票 #%invoice_id",theme,frontend/Magento/luma
 "%customer_name,",%customer_name，,theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.",一旦你包船我们将向您发送一个跟踪号码。,theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.",一旦发货我们将向您发送一个跟踪号码。,theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","您的订单 <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","放在 <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.",下面是您发货确认信息。再次感谢您为您的业务。,theme,frontend/Magento/luma
@@ -7533,9 +7533,9 @@ Configure,配置,module,Magento_Wishlist
 Delete,删除,module,Magento_Wishlist
 "Product Details and Comment",产品详细信息和评论,module,Magento_Wishlist
 Summary,摘要,theme,frontend/Magento/blank
-"Account Dashboard",仪表板帐户,theme,frontend/Magento/blank
+"Account Dashboard",账户中心,theme,frontend/Magento/blank
 "Account Information",账户信息,theme,frontend/Magento/blank
-"Address Book",通讯簿,theme,frontend/Magento/blank
+"Address Book",地址列表,theme,frontend/Magento/blank
 Menu,菜单:,theme,frontend/Magento/blank
-Account,账户信息,theme,frontend/Magento/blank
+Account,帐户,theme,frontend/Magento/blank
 Settings,设置,theme,frontend/Magento/blank
