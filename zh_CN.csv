@@ -6250,7 +6250,7 @@ Footer,页脚,theme,frontend/Magento/luma
 "Update to your %store_name invoice","更新到您的 %store_name 发票",theme,frontend/Magento/luma
 "Your %store_name order confirmation","您的 %store_name 订单确认",theme,frontend/Magento/luma
 "%customer_name,",%customer_name，,theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.",一旦你包船我们将向您发送一个跟踪号码。,theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.",一旦发货我们将向您发送一个跟踪号码。,theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","您的订单 <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","放在 <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Update to your %store_name order","更新到您的 %store_name 订单",theme,frontend/Magento/luma
