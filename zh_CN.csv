@@ -568,6 +568,7 @@ Always,总是,module,Magento_Captcha
 "Entity type model '%1' is not found","实体型模式必须是一个实例 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","实体模类型型必须是实例 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "There are no product types available for export.",没有可以导出的产品类型,module,Magento_CatalogImportExport
+"Entity type model must be an instance of '%1'","实体类型模型必须是实例 '%1'",module,Magento_CatalogImportExport
 "Category ""%1"" has not been created.","尚未创建类别""%1""。",module,Magento_CatalogImportExport
 "File directory '%1' is not readable.",文件目录“%1”不是写。,module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","文件目录 '%1' 不是可写的。",module,Magento_CatalogImportExport
@@ -3663,6 +3664,7 @@ Role,职能,module,Magento_ProductVideo
 "YouTube and Vimeo supported.","YouTube 和 Vimeo 支持。",module,Magento_ProductVideo
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","支持的 Vimeo。 < br / > 要添加 YouTube 视频，请 <a href=""%1""> 输入 YouTube API 密钥</a> 第一次。",module,Magento_ProductVideo
 "Protocol isn't allowed",协议不被允许,module,Magento_ProductVideo
+"Disallowed file type.",不允许的文件类型。,module,Magento_ProductVideo
 "Could not get preview image information. Please check your connection and try again.",不能预览图像信息。请检查您的连接，然后重试。,module,Magento_ProductVideo
 "Add Video",添加视频,module,Magento_ProductVideo
 "Browse to find or drag image here",浏览图片或将图像拖到此处,module,Magento_ProductVideo
@@ -5310,6 +5312,7 @@ Total,总额,module,Magento_Tax
 None,无,module,Magento_Tax
 "Including and Excluding Tax",包括和不包括税,module,Magento_Tax
 "Click on the link to <a href=""%1"">ignore this notification</a>","单击要 <a href=""%1""> 忽略此通知</a> 链接",module,Magento_Tax
+"With customer tax applied “Before Discount”, the final discount calculation may not match customers’ expectations.","与客户应用税""前折扣""，最终折扣计算可能不匹配客户的期望。",module,Magento_Tax
 "Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","单击此处转到 <a href=""%1""> 税配置</a> 和更改您的设置。",module,Magento_Tax
 "Invalid type of tax class ""%1""","无效的类型的税类""%1""",module,Magento_Tax
 "Updating classType is not allowed.","不允许更新 classType。",module,Magento_Tax
@@ -6061,6 +6064,7 @@ Cancel,保存,module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.",您已经有账号了，可以登录或继续使用游客账号,module,Magento_Checkout
 Login,登录,module,Magento_Checkout
 Close,关闭,module,Magento_Checkout
+of,为,module,Magento_Checkout
 "Item in Cart",购物里的商品,module,Magento_Checkout
 "Items in Cart",购物里的商品,module,Magento_Checkout
 "Go to Checkout",去结帐,module,Magento_Checkout
@@ -6277,7 +6281,7 @@ Footer,页脚,theme,frontend/Magento/luma
 "Update to your %store_name invoice","更新到您的 %store_name 发票",theme,frontend/Magento/luma
 "Your %store_name order confirmation","您的 %store_name 订单确认",theme,frontend/Magento/luma
 "%customer_name,",%customer_name，,theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.",一旦你包船我们将向您发送一个跟踪号码。,theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.",一旦发货我们将向您发送一个跟踪号码。,theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","您的订单 <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","放在 <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Update to your %store_name order","更新到您的 %store_name 订单",theme,frontend/Magento/luma
